@@ -9,10 +9,11 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 export class CaruselComponent {
 
   array= [
+    "../../../../assets/images/carusel/DSC.jpg",
+    "../../../../assets/images/carusel/LSBB.jpg",
+    "../../../../assets/images/carusel/LED-Display.jpg",
+    "../../../../assets/images/carusel/LED-Display1.jpg",
+    "../../../../assets/images/carusel/LED-Display2.webp",
     "../../../../assets/images/carusel/banner1.jpg",
-    "../../../../assets/images/carusel/cargo3.jpg",
-    "../../../../assets/images/carusel/cargo2.jpg",
-    "../../../../assets/images/carusel/banner8.webp",
-    "../../../../assets/images/carusel/banner9.webp",
   ]
 }
