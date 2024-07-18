@@ -1,6 +1,7 @@
-# DoslogisticWeb
+# Abscoo 
+Abscoo is is a leading Uzbek systems integrator and distributor specializing in audio-visual solutions. They provide hardware and software solutions for various applications, including situational and control centers, educational institutions, and corporate environments
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.
 
 ## Development server
 
