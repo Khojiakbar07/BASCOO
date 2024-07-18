@@ -4,7 +4,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class FindLanguageFromKeyPipe implements PipeTransform {
   private languages: { [key: string]: { name: string; rtl?: boolean } } = {
     ru: { name: 'Русский' },
-    ge: { name: 'German' },
+    ge: { name: 'English' },
     uz: { name: 'O`zbekcha' },
   };
 

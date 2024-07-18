@@ -9,7 +9,7 @@ import { HomeComponent } from './modules/layouts/home/home.component';
 import { SharedModule } from 'src/shared/shared.module';
 import { registerLocaleData } from '@angular/common';
 import localeRu from "@angular/common/locales/ru";
-import { NZ_I18N, ru_RU } from 'ng-zorro-antd/i18n';
+import { NZ_I18N, ru_RU , en_US } from 'ng-zorro-antd/i18n';
 import { AppInitService } from './core/local-services/appInitService/app-init-service.service';
 import { LanguageComponent } from './core/language/language.component';
 import { FindLanguageFromKeyPipe } from './core/language/find-language-from-key.pipe';
