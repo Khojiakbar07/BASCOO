@@ -1,0 +1,196 @@
+<div class="content">
+  <h2>Mening manzillarim</h2>
+  <div class="page-routing">
+    <p class="btn1" routerLinkActive="active-link" [routerLink]="['myAcceptance']">Mening Qabul qiluvchilarim</p>
+    <p class="btn2" routerLinkActive="active-link" [routerLink]="['mySenders']">Mening Jo'natuvchilarim</p>
+  </div>
+</div>
+
+<div class="container">
+  <button class="add-button" routerLinkActive="active" (click)="openModal()">Manzil qo'shish</button>
+  <ng-container>
+    <router-outlet></router-outlet>
+  </ng-container>
+</div>
+
+<div *ngIf="isModalOpen" class="modal-overlay">
+  <div class="modal">
+    <div class="modal-header">
+      <h2 class="modal-title">Qabul qiluvchini qoʻshing</h2>
+      <button class="close-button" (click)="closeModal()">×</button>
+    </div>
+    <div class="modal-content">
+      <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <div class="user-details">
+          <h6>Toʻliq ism lotin harflari bilan toʻldirilishi kerak.</h6>
+          <h6>
+            yulduzcha <span>*</span> belgilarini to'ldirish talab qilinadi.
+          </h6>
+          <div class="user-names">
+            <div>
+              <label for="input">Familiya<span>*</span></label>
+              <input type="text" placeholder="Familiya kiriting"
+                [ngClass]="{ 'is-invalid': submitted && f['surname'].errors }" formControlName="surname" />
+              <div *ngIf="
+                  submitted &&
+                  f['surname'].hasError('required') &&
+                  !f['surname'].hasError('requiredTrue')
+                " class="invalid-feedback">
+                Majburiy maydon
+              </div>
+            </div>
+            <div>
+              <label for="input">Ism <span>*</span></label>
+              <input type="text" placeholder="Ism kiriting" [ngClass]="{ 'is-invalid': submitted && f['name'].errors }"
+                formControlName="name" />
+              <div *ngIf="
+                  submitted &&
+                  f['name'].hasError('required') &&
+                  !f['name'].hasError('requiredTrue')
+                " class="invalid-feedback">
+                Majburiy maydon
+              </div>
+            </div>
+            <div>
+              <label for="input">Otasining Ismi</label>
+              <input type="text" placeholder="Otasining Ismini kiriting" />
+            </div>
+          </div>
+          <div class="user-names">
+            <div>
+              <label for="input">Pasport raqami<span>*</span></label>
+              <input type="text" placeholder="AA1234567" [ngClass]="{
+                  'is-invalid': submitted && f['passportNum'].errors
+                }" formControlName="passportNum" />
+              <div *ngIf="
+                  submitted &&
+                  f['passportNum'].hasError('required') &&
+                  !f['passportNum'].hasError('requiredTrue')
+                " class="invalid-feedback">
+                Majburiy maydon
+              </div>
+            </div>
+            <div>
+              <label for="input">JSHIR <span>*</span></label>
+              <input type="number" placeholder="1234567890111213141516" [ngClass]="{
+                  'is-invalid': submitted && f['passportData'].errors
+                }" formControlName="passportData" />
+              <div *ngIf="
+                  submitted &&
+                  f['passportData'].hasError('required') &&
+                  !f['passportData'].hasError('requiredTrue')
+                " class="invalid-feedback">
+                Majburiy maydon
+              </div>
+            </div>
+            <div>
+              <label for="input">Telefon raqami<span>*</span></label>
+              <input type="tel" id="mobile_code" placeholder="Phone Number" name="phone" class="input-style"
+                formControlName="phoneNumber" [ngClass]="{
+                  'is-invalid': submitted && f['phoneNumber'].errors
+                }" autocomplete="this-phoneNumber" />
+              <div *ngIf="submitted && f['phoneNumber'].errors" class="invalid-feedback">
+                <div *ngIf="f['phoneNumber'].errors['required']">
+                  Phone number is required
+                </div>
+                <div *ngIf="f['phoneNumber'].hasError('minlength')">
+                  Phone number is invalid
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="extra-phone">
+            <label for="input">Qo'shimcha Telefon raqami</label>
+            <input type="tel" id="mobile_code" placeholder="Phone Number" name="phone" class="input-style"
+              formControlName="phoneNumber" />
+          </div>
+          <br />
+          <hr />
+          <br />
+          <div class="user-names">
+            <div>
+              <label for="input">Davlat<span>*</span></label>
+              <input type="text" placeholder="AA1234567" [ngClass]="{
+                  'is-invalid': submitted && f['passportNum'].errors
+                }" formControlName="passportNum" />
+              <div *ngIf="
+                  submitted &&
+                  f['passportNum'].hasError('required') &&
+                  !f['passportNum'].hasError('requiredTrue')
+                " class="invalid-feedback">
+                Majburiy maydon
+              </div>
+            </div>
+            <div>
+              <label for="input">Tuman<span>*</span></label>
+              <input type="text" placeholder="Tumanni kiriting"
+                [ngClass]="{ 'is-invalid': submitted && f['name'].errors }" formControlName="name" />
+              <div *ngIf="
+                  submitted &&
+                  f['name'].hasError('required') &&
+                  !f['name'].hasError('requiredTrue')
+                " class="invalid-feedback">
+                Majburiy maydon
+              </div>
+            </div>
+            <div>
+              <label for="input">Shahar/Tuman<span>*</span></label>
+              <input type="text" placeholder="Shaharni tanglang"
+                [ngClass]="{ 'is-invalid': submitted && f['city'].errors }" formControlName="name" />
+              <div *ngIf="
+                  submitted &&
+                  f['city'].hasError('required') &&
+                  !f['city'].hasError('requiredTrue')
+                " class="invalid-feedback">
+                Majburiy maydon
+              </div>
+            </div>
+          </div>
+
+          <div class="user-names">
+            <div>
+              <label for="input">Ko'cha<span>*</span></label>
+              <input class="street" type="text" placeholder="Ko'cha manzilini kiriting"
+                [ngClass]="{ 'is-invalid': submitted && f['name'].errors }" formControlName="name" />
+              <div *ngIf="
+                  submitted &&
+                  f['name'].hasError('required') &&
+                  !f['name'].hasError('requiredTrue')
+                " class="invalid-feedback">
+                Majburiy maydon
+              </div>
+            </div>
+            <div>
+              <label for="input">Uy<span>*</span></label>
+              <input type="text" placeholder="Uy Raqami" [ngClass]="{ 'is-invalid': submitted && f['city'].errors }"
+                formControlName="home" />
+              <div *ngIf="
+                  submitted &&
+                  f['home'].hasError('required') &&
+                  !f['home'].hasError('requiredTrue')
+                " class="invalid-feedback">
+                Majburiy maydon
+              </div>
+            </div>
+
+          </div>
+          <div class="user-names">
+            <div>
+              <label for="input">Xonadon/ofis</label>
+              <input type="text" placeholder="Xonadonni kiriting" />
+            </div>
+            <div>
+              <label for="input">Podyez</label>
+              <input type="text" placeholder="Podyezni kiriting" />
+            </div>
+            <div>
+              <label for="input">Uy kirish eshigi kodi</label>
+              <input type="text" placeholder="Eshik kodi" />
+            </div>
+          </div>
+          <button>O'zgarishlarni saqlash</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,130 @@
+.sidenav {
+    display: flex;
+    padding: 100px 0;
+    padding-bottom: 300px;
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.sidebar {
+    display: block;
+    justify-content: flex-start;
+    border: 1px solid #dee2e6;
+    min-width: 300px;
+    max-height: 480px;
+    padding: 8px 0px;
+    border-radius: 5px;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.sidebar a {
+    display: block;
+    color: #000;
+    text-align: left;
+    padding: 5px 16px;
+    width: 100%;
+    font-size: 18px;
+    background-color: #fff;
+
+    &:hover {
+        background-color: #ccffe3;
+        color: #058c42;
+        border-radius: 5px;
+    }
+}
+
+.sidebar .active {
+    border-left: #058c42 3px solid;
+    background-color: #ccffe3;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1440px) {
+    .sidenav {
+        padding-left: 100px;
+    }
+
+    .small-screens {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    .small-screens {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .sidenav {
+        padding-left: 100px;
+    }
+
+    .small-screens {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .sidebar ul {
+        display: flex;
+        overflow-x: auto;
+    }
+
+    .sidebar .active {
+        border-left: none
+    }
+
+    .sidebar {
+        border: none;
+        bottom: 30px;
+        position: relative;
+    }
+
+    .sidebar a {
+        white-space: nowrap;
+        background-color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .small-screens {
+        display: block;
+    }
+
+    .sidenav {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding: 20px 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sidenav {
+        padding: 40px 5px;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .sidenav {
+        padding: 40px 5px;
+    }
+}
+
+
+@media screen and (max-width: 478px) {
+    .sidenav {
+        padding: 40px 5px;
+    }
+}

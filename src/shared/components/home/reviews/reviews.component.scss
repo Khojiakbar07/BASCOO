@@ -1,0 +1,181 @@
+
+.container {
+	max-width: 1320px;
+	margin: 0 auto;
+}
+
+.card {
+	height: 240px;
+	margin: 0 15px;
+	padding: 20px;
+	border-radius: 18px;
+	border: 2px solid #058C42;
+	box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 1px 1px;
+	margin-bottom: 20px;
+	position: relative;
+}
+.card h2 {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	font-family: 'Inter';
+}
+
+.card .author {
+	display: flex;
+	align-items: flex-end;
+	padding-top: 10px;
+	margin: 10px 0;
+	position: absolute;
+	bottom: 0;
+}
+
+.card .author .name {
+	color: #000;
+	font-size: 24px;
+	margin-left: 13px;
+	font-weight: 600;
+}
+.card .author img{
+	width: 41px;
+	height: 41px;
+	border-radius: 50%;
+}
+@media screen and (max-width: 1280px) {
+	.card h2 {
+		font-size: 15px;
+		font-weight: 500;
+		line-height: 26px;
+		font-family: 'Inter';
+	}
+}
+@media screen and (max-width: 1100px) {
+	.card h2 {
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 24px;
+	}
+	.card .author img{
+		width: 39px;
+		height: 39px;
+	}
+	.card .author .name {
+		font-size: 22px;
+		margin-left: 12px;
+		font-weight: 600;
+	}
+}
+@media screen and (max-width: 912px) {
+	.card h2 {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 18px;
+
+	}
+	.card .author img{
+		width: 30px;
+		height: 30px;
+	}
+	.card .author .name {
+		font-size: 18px;
+		margin-left: 10px;
+		font-weight: 500;
+	}
+}
+@media screen and (max-width: 768px) {
+	.block_title{
+		font-size: 44px;
+		font-weight: 600;
+    	margin-bottom: 60px;
+	}
+	.card {
+		height: 240px;
+		margin: 0 12px;
+		padding: 18px 20px 20px 20px;
+	}
+	.card h2 {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 17px;
+
+	}
+	.card .author img{
+		width: 26px;
+		height: 26px;
+	}
+	.card .author .name {
+		font-size: 16px;
+		margin-left: 9px;
+		font-weight: 500;
+	}
+}
+@media screen and (max-width: 540px) {
+	.block_title{
+		font-size: 38px;
+		font-weight: 600;
+    	margin-bottom: 50px;
+	}
+	.card h2 {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 18px;
+
+	}
+	.card .author img{
+		width: 30px;
+		height: 30px;
+	}
+	.card .author .name {
+		font-size: 18px;
+		margin-left: 10px;
+		font-weight: 500;
+	}
+}
+@media screen and (max-width: 415px) {
+	.block_title{
+		font-size: 30px;
+		font-weight: 600;
+    	margin-bottom: 60px;
+	}
+	.card {
+		height: 240px;
+		margin: 0 12px;
+		padding: 18px 20px 20px 20px;
+	}
+	.card h2 {
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 17px;
+		height: 170px;
+    	overflow: hidden;
+
+	}
+	.card .author img{
+		width: 26px;
+		height: 26px;
+	}
+	.card .author .name {
+		font-size: 16px;
+		margin-left: 9px;
+		font-weight: 500;
+	}
+}
+@media screen and (max-width: 394px) {
+	.card h2 {
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 22px;
+
+	}
+	.card .author img{
+		width: 30px;
+		height: 30px;
+	}
+	.card .author .name {
+		font-size: 18px;
+		margin-left: 10px;
+		font-weight: 500;
+	}
+}
+
+

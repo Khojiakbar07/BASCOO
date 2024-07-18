@@ -1,0 +1,139 @@
+.collapce {
+    margin-left: 30px;
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+
+        .card {
+            display: block;
+            border: 1px solid rgba(0, 0, 0, 0.125);
+            border-radius: 0.25rem;
+            margin-right: 20px;
+            margin-bottom: 20px;
+
+            a {
+                color: #000;
+
+                .photo {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    height: 150px;
+                    padding: 2rem;
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+
+                    img {
+                        width: 171px;
+                        max-height: 121px;
+                    }
+                }
+
+                .text {
+                    font-size: 17px;
+                    line-height: 18px;
+                    padding: 1rem;
+                    font-weight: 500;
+                    margin-bottom: 1.5rem;
+
+                    .space {
+                        margin-bottom: 2.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .collapce .row .card a .photo img {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .collapce {
+        padding-left: 10px;
+    }
+    
+    .collapce .row {
+        display: block;
+    }
+    
+    .collapce .row .card a .photo img {
+        width: 130px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .collapce {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 478px) {
+    .collapce .row .card a .photo img {
+        width: 110px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .collapce {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 419px) {
+    .collapce .row .card a .photo img {
+        width: 90px;
+    }
+
+    .collapce .row .card {
+        height: 205px;
+    }
+
+    .collapce.row .card a .photo {
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    .collapce .row .card a .photo img {
+        width: 80px;
+    }
+
+    .collapce .row .card {
+        height: 200px;
+    }
+
+    .collapce.row .card a .photo {
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .collapce .row .card a .photo img {
+        width: 60px;
+    }
+
+    .collapce .row .card {
+        height: 140px;
+    }
+
+    .collapce .row .card a .photo {
+        height: 80px;
+    }
+
+    h1 {
+        font-size: 17px;
+    }
+}

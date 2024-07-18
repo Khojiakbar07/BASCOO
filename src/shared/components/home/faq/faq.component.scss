@@ -1,0 +1,78 @@
+.container{
+  margin-bottom: 50px;
+  h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .info{
+    display: flex;
+    justify-content: space-between;
+
+    .card{
+      width: 630px;
+      div{
+        display: flex;
+        justify-content: space-between;
+        box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 1px 1px;
+        border: 1px;
+        padding: 20px 40px;
+        margin: 20px 0;
+        max-width: 800px !important;
+        cursor: pointer;
+
+        h4{
+          width: 520px;
+        }
+
+        img{
+          width: 17px;
+          height: 20px;
+          padding-top: 5px;
+        }
+
+        h3{
+          font-weight: 1000;
+        }
+      }
+    }
+  }
+}
+
+.all{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  button{
+    padding: 8px 30px;
+    background-color: #A9592C;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #A9592C;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//

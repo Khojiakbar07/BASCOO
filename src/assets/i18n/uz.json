@@ -1,0 +1,310 @@
+{
+  "doslogistic.web": {
+    "aboutUs": {
+      "aboutUs": "Biz haqimizda",
+      "info":"Dost Logistic kompaniyasi Germaniyadan O‘zbekistonga internet-do‘konlardan xarid qilingan buyurtmalarni yuborish bilan 2017 yildan buyon shug‘ullanadi.Germaniya posilkalar va onlayn xaridlarni atagi 10 dollardan 7-10 kun ichida O'zbekistonga yetkazib beramiz",
+      "info2":"Tez, Oson, Qulay va eng asosiysi Ishonchli!",
+      "team":"Jamoamiz eng yaxshilardan tashkil topgan, bu umumiy g'oyalar va istaklar bilan birlashgan odamlardir. Bizning ambitsiyalarimiz birgalikda o'sishimizga va rivojlanishimizga hamda yangi cho'qqilarni zabt etishimizga yordam beradi. Biz butun dunyodan mutaxassislarni to'pladik, jamoaning har bir a'zosini birday qadrlaymiz, ularga biz bilan birga o'sish va rivojlanish imkoniyatini taqdim etamiz.",
+      "team-header":"Bizning Jamoamiz",
+      "address":"Bizning manzillar",
+      "clients":"Mamnun Mijozlar",
+      "transport":"Transport vositalar"
+    },
+    "contacts": {
+      "contacts": "Bizning aloqalarimiz",
+      "addressUz": "O'zbekistondagi manzil",
+      "addressGer": "Germaniyadagi manzil",
+      "Toshkent": "Toshkent",
+      "berlin": "Berlin",
+      "Poland":"Polsha",
+      "Germany":"Germaniya",
+      "form": {
+        "writeToUs": "Bizga yozing",
+        "fillForm": "Biz sizning savollaringizga javob berishdan xursand bo'lamiz, iltimos, quyidagi shaklni to'ldiring.",
+        "name": "Ism",
+        "phone": "Telefon raqami",
+        "email": "Bizning E-mail manzilimiz",
+        "message": "xabar yozing",
+        "sendMessage": "Xabar yubormoq",
+        "infoOne": "Savolingizga tezda javob olishni xohlaysizmi?Veb-saytning tez-tez so'raladigan savollar bo'limi bilan tanishing, u erda biz eng ko'p beriladigan savollarga javoblarni to'pladik.",
+        "infoTwo": "Agar sizning savolingiz kiruvchi posilka qachon tizimga kiritilishi bilan bog'liq bo'lsa, biz sizga yukni kiritish uchun 1-2 ish kuni kerakligini eslatib o'tamiz, kamdan-kam hollarda biroz ko'proq. Agar yuk 3 kundan ortiq olib kelmagan bo'lsa, ushbu masala bo'yicha yozishni maslahat beramiz.",
+        "HaveAnyQuetions":"Hali ham savollaringiz bormi?"
+      }
+    },
+    "footer": {
+      "logo":{
+        "info":"10 kundan kamroq vaqt ichida Germaniya tezkor va ishonchli posilkalar yetkazib beramiz!",
+        "join":"Ishtirok etish"
+      },
+      "aboutCompony":{
+        "aboutCompony": "Kompaniya haqida",
+        "aboutUs": "Biz haqimizda",
+        "price": "Tariflar va narxlar",
+        "news": "Yangiliklar",
+        "services": "Xizmatlarimiz",
+        "customers": "Mijozlarimiz",
+        "contacts": "Kontaktlar",
+        "Summary":"Germaniyadagi onlayn-do‘konlarning 90 foizi to‘g‘ridan-to‘g‘ri O‘zbekistonga yetkazib bermaydi. Dost Logictic esa Germaniya internet-do‘konlarida xarid qilish va ularni butun O‘zbekiston bo‘ylab qabul qilish imkonini beradi. Bizning innovatsion va inqilobiy g'oyalarimiz va texnologiyalarimiz bilan biz sizga eng yaxshi xarid qilish tajribasi, erkinlik va barcha chegaralardan oshib ketishni ta'minlashga intilamiz. Biz Germaniyada vakilimiz. Hozir bizning jamoamizda  300 dan ortiq mutaxassislar bor - va bu chegara emas."
+      },
+      "forCustomers": {
+        "forCustomers": "Xaridorlarga",
+        "discounts": "Chegirmalar",
+        "shipmentTracking": "Jo‘natmalarni kuzatish",
+        "help": "Yordam",
+        "purchaseSupport": "Xarid ko'magi",
+        "restrictionsAndProhibitions": "Cheklovlar va taqiqlar",
+        "popularStores": "Ommabop do'konlar"
+      },
+      "useful": {
+        "useful": "Foydali",
+        "deliveryOfParcels":"Posilkalarni yetkazish",
+        "sendingParcels":"Posilkalarni yuborish",
+        "customsLimits":"Bojxona limitlari",
+        "shipmentInsurance":"Jo'natmalarni sug'urtalash",
+        "tableOfMeasurements":"O‘lchovlar jadvali",
+        "calculationOfCosts":"Xarajatlarni hisoblash"
+      },
+      "contacts": {
+        "haveQuestions": "Savollar bormi?",
+        "germeny": "Germany, Lyubek",
+        "uzbekistan": "Uzbekistan, Toshkent",
+        "hours": "09:00 dan 20:00 gacha"
+      },
+      "copywriting": {
+        "copywriting": "DostLogistic kuryerlik xizmati.Barcha huquqlar himoyalangan.",
+        "termsOfUse": "Foydalanish qoidalari"
+      }
+    },
+    "help": {
+      "frequentlyAskedQuestions": "Ko‘p so‘raladigan savollar",
+      "questionsAndAnswers": "Savolar va Javoblar",
+      "login": {
+        "login": "Ro'yxatdan o'tish",
+        "kirish":"Kirish",
+        "howToCreatePersonalCabinet": "Shaxsiy kabinetni qanday yaratish kerak?",
+        "avtorization":"Tizimga kirish",
+        "registration":"Ro'yxatdan o'tish",
+        "or":"yoki",
+        "forgotpassword":"Parolni unutdingizmi?",
+        "rememberMe":"Meni eslab qol",
+        "google":"Google orqali avtorizatsiya",
+        "accept":"Men qabul qilaman",
+        "terms":"Foydalanish shartlari"
+      },
+      "purchases": {
+        "purchases": "Xaridlar",
+        "isWarehouseStates": "Shtatlarda ombor soliqsiz bo'ladimi?",
+        "tax":"Biz buning ustida ishlayapmiz va tez orada omborimizni soliqsiz tarzda ishga tushiramiz. Shundan so'ng, buyurtmalar sizga arzonroq tushadi:)",
+        "OnlineOrder":"Onlayn buyurtmani qanday ro'yxatdan o'tkazish kerak?",
+        "takeback":"Qaytarib olish xizmati qanday ishlaydi?",
+        "firststep":{
+        "firststep":"Birinchi qadam",
+        "answer":"Siz to'lovga buyurtma berasiz va unga barcha kerakli mahsulotlarni qo'shasiz"
+        },
+        "secondstep":{
+        "secondstep":"Ikkinchi qadam",
+        "answer":"Biz arizani qabul qilamiz, yetkazib berish va boshqa xizmatlarimizni o'z ichiga olgan hisob-fakturani rasmiylashtiramiz"
+        },
+        "thirdstep":{
+        "thirdstep":"Uchinchi qadam",
+        "answer":"Siz hisobni to'laysiz va biz internet do'kondan buyurtmangizni sotib olamiz"
+        },
+        "fourthstep":{
+        "fourthstep":"To'rtinchi qadam",
+        "answer":"Siz buyurtmangizni qabul qilib olasiz"
+        },
+        "Service-important":{
+          "Service-important":"Bu xizmat sizga qachon kerak bo'ladi?",
+          "first":"Internet do'kon faqat Germaniya kartalarini qabul qilganda;",
+          "second":"Onlayn do'kon hisob -kitob va yetkazib berish manzillari mos kelishini talab qilganda;",
+          "third":"Internet-do'kon faqat PayPal ni qabul qiladi, lekin u sizda yo'q bo’lganda;",
+          "fourth":"Siz bir vaqtning o'zida ko'plab mahsulotlarni sotib olishingiz kerak, lekin buning uchun vaqtingiz yo’q bo’lganda;"
+        }
+      },
+      "payment": "To'lov",
+      "delivery": {
+        "delivery": "Yetkazib berish",
+        "whatIsTheDeliveryTime": "Yetkazib berish muddati qancha?",
+        "whatIsTheDeliveryTimeAnswer": "Buyurtmangiz skladga kelib tushganidan keyin — 3-10 kun",
+        "dangerous":"Yetkazib berish taqiqlangan tovarlar",
+        "liftOfGoods":"Taqiqlangan mahsulotlar ro'yxati:",
+        "firststep":{
+          "first":"• Spirtli ichimliklar/tamaki va alkogol/tamaki mahsulotlari",
+          "second":"• Go'sht va go'sht mahsulotlari.",
+          "third":"• Urug'lar/O'simliklar",
+          "four":"• siqilgan va suyultirilgan gazlar, zajigalkalar, pirotexnika vositalari,krakerlar va boshqalar.",
+          "five":"• Yonuvchan suyuqliklar",
+          "six":"• Zaharli moddalar",
+          "seven":"• Aerozol (soch uchun lak, dezodorant, buzadigan amallar, quruq shampun)",
+          "eight":"• Valyuta (pul)",
+          "nine":"• Qimmatbaho toshlar/metalllar (zargarlik buyumlari)",
+          "ten":"• Diniy materiallar",
+          "eleven":"• Tatuirovka mashinasi va tatuirovka bilan bog'liq komponentlar",
+          "twelve":"• Intim xarakterdagi o'yinchoqlar",
+          "thirteen":"• Lityum batareyali qurilmalar (mumkin, lekin ular maxsus tartiblarni talab qiladi. Biz ta'minlamaymiz IMEI kodini olish uchun hujjatlar)"
+          },
+        "whatAreTheShippingRates": {
+          "shippingrates":"Yetkazib berish tariflari qanaqa?",
+          "answerOne": "3 kilogramgacha — $10/kg.",
+          "answerTwo": "3 kilogramdan ko‘p bo‘lsa — $9/kg."
+        }
+      },
+      "acceptance": {
+        "acceptance": "Qabul qilish",
+        "orderDays": {
+          "orderDays": "Qaysi kunlari buyurtmalar Germaniyadan O‘zbekistonga yuboriladi?",
+          "aswer": "Bir haftada ikki marotaba — dushanba va payshanba kunlari"
+        }
+      },
+      "services": {
+        "services": "Xizmatlar",
+        "service-header":"Bizning Servis-markazlarimiz",
+        "questionOne": "Men har xil internet-magazinlardan xarid qildim. Hammasini bitta qilib yuborasizmi?",
+        "asnwerOne": "Ha, bizda bu xizmat bepul. Barcha buyurtmalarni bitta qilib yuboramiz.",
+        "questionTwo": "Germaniya O'zbekistonga qanday qilib jo'natmani yuborish mumkin?",
+        "info":"Dost Logistic har doim o'z printsiplari va g'oyalariga sodiq. Biz O'zbekistonda ochilganimiz bilan bir paytda endi asosiy vazifamiz o'zbekiistonliklarga Germaniyadan xaridlar qilish va yashash joyidan qat'i nazar ularni olish imkoniyatini taqdim etishdan iborat. Bizning o'ziga xos yagona servis-markazimiz qulay va zamonaviy terminallardan foydalanadi, ular posilkalarni 10 soniya ichida olish imkonini beradi. Biz shahrimiz markazida joylashganmiz, call-markazimiz har qanday murakkablikdagi vazifalarni hal etish uchun doim aloqada."
+      }
+    },
+    "home": {
+      "language":"O`zbekcha",
+      "header-info-one": {
+        "header-info-one": "Germaniya tez va ishonchli yetkazib berish",
+        "info": "Germaniya posilkalar va onlayn xaridlarni atagi 10 dollardan 7-10 kun ichida O'zbekistonga yetkazib beramiz",
+        "startUsing": "Foydalanishni boshlang"
+      },
+      "header-info-two": {
+        "header-info-two": "Germaniya shaxsiy manzilingiza hoziroq ega bo‘ling",
+        "info": "Germaniya posilkalar va onlayn xaridlarni atagi 10 dollardan 7-10 kun ichida O'zbekistonga yetkazib beramiz",
+        "startUsing": "Boshlash"
+      },
+      "header-info-three": {
+        "header-info-three": "Innovatsion ombor",
+        "info": "Biz posilkalaringizni xatolarsiz yig'amiz va uyingizga yetkazib beramiz.",
+        "startUsing": "Sinab ko'rmoqchiman!"
+      },
+      "howdoesItWork": {
+        "howdoesItWork": "Bu qanday ishlaydi?",
+        "info": "Germaniya xaridlarni amalga oshirish uchun to‘rtta oddiy qadamni bajaring",
+        "register": {
+          "register": "1. Ro‘yxatdan o‘ting",
+          "info": "Germaniya shaxsiy manzilni olish uchun saytda ro‘yxatdan o‘ting. Bu 1 daqiqa vaqt oladi.",
+          "getAddress":"Shaxsiy manzilni oling"
+        },
+        "shopOnline":{
+          "order":"buyurtma bering",
+          "shopOnline": "2. Onlayn xaridlar qiling",
+          "info": "Germaniya onlayn-do‘konlaridan mahsulotlarga buyurtma bering va to‘lov paytida Turondan olgan manzilingizni kiriting.",
+          "popularStores": "Ommabop do‘konlar"
+        },
+        "registerPurchases": {
+          "registerPurchases": "3. Xaridlarni ro‘yxatdan o‘tkazing",
+          "info": "Xaridlaringizni shaxsiy hisobingizda ro‘yxatdan o‘tkazing, Visa yoki Mastercard orqali to‘lang.",
+          "aboutDelivery": "Yetkazib berish haqida"
+        },
+        "acceptIt": {
+          "acceptIt": "4. Qabul qiling",
+          "info": "Yetkazib berish jo‘natilgan kundan boshlab 7 kun davom etadi. Shaxsiy kabinetda siz etkazib berish holatini kuzatishingiz mumkin."
+        }
+      },
+      "delivery": {
+        "delivery":"Yetkazib berish usullari va narxi",
+        "express": "ekspress",
+        "info": "Barcha ekspress-yetkazmalar uchun minimal to'lovlar yo'q, yetkazib berish qiymati esa Buyurtmaning haqiqiy og'irligiga qarab hisoblanadi, yirik gabaritli posilkalar bundan mustasno.",
+        "card":{
+          "country": "Mamlakat:",
+          "middle": "O’rtacha: 5-12 ish kunida",
+          "price": "Yetkazib berish narxi*",
+          "minPrice": "Minimal to'lov:",
+          "max": "Yirik gabaritli:"
+        }
+      },
+      "needHelpBuying": {
+        "needHelpBuying": "Sotib olishda yordam kerakmi?",
+        "infoOne": "Internet - do‘kondan sotib olish qiyinmi? Do‘kon sizning to‘lov kartangizni qabul qilmayaptimi? Biz sizga yordam beramiz!",
+        "infoTwo": "Sizga kerak bo‘lgan mahsulotlarga havolalar berib, xarid qilishda yordam xizmatiga buyurtma bering. Faqat 10% evaziga biz ularni sotib olamiz va yetkazib beramiz!",
+        "moreAboutTheService": "Xizmat haqida batafsilroq"
+      },
+      "news":"Yangiliklar",
+      "reviewsFromOurCustomers": {
+        "reviewsFromOurCustomers": "",
+        "allReviews": "Barcha sharhlar"
+      },
+      "faqs":"Tez-tez so'raladigan savollar",
+      "whyChooseUs":{
+        "whyChooseUs":"Nima uchun bizni tanlashingiz kerak ?",
+        "pricing":"Raqobatbardosh narxlash",
+        "pricing-paragraph":"Sifat va ishonchlilikka putur etkazmasdan raqobatbardosh narxlar tuzilmasi va iqtisodiy jihatdan samarali logistika yechimlarini eslatib o'tamiz.",
+        "Safety":"Xavfsizlik",
+        "Safety-paragraph":"Kompaniyamiz xavfsizlik qoidalari va sanoat standartlariga qat'iy rioya qilishini ta'kidlab o'tamiz. Xavfsizlik va muvofiqlik uchun olgan har qanday sertifikat va mukofotlariga ega.",
+        "time":"Samaradorlik va tezlik",
+        "time-paragraph":"Bizning kompaniyani tanlagan  mijozlarga qimmatli vaqt va resurslarni qanday tejash va qisqa vaqt ichida etkazib berish muddatlari, minimal tranzit kechikishlari va ta'minot zanjiri samaradorligi ortadi."
+      }
+    },
+    "navbar": {
+      "price": "Narxlar",
+      "services": "Xizmatlar",
+      "Shops": "Do'konlar",
+      "aboutUs": "Biz haqimizda",
+      "reviews": "Taqrizlar",
+      "contacts": "Aloqa",
+      "help": "Yordam",
+      "login": "Kirish",
+      "register": "A'zolik"
+    },
+    "price": {
+      "tariffs": "Tariflar",
+      "kg": "kg",
+      "free1": "Bepul!",
+      "noCommission": "Komissiya yo'q",
+      "ourRates": {
+        "ourRates": "Bizning tariflarimiz",
+        "shipmentWeightOne": "Jo’natmaning vazni 1-3 kg",
+        "shipmentWeightTwo": "Jo’natmaning vazni 3-10 kg",
+        "shipmentWeightTree": "Jo’natmaning vazni 10-30 kg",
+        "minimumWeight": "Minimal og'irlik",
+        "receivingShipments": "Jo’natmalarni qabul qilish",
+        "consolidationCost": "Konsolidatsiya qiymati"
+      },
+      "localDeliveryRates": {
+        "localDeliveryRates": "Mahalliy yetkazib berish tariflari",
+        "localDeliveryRatesOne": "Toshkentdagi omborxonadan olib ketish",
+        "localDeliveryRatesTwo": "Toshkent shahri bo’ylab yetkazib berish",
+        "localDeliveryRatesThree": "O'zbekiston bo'ylab yetkazib berish"
+      },
+      "tariffsForStorage": {
+        "tariffsForStorage": "Ombor va qo'shimcha xizmatlar uchun tariflar",
+        "commissionWhenFillingTheAccount": "Hisobni to'ldirishda komissiya",
+        "receivingShipmentsToTheWarehouse":"Omborga jo’natmalarni qabul qilish",
+        "consolidationService":"Konsolidatsiya xizmati",
+        "deleteAccountInvoices":"Hisob fakturalarni o'chirish",
+        "unpackingShoes":"Oyoq kiyimlar qadoqlarini olib tashlash",
+        "storageOfIncomingShipments":"Kiruvchi jo’natmalarni saqlash",
+        "Photograph":"Fotosurat",
+        "registeringUnknownPerson":"Noma'lum shaxsdan kelgan jo’natmani ro'yxatdan o'tkazish",
+        "outboundPackageRepackaging":"Chiquvchi paketni qayta qadoqlash",
+        "openingTheIncomingShipmentPhoto":"Kiruvchi jo’natmani ochish + fotosurat",
+        "checkTheProductPhoto":"Hisob faktura + fotosurat orqali mahsulotni tekshirish",
+        "returningTheProductStore":"Mahsulotni do'konga qaytarish"
+      },
+      "": ""
+    },
+    "reviews": {
+      "reviews": "Sharhlar",
+      "info": ""
+    },
+    "services": {
+      "services": "Bizning Xizmatlar",
+      "helpWithPurchase": "Xaridda yordam"
+    },
+    "admin":{
+      "layout":{
+        "dashboard":"Boshqaruv paneli",
+        "parcels":"Posilkalarim",
+        "address":"Manzillarim",
+        "settings":"Sozlamalarim",
+        "logout":"Chiqish",
+        "incoming":"Kiruvchi Posilkalar"
+      }
+    }
+  }
+}

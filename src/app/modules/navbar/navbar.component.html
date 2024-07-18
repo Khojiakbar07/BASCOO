@@ -1,0 +1,116 @@
+<div class="container">
+  <div class="content">
+
+    <div class="logo-details" routerLink="/">
+      <img src="../../../assets/images/logo.svg" alt="">
+    </div>
+
+    <div class="nav-sty">
+
+      <div class="nav-pages">
+        <p routerLink="/aboutUs" routerLinkActive="active-link">{{'doslogistic.web.navbar.aboutUs' | translate}}</p>
+        <p routerLink="/shops" routerLinkActive="active-link">{{'doslogistic.web.navbar.Shops' | translate}}</p>
+        <p routerLink="/tariffs" routerLinkActive="active-link">{{'doslogistic.web.navbar.price' | translate}}</p>
+        <p routerLink="/contacts" routerLinkActive="active-link">{{'doslogistic.web.navbar.contacts' | translate}}</p>
+        <p routerLink="/helps" routerLinkActive="active-link">{{'doslogistic.web.navbar.help' | translate}}</p>
+      </div>
+
+      <div class="calculator" (click)="openModal()">
+        <i class="fa-solid fa-calculator"></i>
+        <span>Calculator</span>
+      </div>
+
+      <div class="langu">
+        <app-language></app-language>
+      </div>
+
+      <div class="auth">
+        <button routerLink="/register" (click)="closeMenu()">{{'doslogistic.web.navbar.register' | translate}}</button>
+      </div>
+
+    </div>
+
+    <button (click)="toggleSidebar()" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+  </div>
+
+
+</div>
+
+
+<div class="custom-sidebar" [ngClass]="{ 'open': isOpen }">
+
+  <div class="close" (click)="toggleSidebar()">
+    <img src="../../../assets/images/close.svg" alt="">
+  </div>
+
+  <div class="sidenav-logo" routerLink="/">
+    <img src="../../../assets/images/logo.svg" alt="">
+  </div>
+
+  <div class="nav-pages2">
+    <p routerLink="/aboutUs" routerLinkActive="active-link" (click)="toggleSidebar()">{{'doslogistic.web.navbar.aboutUs'
+      |
+      translate}}</p>
+    <p routerLink="/shops" routerLinkActive="active-link" (click)="toggleSidebar()">{{'doslogistic.web.navbar.Shops' |
+      translate}}</p>
+    <p routerLink="/tariffs" routerLinkActive="active-link" (click)="toggleSidebar()">{{'doslogistic.web.navbar.price' |
+      translate}}</p>
+    <p routerLink="/contacts" routerLinkActive="active-link" (click)="toggleSidebar()">
+      {{'doslogistic.web.navbar.contacts'
+      | translate}}</p>
+    <p routerLink="/helps" routerLinkActive="active-link" (click)="toggleSidebar()">{{'doslogistic.web.navbar.help' |
+      translate}}</p>
+
+    <div class="calculator" (click)="openModal()">
+      <i class="fa-solid fa-calculator"></i>
+      <span>Calculator</span>
+    </div>
+
+    <div class="langu">
+      <app-language></app-language>
+    </div>
+
+    <div class="auth2">
+      <button routerLink="/register" (click)="closeMenu()">{{'doslogistic.web.navbar.register' | translate}}</button>
+    </div>
+
+  </div>
+</div>
+
+
+
+<!-- calculator modal -->
+<div [ngClass]="{'modal': true, 'fade-in': modalOpen}" class="modal">
+  <div class="modal-content">
+
+    <div class="modal-heder">
+      <div class="close-calculator" (click)="closeModal()">
+        <img src="../../../assets/images/close.svg" alt="">
+      </div>
+    </div>
+
+    <div class="cost">
+      <h2>Yetkazib berish narxi</h2>
+      <div class="cost-flex">
+        <input type="number" [(ngModel)]="weightValue" placeholder="0" class="input-style" step="0.1"
+          (input)="onWeightInputChange()">
+        <select [(ngModel)]="selectedUnit" class="input-style">
+          <option value="kg">кг</option>
+          <option value="funt">фунт</option>
+        </select>
+      </div>
+      <input class="slider" type="range" [(ngModel)]="sliderValue" min="0" max="100" step="0.1" value="0"
+        (input)="onSliderChange($event)">
+    </div>
+    <hr>
+    <div class="footer-paragraph">
+      <h3>5-10 раб. дней</h3>
+      <h1>{{ getFormattedDeliveryCost() }}</h1>
+    </div>
+
+  </div>
+</div>

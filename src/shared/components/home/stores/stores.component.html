@@ -1,0 +1,19 @@
+<div class="store">
+
+  <div class="title">Bizning do'konlar</div>
+
+  <div class="logos">
+
+      <owl-carousel-o [options]="customOptions">
+        <ng-container *ngFor="let card of cards">
+          <ng-template carouselSlide [id]="card.id.toString()">
+            <div class="card-sty">
+              <img [src]="card.image" alt="">
+            </div>
+          </ng-template>
+        </ng-container>
+      </owl-carousel-o>
+
+    </div>
+
+  </div>

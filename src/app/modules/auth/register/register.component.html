@@ -1,0 +1,83 @@
+<div class="main-container">
+  <div class="register">
+    <div class="page-moving">
+      <a routerLink="/login" routerLinkActive="active-link">{{'doslogistic.web.help.login.kirish' | translate}}</a>
+      <a routerLink="/register" routerLinkActive="active-link">{{'doslogistic.web.help.login.login' | translate}}</a>
+    </div>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <div class="input-field">
+        <input type="email" placeholder="Email address" class="input-style" formControlName="email"
+          [ngClass]="{ 'is-invalid': submitted && f['email'].errors }" autocomplete="this-email" />
+        <div *ngIf="submitted && f['email'].errors" class="invalid-feedback">
+          <div *ngIf="f['email'].errors['required']">Email is required</div>
+          <div *ngIf="f['email'].errors['email']">Email is invalid</div>
+        </div>
+      </div>
+      <div class="input-field">
+        <input [type]="showPassword ? 'text' : 'password'" placeholder="Password" class="input-style"
+          formControlName="password" [ngClass]="{ 'is-invalid': submitted && f['password'].errors }"
+          autocomplete="this-password" />
+        <span (click)="togglePasswordVisibility()" class="eye-icon">
+          <i class="fas" [ngClass]="showPassword ? 'fa-eye-slash' : 'fa-eye'"></i>
+        </span>
+        <div *ngIf="submitted && f['password'].errors" class="invalid-feedback">
+          <div *ngIf="f['password'].errors['required']">Password is required</div>
+          <div *ngIf="f['password'].errors['minlength']">
+            Password must be at least 6 characters
+          </div>
+          <div *ngIf="f['password'].errors['maxlength']">
+            Password must not exceed 40 characters
+          </div>
+        </div>
+      </div>
+      <div class="input-field">
+        <input [type]="showRepeatPassword ? 'text' : 'password'" placeholder="Repeat password*" class="input-style"
+          formControlName="confirmPassword" [ngClass]="{ 'is-invalid': submitted && f['confirmPassword'].errors }"
+          autocomplete="this-confirmPassword" />
+        <span (click)="toggleRepeatPasswordVisibility()" class="eye-icon">
+          <i class="fas" [ngClass]="showRepeatPassword ? 'fa-eye-slash' : 'fa-eye'"></i>
+        </span>
+        <div *ngIf="submitted && f['confirmPassword'].errors" class="invalid-feedback">
+          <div *ngIf="f['confirmPassword'].errors['required']">
+            Confirm Password is required
+          </div>
+          <div *ngIf="f['confirmPassword'].errors['matching']">
+            Confirm Password does not match
+          </div>
+        </div>
+      </div>
+      <div class="input-field">
+        <input type="tel" id="mobile_code" placeholder="Phone Number" name="phone" class="input-style"
+          formControlName="phoneNumber" [ngClass]="{ 'is-invalid': submitted && f['phoneNumber'].errors }"
+          autocomplete="this-phoneNumber">
+        <div *ngIf="submitted && f['phoneNumber'].errors" class="invalid-feedback">
+          <div *ngIf="f['phoneNumber'].errors['required']">Phone number is required</div>
+          <div *ngIf="f['phoneNumber'].hasError('minlength')">Phone number is invalid</div>
+        </div>
+      </div>
+      <div class="terms-of-use">
+        <label nz-checkbox formControlName="acceptTerms"
+          [ngClass]="{ 'is-invalid': submitted && f['acceptTerms'].errors }"></label>
+        <p>{{ "doslogistic.web.help.login.accept" | translate }}</p>
+        <a>{{ "doslogistic.web.help.login.terms" | translate }}</a>
+        <div *ngIf="submitted && f['acceptTerms'].hasError('required') && !f['acceptTerms'].hasError('requiredTrue')"
+          class="invalid-feedback2">
+          Accept Terms is required
+        </div>
+        <div *ngIf="submitted && f['acceptTerms'].hasError('requiredTrue')" class="invalid-feedback">
+          You must accept the terms and conditions
+        </div>
+      </div>
+      <div class="register-button">
+        <button>{{ "doslogistic.web.help.login.registration" | translate }}</button>
+      </div>
+    </form>
+    <div class="line-or">
+      <span class="line-text">{{ "doslogistic.web.help.login.or" | translate }}</span>
+    </div>
+    <div class="register-google">
+      <button> <img src="../../../../assets/images/register/google-logo.png" alt="" />{{
+        "doslogistic.web.help.login.google" | translate }}</button>
+    </div>
+  </div>
+</div>

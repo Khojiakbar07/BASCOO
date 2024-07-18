@@ -1,0 +1,23 @@
+<div class="sidenav">
+    <div class="sidebar">
+        <ul>
+            <li><a routerLinkActive="active" [routerLink]="['popularStores']">Popular Stores</a></li>
+            <li><a routerLinkActive="active" [routerLink]="['markets']">Markets</a></li>
+            <li><a routerLinkActive="active" [routerLink]="['departmenStores']">Departmen Stores</a></li>
+            <li><a routerLinkActive="active" [routerLink]="['clothes']">Clothes</a></li>
+            <li><a routerLinkActive="active" [routerLink]="['shoes']">Shoes</a></li>
+            <li><a routerLinkActive="active" [routerLink]="['beauty-products']">beauty-products</a></li>
+            <li><a routerLinkActive="active" [routerLink]="['children-products']">children-products</a></li>
+            <li><a routerLinkActive="active" [routerLink]="['electronics']">electronics</a></li>
+            <li><a routerLinkActive="active" [routerLink]="['household']">household</a></li>
+            <li><a routerLinkActive="active" [routerLink]="['sports-products']">sports-products</a></li>
+            <li><a routerLinkActive="active" [routerLink]="['health-products']">health-products</a></li>
+            <li><a routerLinkActive="active" [routerLink]="['others']">others</a></li>
+        </ul>
+    </div>
+    <div>
+        <ng-container>
+            <router-outlet></router-outlet>
+        </ng-container>
+    </div>
+</div>

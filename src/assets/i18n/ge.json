@@ -1,0 +1,324 @@
+{
+  "doslogistic.web": {
+    "aboutUs": {
+      "aboutUs": "über uns",
+      "info":"Seit 2017 liefert „Dost Logistic“ über seine Online-Shops Pakete von Deutschland nach Usbekistan. Wir helfen unseren Bürgern, gewinnbringend in Deutschland einzukaufen, denn 90 % der Geschäfte liefern keine Bestellungen nach Usbekistan.",
+      "info2":"Schnell, Einfach, Bequem und vor allem zuverlässig!",
+      "team":"Unser Team besteht aus den besten Menschen, die durch gemeinsame Ideen und Wünsche vereint sind. Unsere Ambitionen helfen uns, gemeinsam zu wachsen, uns weiterzuentwickeln und neue Höhen zu erreichen. Wir haben Experten aus der ganzen Welt versammelt, wir schätzen jedes Teammitglied gleichermaßen und bieten ihnen die Möglichkeit, gemeinsam mit uns zu wachsen und sich weiterzuentwickeln.",
+      "team-header":"Unser Team",
+      "address":"Unsere Adressen",
+      "clients":"Zufriedene Kunden",
+      "transport":"Fahrzeuge"
+    },
+    "contacts": {
+      "contacts": "Unsere Verbindungen",
+      "addressUz": "Adresse in Usbekistan",
+      "addressGer": "Adresse in Deutschland",
+      "Toshkent": "Taschkent",
+      "berlin": "Berlin",
+      "Poland":"Polen",
+      "Germany":"Deutschland",
+      "form": {
+        "writeToUs": "Schreib uns",
+        "fillForm": "Gerne beantworten wir Ihre Fragen, bitte füllen Sie das untenstehende Formular aus.",
+        "name": "Name",
+        "phone": "Telefonnummer",
+        "email": "Unsere E-Mail-Adresse",
+        "message": "Nachricht schreiben",
+        "sendMessage": "Eine Nachricht schicken",
+        "infoOne": "Möchten Sie eine schnelle Antwort auf Ihre Frage? Schauen Sie sich den FAQ-Bereich der Website an, in dem wir Antworten auf die am häufigsten gestellten Fragen zusammengestellt haben.",
+        "infoTwo": "Wenn sich Ihre Frage darauf bezieht, wann das eingehende Paket in das System eingegeben wird, möchten wir Sie daran erinnern, dass die Eingabe der Sendung 1-2 Werktage dauert, in seltenen Fällen auch etwas länger. Wenn die Sendung länger als 3 Tage nicht eingetroffen ist, empfehlen wir Ihnen, über dieses Problem zu schreiben.",
+        "HaveAnyQuetions":"Sie haben noch Fragen?"
+      }
+    },
+    "footer": {
+      "logo":{
+        "info":"Schnelle und zuverlässige Paketzustellung aus Deutschland in weniger als 10 Tagen!",
+        "join":"Verbinden"
+      },
+      "aboutCompony":{
+        "aboutCompony": "Unternehmen",
+        "aboutUs": "Über den Service",
+        "price": "Tarife und Preise",
+        "news": "Nachricht",
+        "services": "Unsere Dienstleistungen",
+        "customers": "Kundenbewertungen",
+        "contacts": "Kontakte",
+        "Summary":"90 % der Online-Shops in Deutschland liefern nicht direkt nach Usbekistan. Und mit Dost Logictic können Sie in deutschen Online-Shops einkaufen und diese in ganz Usbekistan erhalten. Mit unseren innovativen und revolutionären Ideen und Technologien sind wir bestrebt, Ihnen das beste Einkaufserlebnis, die Freiheit und die Überwindung aller Grenzen zu bieten. Wir sind in Deutschland vertreten. Mittlerweile haben wir mehr als 300 Spezialisten in unserem Team – und das ist nicht die Grenze."
+      },
+      "forCustomers": {
+        "forCustomers": "Käufer",
+        "discounts": "Verkauf",
+        "shipmentTracking": "Um das Paket zu verfolgen",
+        "help": "Hilfe",
+        "purchaseSupport": "Hilfe beim Kauf",
+        "restrictionsAndProhibitions": "Einschränkungen und Verbote",
+        "popularStores": "Beliebte Geschäfte"
+      },
+      "useful": {
+        "useful": "Nützlich",
+        "deliveryOfParcels":"Paketzustellung",
+        "sendingParcels":"Pakete versenden",
+        "customsLimits":"Zollgrenzen",
+        "shipmentInsurance":"Paketversicherung",
+        "tableOfMeasurements":"Таблица размеров",
+        "calculationOfCosts":"Größentabelle"
+      },
+      "contacts": {
+        "haveQuestions": "Irgendwelche Fragen?",
+        "germeny": "Deutschland , Lübeck",
+        "uzbekistan": "Usbekistan, Taschkent",
+        "hours": "von 09:00 bis 20:00 Uhr"
+      },
+      "copywriting": {
+        "copywriting": "DostLogistic Courier Service. Alle Rechte vorbehalten.",
+        "termsOfUse": "Nutzungsbedingungen"
+      }
+    },
+    "help": {
+      "frequentlyAskedQuestions": "Ko‘p so‘raladigan savollar",
+      "questionsAndAnswers": "Savolar va Javoblar",
+      "login": {
+        "login": "Anmeldung",
+        "kirish":"Eingang",
+        "howToCreatePersonalCabinet": "Wie erstelle ich ein persönliches Kabinett?",
+        "avtorization":"Anmeldung",
+        "registration":"Registrieren",
+        "or":"or",
+        "forgotpassword":"Passwort vergessen?",
+        "rememberMe":"Erinnere dich an mich",
+        "google":"Anmeldung mit Google",
+        "accept":"Ich akzeptiere",
+        "terms":"Geschäftsbedingungen"
+      },
+      "purchases": {
+        "purchases": "Einkäufe",
+        "isWarehouseStates": "Gibt es in den Staaten keine Lagersteuer?",
+        "tax":"Wir arbeiten daran und werden in Kürze ein zollfreies Lagersystem einführen. Danach kosten Sie Bestellungen weniger:)",
+        "OnlineOrder":"Wie registriere ich eine Online-Bestellung?",
+        "takeback":"Wie funktioniert der Rückholservice?",
+        "firststep":{
+        "firststep":"Der erste Schritt",
+        "answer":"Sie erstellen einen Zahlungsauftrag und fügen diesem alle benötigten Waren hinzu"
+        },
+        "secondstep":{
+        "secondstep":"Zweiter Schritt",
+        "answer":"Wir nehmen den Antrag an, stellen eine Rechnung unter Berücksichtigung der Lieferung und unserer sonstigen Leistungen aus."
+        },
+        "thirdstep":{
+        "thirdstep":"Der dritte Schritt",
+        "answer":"Sie bezahlen die Rechnung und wir kaufen Ihre Bestellung im Online-Shop"
+        },
+        "fourthstep":{
+        "fourthstep":"Der vierte Schritt",
+        "answer":"Sie erhalten Ihre Bestellung"
+        },
+        "Service-important":{
+          "Service-important":"Wann benötigen Sie diesen Service?",
+          "first":"Wenn der Online-Shop nur deutsche Karten akzeptiert;",
+          "second":"Wenn ein Online-Shop die Übereinstimmung von Rechnungs- und Lieferadresse erfordert;",
+          "third":"Der Online-Shop akzeptiert nur PayPal, aber wenn Sie es nicht haben;",
+          "fourth":"Sie müssen viele Produkte auf einmal kaufen, haben aber keine Zeit dafür;"
+        }
+      },
+      "payment": "Zahlung",
+      "delivery": {
+        "delivery": "Lieferung",
+        "whatIsTheDeliveryTime": "Wie lange dauert die Lieferung?",
+        "whatIsTheDeliveryTimeAnswer": "3-10 Tage nachdem Ihre Bestellung auf Lager ist",
+        "dangerous":"Artikel, deren Lieferung verboten ist",
+        "liftOfGoods":"Liste der verbotenen Gegenstände:",
+        "firststep":{
+          "first":"• Alkohol/Tabak und Alkohol/Tabakprodukte",
+          "second":"• Fleisch und Fleischprodukte.",
+          "third":"• Samen/Pflanzen",
+          "four":"• Komprimierte und verflüssigte Gase, Feuerzeuge, Pyrotechnik,Cracker usw.",
+          "five":"• Entflammbare Flüssigkeiten",
+          "six":"• Giftige Substanzen",
+          "seven":"• Aerosol (Haarspray, Deodorant,Spray, Trockenshampoo)",
+          "eight":"• Währung (Geld)",
+          "nine":"• Edelsteine/Metalle (Schmuck)",
+          "ten":"• Religiöse Materialien",
+          "eleven":"• • Tätowiermaschine und tätowierbezogene Komponenten",
+          "twelve":"• Spielzeuge intimer Natur",
+          "thirteen":"• Geräte mit Lithiumbatterien (möglich, aber sie erfordern spezielle Verfahren. Wir stellen nicht zur Verfügung Dokumentation zum Erhalt des IMEI-Codes)"
+          },
+        "whatAreTheShippingRates": {
+          "shippingrates":"Wie hoch sind die Versandkosten?",
+          "answerOne": "Bis 3 Kilogramm – 10 Dollar/kg.",
+          "answerTwo": "Bei mehr als 3 Kilogramm - 9 $/kg."
+        }
+      },
+      "acceptance": {
+        "acceptance": "Annahme",
+        "orderDays": {
+          "orderDays": "An welchen Tagen werden Bestellungen von Deutschland nach Usbekistan verschickt?",
+          "aswer": "Zweimal pro Woche – Montag und Donnerstag"
+        }
+      },
+      "services": {
+        "services": "Dienstleistungen",
+        "service-header":"Unsere Servicezentren",
+        "questionOne": "Ich habe in verschiedenen Online-Shops eingekauft. Wirst du sie alle als eins schicken?",
+        "asnwerOne": "Ja, wir bieten diesen Service kostenlos an. Wir versenden alle Bestellungen als eine Einheit.",
+        "questionTwo": "Wie sende ich nach Deutschland und Usbekistan?",
+        "info":"Dost Logistic bleibt seinen Prinzipien und Ideen stets treu. Seit unserer Eröffnung in Usbekistan besteht unsere Hauptaufgabe nun darin, Usbeken die Möglichkeit zu geben, Einkäufe in Deutschland zu tätigen und diese unabhängig von ihrem Wohnort zu erhalten. Unser einzigartiges One-Stop-Service-Center nutzt komfortable und moderne Terminals, mit denen Sie Pakete in 10 Sekunden empfangen können. Wir befinden uns im Zentrum unserer Stadt, unser Callcenter steht Ihnen jederzeit für die Lösung von Aufgaben jeder Komplexität zur Verfügung."
+      }
+    },
+    "home": {
+      "language":"Ger",
+      "header-info-one": {
+        "header-info-one": "Schnelle und zuverlässige Lieferung aus Deutschland",
+        "info": "Wir liefern Pakete und Online-Einkäufe von Deutschland nach Usbekistan in nur 7-10 Tagen ab 10 $",
+        "startUsing": "Beginnen Sie mit der Verwendung"
+      },
+      "header-info-two": {
+        "header-info-two": "Sichern Sie sich jetzt Ihre persönliche Adresse in Deutschland!",
+        "info": "Wählen Sie Waren in Online-Shops in Deutschland. Vereinbaren Sie die Lieferung an Ihre persönliche Adresse. Wir liefern schnell, sorgfältig und wirtschaftlich in ganz Usbekistan",
+        "startUsing": "Ich möchte es versuchen!"
+      },
+      "header-info-three": {
+        "header-info-three": "Automatisiertes Lager",
+        "info": "Wir verpacken Ihre Pakete hochwertig und fehlerfrei. Wir bündeln, verpacken und versenden Pakete zu Ihnen nach Hause.",
+        "startUsing": "Ich möchte es versuchen!"
+      },
+      "howdoesItWork": {
+        "howdoesItWork": "Wie es funktioniert?",
+        "info": "Befolgen Sie vier einfache Schritte, um Ihren Einkauf aus Deutschland zu tätigen",
+        "register": {
+          "register": "1. Registrieren",
+          "info": "Registrieren Sie sich auf der Website, um eine persönliche Adresse in Deutschland zu erhalten. Dies dauert 1 Minute.",
+          "getAddress":"Erhalten Sie eine persönliche Adresse"
+        },
+        "shopOnline":{
+          "order":"Befehl",
+          "shopOnline": "2. Online kaufen",
+          "info": "Bestellen Sie Waren in Online-Shops in Deutschland und geben Sie beim Kauf die Empfangsadresse an.",
+          "popularStores": "Beliebte Geschäfte"
+        },
+        "registerPurchases": {
+          "registerPurchases": "3. Registrieren Sie Ihren Kauf",
+          "info": "Registrieren Sie den Kauf in Ihrem persönlichen Konto und bezahlen Sie die Warenlieferung online mit Visa oder Mastercard.",
+          "aboutDelivery": "Mehr zur Lieferung"
+        },
+        "acceptIt": {
+          "acceptIt": "4. Erhalten",
+          "info": "Die Lieferung erfolgt innerhalb von 7 Tagen ab Versanddatum. Im Büro können Sie den Lieferstatus überwachen und Ihr Paket verfolgen."
+        }
+      },
+      "needHelpBuying": {
+        "needHelpBuying": "Brauchen Sie Hilfe beim Kauf?",
+        "infoOne": "Haben Sie Probleme beim Online-Einkauf? Das Geschäft akzeptiert Ihre Zahlungskarte nicht? Wir werden Ihnen helfen!",
+        "infoTwo": "Geben Sie eine Bestellung für den Service „Unterstützung beim Kauf“ auf und geben Sie dabei die Links zu den Produkten an, die Sie benötigen. Für nur 10 % übernehmen wir den Kauf und garantieren, dass Sie genau das erhalten, was Sie bestellt haben!",
+        "moreAboutTheService": "Mehr zum Service"
+      },
+      "news":"Nachricht",
+      "reviewsFromOurCustomers": {
+        "reviewsFromOurCustomers": "Was sagen unsere Kunden über uns?",
+        "allReviews": "Alle Bewertungen"
+      },
+      "faqs":"Faqs",
+      "delivery": {
+        "delivery":"Versandarten und Preis",
+        "express": "Äußern",
+        "info": "Für alle Expresslieferungen gibt es keine Mindestgebühren und die Versandkosten werden basierend auf dem tatsächlichen Gewicht der Bestellung berechnet, mit Ausnahme von übergroßen Paketen.",
+        "card":{
+          "country": "Ein Land:",
+          "middle": "Durchschnittlich: 5-12 Werktage",
+          "price": "Lieferpreis*",
+          "minPrice": "Minimum zahlen:",
+          "max": "übergroß:"
+        }
+      },
+      "whyChooseUs":{
+        "whyChooseUs":"Warum sollten Sie sich für uns entscheiden?",
+        "pricing":"Wettbewerbsfähige Preisanpassung",
+        "pricing-paragraph":"Wir erwähnen eine wettbewerbsfähige Preisstruktur und kostengünstige Logistiklösungen ohne Kompromisse bei Qualität und Zuverlässigkeit.",
+        "Safety":"Sicherheit",
+        "Safety-paragraph":"Wir legen Wert darauf, dass sich unser Unternehmen strikt an Sicherheitsvorschriften und Industriestandards hält. Verfügt über alle Zertifizierungen und Auszeichnungen, die es für Sicherheit und Compliance erhalten hat.",
+        "time":"Effizienz und Zeitersparnis",
+        "time-paragraph":"Kunden, die sich für unser Unternehmen entscheiden, erfahren, wie sie wertvolle Zeit und Ressourcen sparen, schnellere Lieferzeiten, minimale Transportverzögerungen und eine höhere Effizienz der Lieferkette erreichen."
+      }
+    },
+    "navbar": {
+      "price": "Preise",
+      "services": "Dienstleistungen",
+      "Shops": "Geschäfte",
+      "aboutUs": "Über uns",
+      "reviews": "Rezensionen",
+      "contacts": "Kontakte",
+      "help": "Hilfe",
+      "login": "Betreten",
+      "register": "Anmeldung"
+    },
+    "price": {
+      "tariffs": "Preise",
+      "kg": "kg",
+      "free1": "Бесплатно!",
+      "noCommission": "Keine Kommission",
+      "ourRates": {
+        "ourRates": "Unsere Preise",
+        "shipmentWeightOne": "Paketgewicht 1-3 kg",
+        "shipmentWeightTwo": "Paketgewicht 3-10 kg",
+        "shipmentWeightTree": "Paketgewicht 10-30 kg",
+        "minimumWeight": "Mindestabrechnungsgewicht",
+        "receivingShipments": "Empfang von Paketen",
+        "consolidationCost": "Konsolidierungskosten"
+      },
+      "localDeliveryRates": {
+        "localDeliveryRates": "Lokale Versandkosten",
+        "localDeliveryRatesOne": "Abholung von einem Lager in Taschkent",
+        "localDeliveryRatesTwo": "Lieferung in Taschkent",
+        "localDeliveryRatesThree": "Lieferung in ganz Usbekistan"
+      },
+      "tariffsForStorage": {
+        "tariffsForStorage": "Tarife für Lager und Zusatzleistungen",
+        "commissionWhenFillingTheAccount": "Provision beim Auffüllen des Guthabens",
+        "receivingShipmentsToTheWarehouse":"Empfang von Paketen im Lager",
+        "consolidationService":"Konsolidierung",
+        "deleteAccountInvoices":"Rechnungen löschen",
+        "unpackingShoes":"Abtransport von Schuhkartons",
+        "storageOfIncomingShipments":"Lagerung eingehender Pakete",
+        "Photograph":"Foto des Pakets",
+        "registeringUnknownPerson":"Registrierung eines eingehenden Pakets von Unbekannten",
+        "outboundPackageRepackaging":"Umpacken eines ausgehenden Pakets",
+        "openingTheIncomingShipmentPhoto":"Trennung eines eingehenden Pakets + Foto",
+        "checkTheProductPhoto":"Überprüfung der Ware gemäß Rechnung + Foto",
+        "returningTheProductStore":"Warenrückgabe im Laden"
+      }
+    },
+    "reviews": {
+      "reviews": "Rezensionen",
+      "info": "Kundenbewertungen"
+    },
+    "services": {
+      "services": "Unsere Dienstleistungen",
+      "helpWithPurchase": "Hilfe beim Kauf"
+    },
+    "restrictions": {
+      "restrictions": "Liste der verbotenen \n Gegenstände:",
+      "one": "Alkohol/Tabak und Alkohol/Tabakprodukte",
+      "two": "Fleisch und Fleischprodukte.",
+      "three": "Samen/Pflanzen  ",
+      "four": "Komprimierte und verflüssigte Gase, Feuerzeuge, Pyrotechnik, Cracker usw.",
+      "five": "Entflammbare Flüssigkeiten",
+      "six": "Giftige Substanzen",
+      "seven": "Aerosol (Haarspray, Deodorant, Spray, Trockenshampoo)",
+      "eight": "Währung (Geld)",
+      "nine": "Edelsteine/Metalle (Schmuck) • Religiöse Materialien",
+      "ten": "Tätowiermaschine und tätowierbezogene Komponenten",
+      "eleven": "Spielzeuge intimer Natur",
+      "tvelve": "Geräte mit Lithiumbatterien (möglich, aber sie erfordern spezielle Verfahren. Wir stellen nicht zur Verfügung Dokumentation zum Erhalt des IMEI-Codes)"
+    },
+    "admin":{
+      "layout":{
+        "dashboard":"Dashboard",
+        "parcels":"Pakete",
+        "address":"Adressen",
+        "settings":"Einstellungen",
+        "logout":"Abmelden",
+        "incoming":"Eingehende Pakete"
+      }
+    }
+  }
+}
