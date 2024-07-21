@@ -76,3 +76,98 @@ ul > li > div > span {
 .item-6 {
   background-image: url('../../../../assets/images/services/gifs/studio.gif');
 }
+
+.contacts {
+  max-width: 1200px;
+  max-height: 722px;
+  width: 100%;
+  height: 100%;
+  font-family: Inter, serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 96px;
+  background-color: #DFEEFA;
+  border-radius: 24px;
+  padding: 64px 96px 64px 96px;
+  gap: 24px;
+}
+
+.contacts > h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 46px;
+  color: #000000;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #8E8E93;
+}
+
+.contacts-content {
+  margin-top: 24px;
+}
+
+.contacts-name,
+.contacts-phone,
+.contacts-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.contacts-content > div {
+  margin-top: 24px;
+}
+
+.contacts-name-input,
+.contacts-phone-input {
+  max-width: 1008px;
+  max-height: 48px;
+  width: 100%;
+  height: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #D1D1D6;
+}
+
+.contacts-text-area {
+  max-width: 1008px;
+  width: 100%;
+  height: 162px;
+  line-height: 24px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #D1D1D6;
+  resize: none;
+  overflow: hidden;
+}
+
+*:focus {
+  outline: none;
+}
+
+.contacts-text-area::placeholder {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+  color: grey;
+}
+
+.contacts-send-button {
+  width: 1008px;
+  height: 62px;
+  margin-top: 24px;
+  background-color: #223355;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
