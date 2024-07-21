@@ -1,7 +1,21 @@
+*{
+    font-family: Inter;
+}
 .container {
     display: flex;
     flex-direction: column;
+    
 }
+.myVideo {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-repeat: repeat;
+    z-index: -100;
+  }
 
 .image {
     position: relative;
@@ -28,7 +42,7 @@
 
     h2 {
         font-size: 48px;
-        color: #0410e9;
+        color: #fff;
         margin: 0;
     }
 
@@ -81,7 +95,7 @@
     line-height: normal;
 
     h2 {
-        color: #058C42;
+        color: #fff;
         font-weight: 600;
         font-size: 48px;
         width: 331px;
@@ -90,7 +104,7 @@
     p {
         font-weight: 350;
         font-size: 18px;
-        color: #3A3A3A;
+        color: #fff;
         width: 490px;
         height: 180px;
         flex-shrink: 0;
