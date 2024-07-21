@@ -55,7 +55,7 @@
 
 .content {
     max-width: 1320px;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 
 .content-icons {
@@ -78,12 +78,35 @@
     justify-content: space-around;
     align-items: flex-start;
     gap: 237px;
-    margin-top: -25px;
+    margin-top: 10px;
     
     .wel-img{
         img {
             width: 500px;
             height:400px;
+        }
+        .rectangle{
+            border: none;
+            
+            z-index: 3;
+        }
+        .autoplay{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 3;
+            
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            border: none;
+        }
+        .fa-play{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 20px;
+            height: 20px;
         }
     }
     
@@ -98,7 +121,7 @@
         color: #fff;
         font-weight: 600;
         font-size: 48px;
-        width: 331px;
+        width: 450px;
     }
 
     p {
