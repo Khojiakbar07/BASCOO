@@ -7,7 +7,7 @@ import { LoginComponent } from './modules/auth/login/login.component';
 import { RegisterComponent } from './modules/auth/register/register.component';
 import { HomeComponent } from './modules/layouts/home/home.component';
 import { SharedModule } from 'src/shared/shared.module';
-import { registerLocaleData } from '@angular/common';
+import {NgOptimizedImage, registerLocaleData} from '@angular/common';
 import localeRu from "@angular/common/locales/ru";
 import { NZ_I18N, ru_RU , en_US } from 'ng-zorro-antd/i18n';
 import { AppInitService } from './core/local-services/appInitService/app-init-service.service';
@@ -72,7 +72,8 @@ export function initializeApp(appInitService: AppInitService) {
     SharedModule,
     FormsModule,
     ReactiveFormsModule,
-    AngularYandexMapsModule
+    AngularYandexMapsModule,
+    NgOptimizedImage
 
   ], schemas: [NO_ERRORS_SCHEMA],
   providers: [
