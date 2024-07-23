@@ -173,4 +173,9 @@ ul > li > div > span {
   font-size: 20px;
   font-weight: 500;
   color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.contacts-send-button:hover {
+  background-color: #264891;
 }
