@@ -1,65 +1,123 @@
 <section class="container">
-  <!--  <video autoplay muted loop class="myVideo">-->
-  <!--    <source src="../../../../assets/videos/video-1.mp4" type="video/mp4">-->
-  <!--  </video>-->
   <h1>Решения</h1>
   <div class="services-content">
-    <ul>
-      <li>
-        <div class="item-1">
-          <img src="../../../../assets/images/services/image1.svg" alt="image 1"/>
-          <span>Светодиодные мониторы</span>
-        </div>
-      </li>
-      <li>
-        <div class="item-2">
-          <img src="../../../../assets/images/services/image2.svg" alt="image 2"/>
-          <span>Аудиосистемы</span>
-        </div>
-      </li>
-      <li>
-        <div class="item-3">
-          <img src="../../../../assets/images/services/image1.svg" alt="image 3"/>
-          <span>Мониторы для офиса</span>
-        </div>
-      </li>
-      <li>
-        <div class="item-4">
-          <img src="../../../../assets/images/services/image2.svg" alt="image 4"/>
-          <span>Рекламные мониторы</span>
-        </div>
-      </li>
-      <li>
-        <div class="item-5">
-          <img src="../../../../assets/images/services/image1.svg" alt="image 5"/>
-          <span>Светодиодные мониторы</span>
-        </div>
-      </li>
-      <li>
-        <div class="item-6">
-          <img src="../../../../assets/images/services/image2.svg" alt="image 6"/>
-          <span>Аудиосистемы</span>
-        </div>
-      </li>
-    </ul>
-  </div>
-  <div class="contacts">
-    <h1>Связаться с нами</h1>
-    <span class="subtitle">Если у вас есть предложения или запросы, не стесняйтесь</span>
-    <div class="contacts-content">
-      <div class="contacts-name">
-        <span>Полное имя</span>
-        <input class="contacts-name-input" placeholder="Напишите свое полное имя"/>
-      </div>
-      <div class="contacts-phone">
-        <span>Номер телефона</span>
-        <input class="contacts-phone-input" placeholder="namuna@gmail.com"/>
-      </div>
-      <div class="contacts-text">
-        <span>Сообщение</span>
-        <input class="contacts-text-area" placeholder="Вы можете написать любой запрос"/>
-      </div>
+    <div class="service-cards">
+      <ul>
+        <li>
+          <div class="item-1">
+            <img src="../../../../assets/images/services/image1.svg" alt="image 1"/>
+            <span>Светодиодные мониторы</span>
+          </div>
+        </li>
+        <li>
+          <div class="item-2">
+            <img src="../../../../assets/images/services/image2.svg" alt="image 2"/>
+            <span>Аудиосистемы</span>
+          </div>
+        </li>
+        <li>
+          <div class="item-3">
+            <img src="../../../../assets/images/services/image1.svg" alt="image 3"/>
+            <span>Мониторы для офиса</span>
+          </div>
+        </li>
+        <li>
+          <div class="item-4">
+            <img src="../../../../assets/images/services/image2.svg" alt="image 4"/>
+            <span>Рекламные мониторы</span>
+          </div>
+        </li>
+        <li>
+          <div class="item-5">
+            <img src="../../../../assets/images/services/image1.svg" alt="image 5"/>
+            <span>Светодиодные мониторы</span>
+          </div>
+        </li>
+        <li>
+          <div class="item-6">
+            <img src="../../../../assets/images/services/image2.svg" alt="image 6"/>
+            <span>Аудиосистемы</span>
+          </div>
+        </li>
+      </ul>
     </div>
-    <button class="contacts-send-button">Отправить</button>
+    <div class="connect">
+      <h1>Связаться с нами</h1>
+      <span class="subtitle">Если у вас есть предложения или запросы, не стесняйтесь</span>
+      <div class="connect-content">
+        <div class="connect-name">
+          <span>Полное имя</span>
+          <input class="connect-name-input" placeholder="Напишите свое полное имя"/>
+        </div>
+        <div class="connect-phone">
+          <span>Номер телефона</span>
+          <input class="connect-phone-input" placeholder="namuna@gmail.com"/>
+        </div>
+        <div class="connect-text">
+          <span>Сообщение</span>
+          <input class="connect-text-area" placeholder="Вы можете написать любой запрос"/>
+        </div>
+      </div>
+      <button class="connect-send-button">Отправить</button>
+    </div>
+
+    <div class="contacts" *ngIf="selectedPage === 'uzbekistan'">
+      <div class="contacts-info">
+        <p class="contacts-title">Информация</p>
+
+        <div class="cards">
+
+          <div class="card-icon">
+            <img src="../../../../assets/images/contacts/phone.png" alt="">
+          </div>
+
+          <div>
+            <span>Phone Number</span>
+            <p>+998 99 353 00 35</p>
+          </div>
+
+        </div>
+
+        <div class="cards">
+
+          <div class="card-icon">
+            <img src="../../../../assets/images/contacts/phone.png" alt="">
+          </div>
+
+          <div>
+            <span>Phone Number</span>
+            <p>+998 99 353 00 35</p>
+          </div>
+
+        </div>
+
+        <div class="cards">
+          <div class="card-icon">
+            <img class="mail" src="../../../../assets/images/contacts/mail.png" alt="">
+          </div>
+          <div>
+            <span>Email Address</span>
+            <p class="contacts-email">u.suyarov@dostlogistics.de</p>
+          </div>
+        </div>
+        <div class="cards">
+          <div class="card-icon">
+            <img src="../../../../assets/images/contacts/location.png" alt="">
+          </div>
+          <div>
+            <span>Office Address</span>
+            <p>Toshkent</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="map-content" *ngIf="selectedPage === 'uzbekistan'">
+        <ya-map [center]="[41.2995, 69.2401]" [zoom]="12">
+          <ya-placemark [geometry]="[41.2995, 69.2401]" [properties]="{ balloonContent: 'Tashkent Location' }"
+                        [options]="{ iconColor: '#058C42' }"></ya-placemark>
+        </ya-map>
+      </div>
+
+    </div>
   </div>
 </section>
