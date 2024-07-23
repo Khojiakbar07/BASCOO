@@ -3,22 +3,26 @@
 	max-width: 1320px;
 	margin: 0 auto;
 }
-
+.block_title{
+	color: #fff;
+}
 .card {
 	height: 240px;
 	margin: 0 15px;
 	padding: 20px;
 	border-radius: 18px;
-	border: 2px solid #058C42;
+	border: 2.5px solid #fff;
 	box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 1px 1px;
 	margin-bottom: 20px;
 	position: relative;
+	
 }
 .card h2 {
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 24px;
 	font-family: 'Inter';
+	color: #fff;
 }
 
 .card .author {
@@ -31,7 +35,7 @@
 }
 
 .card .author .name {
-	color: #000;
+	color: #fff;
 	font-size: 24px;
 	margin-left: 13px;
 	font-weight: 600;
