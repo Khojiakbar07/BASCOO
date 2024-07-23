@@ -14,6 +14,7 @@ import {trigger, state, style, animate, transition} from '@angular/animations';
   ],
 })
 export class ServicesComponent {
+  selectedPage: string = 'uzbekistan';
   isHovered1 = false;
   isHovered2 = false;
   isHovered3 = false;
