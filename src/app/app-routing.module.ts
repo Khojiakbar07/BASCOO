@@ -14,11 +14,11 @@ const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'shops', loadChildren: () => import('./core/shops/shops.module').then(m => m.ShopsModule)},
   { path: 'cabinet', loadChildren: () => import('../shared/components/user-page/user.module').then(m => m.UserModule)},
-  { path: 'aboutUs', component: AboutUsComponent },
+  { path: 'projects', component: AboutUsComponent },
   { path: 'tariffs', component: PriceComponent },
   { path: 'contacts', component: ContactsComponent },
   { path: 'helps', component: HelpsComponent },
-  { path: 'services', component: ServicesComponent },
+  { path: 'solutions', component: ServicesComponent },
   { path: 'login', component: LoginComponent },
   { path: 'register' , component:RegisterComponent },
   { path: 'restrictions' , component: RestrictionsComponent }
