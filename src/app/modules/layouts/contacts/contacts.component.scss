@@ -111,6 +111,9 @@ h1 {
 }
 
 .connect-send-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 1008px;
   height: 62px;
   margin-top: 24px;
@@ -121,6 +124,10 @@ h1 {
   font-weight: 500;
   color: white;
   transition: background-color 0.3s ease-in-out;
+  svg{
+    margin: 0px 10px;
+  }
+
 }
 
 .connect-send-button:hover {
