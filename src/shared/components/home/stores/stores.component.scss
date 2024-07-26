@@ -4,20 +4,9 @@
   margin-top: 50px;
 }
 
-.title {
-  color: #058c42;
-  font-size: 48px;
-  font-weight: 600;
-  margin-bottom: 40px;
-  text-align: center;
-}
-
 .logos {
-  padding: 40px 40px;
-  padding-left: 100px;
-  border: 2px solid #058c42;
-  border-radius: 32px;
-  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 1px 1px;
+  padding: 40px 40px 40px 100px;
+  border: none;
 }
 
 .card-sty {
@@ -46,19 +35,12 @@
     padding: 30px 35px;
   }
 
-  .title {
-    font-size: 44px;
-  }
 }
 
 @media (max-width: 980px) {
   .logos {
     width: 790px;
     padding: 25px 35px;
-  }
-
-  .title {
-    font-size: 36px;
   }
 
   .card-sty {
@@ -82,10 +64,6 @@
     width: 550px;
   }
 
-  .title {
-    font-size: 33px;
-  }
-
   .card-sty {
     img {
       width: 50px;
@@ -99,9 +77,6 @@
     width: 470px;
   }
 
-  .title {
-    font-size: 30px;
-  }
 }
 
 @media (max-width: 510px) {
