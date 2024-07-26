@@ -31,6 +31,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MapComponent } from '../shared/components/home/map/map.component';
 import { AngularYandexMapsModule } from 'angular8-yandex-maps';
 import {StatsComponent} from "./modules/layouts/stats/stats.component";
+import {AboutUsSectionComponent} from "../shared/components/home/about-us/about-us.component";
 
 
 registerLocaleData(localeRu);
@@ -44,31 +45,32 @@ export function initializeApp(appInitService: AppInitService) {
 }
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NavbarComponent,
-    FooterComponent,
-    LoginComponent,
-    RegisterComponent,
-    HomeComponent,
-    LanguageComponent,
-    FindLanguageFromKeyPipe,
-    CaruselComponent,
-    HowIsItWorkComponent,
-    StoresComponent,
-    ChooseUsComponent,
-    ReviewsComponent,
-    FaqComponent,
-    AboutUsComponent,
-    PricesComponent,
-    ContactsComponent,
-    PriceComponent,
-    ServicesComponent,
-    HelpsComponent,
-    RestrictionsComponent,
-    MapComponent,
-    StatsComponent,
-  ],
+    declarations: [
+        AppComponent,
+        NavbarComponent,
+        FooterComponent,
+        LoginComponent,
+        RegisterComponent,
+        HomeComponent,
+        LanguageComponent,
+        FindLanguageFromKeyPipe,
+        CaruselComponent,
+        HowIsItWorkComponent,
+        StoresComponent,
+        ChooseUsComponent,
+        ReviewsComponent,
+        FaqComponent,
+        AboutUsComponent,
+        PricesComponent,
+        ContactsComponent,
+        PriceComponent,
+        ServicesComponent,
+        HelpsComponent,
+        RestrictionsComponent,
+        MapComponent,
+        StatsComponent,
+        AboutUsSectionComponent,
+    ],
   imports: [
     BrowserModule,
     SharedModule,
