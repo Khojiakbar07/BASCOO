@@ -41,83 +41,8 @@
         </li>
       </ul>
     </div>
-    <div class="connect">
-      <h1>Связаться с нами</h1>
-      <span class="subtitle">Если у вас есть предложения или запросы, не стесняйтесь</span>
-      <div class="connect-content">
-        <div class="connect-name">
-          <span>Полное имя</span>
-          <input class="connect-name-input" placeholder="Напишите свое полное имя"/>
-        </div>
-        <div class="connect-phone">
-          <span>Номер телефона</span>
-          <input class="connect-phone-input" placeholder="namuna@gmail.com"/>
-        </div>
-        <div class="connect-text">
-          <span>Сообщение</span>
-          <input class="connect-text-area" placeholder="Вы можете написать любой запрос"/>
-        </div>
-      </div>
-      <button class="connect-send-button">Отправить</button>
-    </div>
-
-    <div class="contacts" *ngIf="selectedPage === 'uzbekistan'">
-      <div class="contacts-info">
-        <p class="contacts-title">Информация</p>
-
-        <div class="cards">
-
-          <div class="card-icon">
-            <img src="../../../../assets/images/contacts/phone.png" alt="">
-          </div>
-
-          <div>
-            <span>Phone Number</span>
-            <p><a href="tel:+998993530035">+998 99 353 00 35</a></p>
-          </div>
-
-        </div>
-
-        <div class="cards">
-
-          <div class="card-icon">
-            <img src="../../../../assets/images/contacts/phone.png" alt="">
-          </div>
-
-          <div>
-            <span>Phone Number</span>
-            <p><a href="tel:+998993530035">+998 99 353 00 35</a></p>
-          </div>
-
-        </div>
-
-        <div class="cards">
-          <div class="card-icon">
-            <img class="mail" src="../../../../assets/images/contacts/mail.png" alt="">
-          </div>
-          <div>
-            <span>Email Address</span>
-            <p><a href="mailto:u.suyarov@dostlogistics.de">u.suyarov@dostlogistics.de</a></p>
-          </div>
-        </div>
-        <div class="cards">
-          <div class="card-icon">
-            <img src="../../../../assets/images/contacts/location.png" alt="">
-          </div>
-          <div>
-            <span>Office Address</span>
-            <p>Toshkent</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="map-content" *ngIf="selectedPage === 'uzbekistan'">
-        <ya-map [center]="[41.2995, 69.2401]" [zoom]="12">
-          <ya-placemark [geometry]="[41.2995, 69.2401]" [properties]="{ balloonContent: 'Tashkent Location' }"
-                        [options]="{ iconColor: '#058C42' }"></ya-placemark>
-        </ya-map>
-      </div>
-
+    <div class="content">
+      <app-contact-component></app-contact-component>
     </div>
   </div>
 </section>
