@@ -14,7 +14,7 @@ export class LoginComponent {
   submitted = false;
 
   form: FormGroup = new FormGroup({
-    email: new FormControl(''),
+    username: new FormControl(''),
     password: new FormControl(''),
   });
 
@@ -36,7 +36,7 @@ export class LoginComponent {
 
     this.form = this.formBuilder.group(
       {
-        email: ['', [Validators.required, Validators.email]],
+        username: ['', [Validators.required]],
         password: ['', [Validators.required, Validators.minLength(6), Validators.maxLength(40)]],
       }
     );

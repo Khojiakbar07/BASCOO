@@ -1,19 +1,22 @@
 <div class="main-container">
   <div class="register">
+    <h1 class="logo">Bascoo</h1>
     <div class="page-moving">
       <a routerLink="/login" routerLinkActive="active-link">{{'doslogistic.web.help.login.kirish' | translate}}</a>
-      <a routerLink="/register" routerLinkActive="active-link">{{'doslogistic.web.help.login.login' | translate}}</a>
+      <!-- <a routerLink="/register" routerLinkActive="active-link">{{'doslogistic.web.help.login.login' | translate}}</a> -->
     </div>
 
     <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <p class="username-example">пользователь</p>
       <div class="input-field">
-        <input type="email" placeholder="Email address" class="input-style" formControlName="email"
-          [ngClass]="{ 'is-invalid': submitted && f['email'].errors }" autocomplete="this-email" />
-        <div *ngIf="submitted && f['email'].errors" class="invalid-feedback">
-          <div *ngIf="f['email'].errors['required']">Email is required</div>
-          <div *ngIf="f['email'].errors['email']">Email is invalid</div>
+        <input type="username" placeholder="Username" class="input-style" formControlName="username"
+          [ngClass]="{ 'is-invalid': submitted && f['username'].errors }" autocomplete="this-username" />
+        <div *ngIf="submitted && f['username'].errors" class="invalid-feedback">
+          <div *ngIf="f['username'].errors['required']">Username is required</div>
+          <div *ngIf="f['username'].errors['username']">Username is invalid</div>
         </div>
       </div>
+      <p class="password-example">Пароль</p>
       <div class="input-field">
         <input [type]="showPassword ? 'text' : 'password'" placeholder="Password" class="input-style"
           formControlName="password" [ngClass]="{ 'is-invalid': submitted && f['password'].errors }"
@@ -42,19 +45,6 @@
         <button  type="submit">{{ "doslogistic.web.help.login.avtorization" | translate }}</button>
       </div>
     </form>
-    <div class="line-or">
-      <span class="line-text">{{ "doslogistic.web.help.login.or" | translate }}</span>
-    </div>
-    <div class="register-google">
-      <button> <img src="../../../../assets/images/register/google-logo.png" alt="" />{{
-        "doslogistic.web.help.login.google" | translate }}</button>
-    </div>
   </div>
 </div>
 
-
-
-
-<!-- <div class="input-field">
-      <input type="tel" id="mobile_code" placeholder="Номер телефона" name="phone" class="input-style">
-    </div> -->
