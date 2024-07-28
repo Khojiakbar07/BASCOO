@@ -7,6 +7,7 @@
     </div>
 
     <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <p class="username-example">пользователь</p>
       <div class="input-field">
         <input type="username" placeholder="Username" class="input-style" formControlName="username"
           [ngClass]="{ 'is-invalid': submitted && f['username'].errors }" autocomplete="this-username" />
@@ -15,6 +16,7 @@
           <div *ngIf="f['username'].errors['username']">Username is invalid</div>
         </div>
       </div>
+      <p class="password-example">Пароль</p>
       <div class="input-field">
         <input [type]="showPassword ? 'text' : 'password'" placeholder="Password" class="input-style"
           formControlName="password" [ngClass]="{ 'is-invalid': submitted && f['password'].errors }"

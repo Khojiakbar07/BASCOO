@@ -32,6 +32,7 @@
   font-size: 20px;
   font-weight: 400;
   position: relative;
+  margin-bottom: 10px;
 }
 
 .page-moving a:not(.active-link) {
@@ -54,7 +55,12 @@
   transform-origin: center;
   transition: transform 0.3s ease;
 }
-
+.username-example,
+.password-example{
+  font-size: 15px;
+  font-weight: 450;
+  margin: 5px 0px;
+}
 .input-field {
   margin-bottom: 30px;
   display: flex;
