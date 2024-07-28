@@ -8,6 +8,7 @@
 
 .stats-content {
   display: flex;
+  justify-content: space-between;
   gap: 48px;
 }
 
@@ -60,6 +61,7 @@
 
 .stats-numbers {
   display: flex;
+  margin-right: 190px;
 }
 
 .stats-number-container {
