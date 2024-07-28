@@ -1,14 +1,14 @@
 .container {
-  max-height: 900px;
+  max-height: 865px;
 }
 
 ::ng-deep .slick-list {
-  height: 750px !important;
+  height: 865px !important;
 }
 
 [nz-carousel-content] {
   text-align: center;
-  height: 900px;
+  height: 865px;
   line-height: 160px;
   background: #364d79;
   color: #fff;
@@ -19,7 +19,7 @@ img {
   width: 100%;
   object-fit: center;
   position: relative;
-  height: 900px;
+  height: 865px;
 }
 
 h3 {
@@ -37,7 +37,7 @@ h3 {
 
 .service_info {
   position: absolute;
-  top: 150px;
+  top: 200px;
   left: 295px;
   padding: 32px;
   z-index: 9999;
