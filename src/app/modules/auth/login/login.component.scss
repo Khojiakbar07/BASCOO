@@ -8,6 +8,15 @@
   margin-bottom: 90px;
 }
 
+.logo{
+  font-family: Impact;
+  display: flex;
+  font-size: 32px;
+  justify-content: center;
+  color: #223355;
+}
+
+
 .page-moving {
   display: flex;
   justify-content: flex-start;
@@ -26,7 +35,7 @@
 }
 
 .active-link {
-  color: #058c42;
+  color: #223355;
 }
 
 .active-link::after {
@@ -36,7 +45,7 @@
   bottom: -5px;
   width: 100%;
   height: 2px;
-  background-color: #058c42;
+  background-color: #223355;
   transform: scaleX(1);
   transform-origin: center;
   transition: transform 0.3s ease;
@@ -58,7 +67,7 @@
 }
 
 .eye-icon:hover {
-  color: #058c42;
+  color: #223355;
 }
 
 .input-style {
@@ -74,8 +83,8 @@
 
 .input-style:focus {
   outline: none;
-  border-color: #15b342;
-  box-shadow: 0 0 0 2px rgba(5, 140, 66, 0.5); 
+  border-color: #223355;
+  box-shadow: 0 0 0 2px rgba(34,51,85,255); 
 }
 
 ::ng-deep .iti__country-list {
@@ -101,12 +110,12 @@
   margin-bottom: 0;
   font-size: 13px;
   font-weight: 400;
-  color: #15b342;
+  color: #223355;
 }
 
 ::ng-deep.ant-checkbox-checked .ant-checkbox-inner {
-  background-color: #058c42;
-  border: 1px solid #058c42;
+  background-color: #223355;
+  border: 1px solid #223355;
   margin-right: 0;
 }
 
@@ -129,7 +138,7 @@
 .register-button button {
   width: 450px;
   padding: 12px 10px;
-  background-color: #058c42;
+  background-color: #223355;
   border: none;
   border-radius: 6px;
   color: #fff;
@@ -140,7 +149,7 @@
 }
 
 .register-button button:hover {
-  background-color: #15b342;
+  background-color: #162647;
 }
 
 .line-or {

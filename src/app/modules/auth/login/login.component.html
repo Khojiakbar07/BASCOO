@@ -1,8 +1,9 @@
 <div class="main-container">
   <div class="register">
+    <h1 class="logo">Bascoo</h1>
     <div class="page-moving">
       <a routerLink="/login" routerLinkActive="active-link">{{'doslogistic.web.help.login.kirish' | translate}}</a>
-      <a routerLink="/register" routerLinkActive="active-link">{{'doslogistic.web.help.login.login' | translate}}</a>
+      <!-- <a routerLink="/register" routerLinkActive="active-link">{{'doslogistic.web.help.login.login' | translate}}</a> -->
     </div>
 
     <form [formGroup]="form" (ngSubmit)="onSubmit()">
@@ -42,19 +43,6 @@
         <button  type="submit">{{ "doslogistic.web.help.login.avtorization" | translate }}</button>
       </div>
     </form>
-    <div class="line-or">
-      <span class="line-text">{{ "doslogistic.web.help.login.or" | translate }}</span>
-    </div>
-    <div class="register-google">
-      <button> <img src="../../../../assets/images/register/google-logo.png" alt="" />{{
-        "doslogistic.web.help.login.google" | translate }}</button>
-    </div>
   </div>
 </div>
 
-
-
-
-<!-- <div class="input-field">
-      <input type="tel" id="mobile_code" placeholder="Номер телефона" name="phone" class="input-style">
-    </div> -->
