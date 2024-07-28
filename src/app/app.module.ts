@@ -33,6 +33,7 @@ import {AngularYandexMapsModule} from 'angular8-yandex-maps';
 import {StatsComponent} from "./modules/layouts/stats/stats.component";
 import {AboutUsSectionComponent} from "../shared/components/home/about-us/about-us.component";
 import {ContactComponent} from "../shared/components/contacts/contacts.component"
+import {ProjectsComponent} from "../shared/components/projects/projects.component";
 
 
 registerLocaleData(localeRu);
@@ -72,7 +73,8 @@ export function initializeApp(appInitService: AppInitService) {
     MapComponent,
     StatsComponent,
     AboutUsSectionComponent,
-    ContactComponent
+    ContactComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,

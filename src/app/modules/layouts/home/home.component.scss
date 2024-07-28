@@ -1,34 +1,59 @@
-.content{
+//.container {
+//  background-color: #1a2c52;
+//}
+
+.myVideo {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-repeat: repeat;
+  z-index: -100;
+}
+
+.image {
+  position: relative;
+
+  img {
+    height: 560px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+.content {
   padding: 20px 0;
 }
 
-.div{
+.div {
   width: 1320px;
   margin: 0 auto;
 }
 
-.bg-color{
+.bg-color {
   position: relative;
 }
 
 
 @media screen and (max-width: 700px) {
   .bg-color::before,
-  .bg-color::after{
+  .bg-color::after {
     width: 600px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .bg-color::before,
-  .bg-color::after{
+  .bg-color::after {
     width: 450px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .bg-color::before,
-  .bg-color::after{
+  .bg-color::after {
     width: 400px;
   }
 }
