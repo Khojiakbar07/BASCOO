@@ -8,11 +8,11 @@
 
     <form [formGroup]="form" (ngSubmit)="onSubmit()">
       <div class="input-field">
-        <input type="email" placeholder="Email address" class="input-style" formControlName="email"
-          [ngClass]="{ 'is-invalid': submitted && f['email'].errors }" autocomplete="this-email" />
-        <div *ngIf="submitted && f['email'].errors" class="invalid-feedback">
-          <div *ngIf="f['email'].errors['required']">Email is required</div>
-          <div *ngIf="f['email'].errors['email']">Email is invalid</div>
+        <input type="username" placeholder="Username" class="input-style" formControlName="username"
+          [ngClass]="{ 'is-invalid': submitted && f['username'].errors }" autocomplete="this-username" />
+        <div *ngIf="submitted && f['username'].errors" class="invalid-feedback">
+          <div *ngIf="f['username'].errors['required']">Username is required</div>
+          <div *ngIf="f['username'].errors['username']">Username is invalid</div>
         </div>
       </div>
       <div class="input-field">

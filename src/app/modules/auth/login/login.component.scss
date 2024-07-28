@@ -8,7 +8,7 @@
   margin-bottom: 90px;
 }
 
-.logo{
+.logo {
   font-family: Impact;
   display: flex;
   font-size: 32px;
@@ -16,7 +16,11 @@
   color: #223355;
 }
 
-
+.register {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 30px;
+  border-radius: 4%;
+}
 .page-moving {
   display: flex;
   justify-content: flex-start;
@@ -84,7 +88,7 @@
 .input-style:focus {
   outline: none;
   border-color: #223355;
-  box-shadow: 0 0 0 2px rgba(34,51,85,255); 
+  box-shadow: 0 0 0 2px rgba(34, 51, 85, 255);
 }
 
 ::ng-deep .iti__country-list {
@@ -227,7 +231,6 @@
 }
 
 @media screen and (max-width: 768px) {
-
   .main-container {
     margin-top: 40px;
     margin-bottom: 60px;
@@ -288,7 +291,30 @@
   .terms-of-use a {
     font-size: 13px;
   }
+}
 
+@media screen and (max-width: 430px) {
+  .register {
+    padding: 18px;
+  }
+  .input-style {
+    padding: 6px 5px;
+    font-size: 11px;
+    width: 340px;
+  }
+
+  .register-button button {
+    width: 340px;
+    padding: 8px 9px;
+    font-size: 15px;
+  }
+  .terms-of-use p {
+    font-size: 12px;
+  }
+
+  .terms-of-use a {
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-width: 410px) {
@@ -301,12 +327,6 @@
   .register-button button {
     width: 330px;
     padding: 7px 7px;
-    font-size: 14px;
-  }
-
-  .register-google button {
-    width: 330px;
-    padding: 3px 7px;
     font-size: 14px;
   }
 
@@ -337,12 +357,6 @@
   .register-button button {
     width: 310px;
     padding: 6px 7px;
-    font-size: 13px;
-  }
-
-  .register-google button {
-    width: 310px;
-    padding: 3px 7px;
     font-size: 13px;
   }
 
