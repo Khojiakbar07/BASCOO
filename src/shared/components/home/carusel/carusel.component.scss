@@ -1,9 +1,9 @@
 .container {
-  max-height: 865px;
+  max-height: 560px;
 }
 
 ::ng-deep .slick-list {
-  height: 865px !important;
+  height: 560px !important;
 }
 
 [nz-carousel-content] {
@@ -19,7 +19,7 @@ img {
   width: 100%;
   object-fit: center;
   position: relative;
-  height: 865px;
+  height: 650px;
 }
 
 h3 {
@@ -38,29 +38,29 @@ h3 {
 .service_info {
   position: absolute;
   top: 200px;
-  left: 295px;
+  left: 100px;
   padding: 32px;
   z-index: 9999;
-  width: 840px;
-  height: 500px;
+  width: 700px;
+  height: 370px;
   border-radius: 8px;
   background: rgba(14, 28, 60, 0.7);
 }
 
 .service_info .title {
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 400;
-  line-height: 62.4px;
+  line-height: 42px;
   letter-spacing: 0.06em;
   font-family: "Russo One", fantasy;
   color: white;
-  margin-bottom: 32px;
+  margin-bottom: 10px;
 }
 
 .review {
   display: flex;
   flex-direction: column;
-  margin-bottom: 32px;
+  margin-bottom: 2px;
 }
 
 .review > div {
@@ -130,8 +130,8 @@ li {
 button {
   display: flex;
   justify-content: center;
-  width: 306px;
-  height: 64px;
+  width: 290px;
+  height: 57px;
   padding: 12px 24px 12px 24px;
   background-color: #8B1313;
   font-size: 24px;
@@ -141,6 +141,7 @@ button {
   border-radius: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
+  -webkit-user-select: none;
   user-select: none;
 }
 
