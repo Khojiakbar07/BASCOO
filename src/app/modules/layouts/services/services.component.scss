@@ -1,14 +1,23 @@
 .container {
   display: flex;
   flex-direction: column;
-  background-color: #1a2c52;
+}
+.myVideo {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-repeat: repeat;
+  z-index: -100;
 }
 
 h1 {
   font-size: 72px;
   font-weight: 700;
   color: white;
-  margin: 138px 0 64px 122px;
+  margin: 100px 0 100px 160px;
 }
 
 .services-content {
@@ -166,6 +175,9 @@ ul > li > div > span {
 }
 
 .connect-send-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 1008px;
   height: 62px;
   margin-top: 24px;
@@ -176,6 +188,9 @@ ul > li > div > span {
   font-weight: 500;
   color: white;
   transition: background-color 0.3s ease-in-out;
+  svg{
+    margin: 0px 10px;
+  }
 }
 
 .connect-send-button:hover {
