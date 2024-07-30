@@ -1,0 +1,83 @@
+.container {
+  width: 100%;
+  padding: 96px 295px 96px 295px;
+  //background-color: #1a2c52;
+  font-family: Inter, serif;
+}
+
+.about-us-section-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.section-title {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 455px;
+  gap: 24px;
+}
+
+.section-title > h1 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+
+span {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Noto Sans", sans-serif;
+  color: #D1D1D6;
+}
+
+.section-title > ul {
+  margin: 0;
+  padding: 0;
+}
+
+.section-title > ul > li {
+  list-style: none;
+  width: 100%;
+  height: 90px;
+  padding: 16px 0 16px 0;
+}
+
+.section-title > ul > li > img {
+  max-width: 20px;
+  max-height: 20px;
+  user-select: none;
+}
+
+.section-title > ul > li > span {
+  margin-left: 10px;
+}
+
+.section-image {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.upper-banner {
+  width: 520px;
+  height: 260px;
+  //width: 100%;
+  border-radius: 12px;
+}
+
+.lower-banner {
+  display: flex;
+  flex-direction: row;
+  border-radius: 12px;
+  gap: 30px;
+}
+
+.lower-banner-1,
+.lower-banner-2 {
+  width: 250px;
+  height: 200px;
+}

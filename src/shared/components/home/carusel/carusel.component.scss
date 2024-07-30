@@ -1,21 +1,21 @@
-.container{
+.container {
   max-height: 560px;
 }
 
-::ng-deep .slick-list{
+::ng-deep .slick-list {
   height: 560px !important;
 }
 
 [nz-carousel-content] {
   text-align: center;
-  height: 560px;
+  height: 865px;
   line-height: 160px;
   background: #364d79;
   color: #fff;
   overflow: hidden;
 }
 
-img{
+img {
   width: 100%;
   object-fit: center;
   position: relative;
@@ -29,48 +29,133 @@ h3 {
 }
 
 // slick-dots slick-dots-bottom ng-star-inserted
-::ng-deep .slick-dots{
+::ng-deep .slick-dots {
   justify-content: end !important;
   position: absolute !important;
   bottom: 20% !important;
 }
 
 .service_info {
-	padding: 30px 30px 40px 40px;
-  z-index: 1111;
   position: absolute;
-  top: 280px;
-  left: 125px;
-  width: 485px;
-	border-radius: 32px;
-	transform: translateY(120px);
-	display: inline-block;
-	border: 1px solid var(--Primary, #058C42);
-	background: var(--White, #FFF);
-	box-shadow: 0px 10px 32px 0px rgba(167, 201, 87, 0.20), 0px 2px 12px 0px rgba(167, 201, 87, 0.12);
+  top: 200px;
+  left: 100px;
+  padding: 32px;
+  z-index: 9999;
+  width: 700px;
+  height: 370px;
+  border-radius: 8px;
+  background: rgba(14, 28, 60, 0.7);
 }
 
 .service_info .title {
-	color: var(--Primary, #058C42);
-	font-size: 40px;
-	font-weight: 800;
-	margin-bottom: 16px;
-}
-.service_info .desc {
-	color: var(--Border-Color, #5F5F5F);
-	font-size: 20px;
-	margin-bottom: 16px;
-}
-.service_info .main_button {
-	margin-left: 0;
-  margin-top: 30px !important;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0.06em;
+  font-family: "Russo One", fantasy;
+  color: white;
+  margin-bottom: 10px;
 }
 
-.main_button a {
-	color: var(--White, #FFF);
-	padding: 12px 24px;
-	border-radius: 16px;
-	background: var(--Primary, #058C42);
+.review {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2px;
+}
+
+.review > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.review-avatar {
+  width: 65px;
+  height: 65px;
+  padding: 8px 8px 8px 0;
+  transition: .3s;
+}
+
+.review-avatar:hover {
+  transform: scale(1.1);
+}
+
+.review-owner {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Inter, serif;
+  color: white;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  gap: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+.review-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.review-content > ul > li > img {
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  padding: 0;
+  transition: transform 300ms;
+  user-select: none;
+}
+
+.review-content > ul > li > img:hover {
+  transform: translateY(-5px);
+}
+
+.subtitle {
+  width: 450px;
+  height: 52px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Inter, serif;
+  margin-bottom: 28px;
+  color: #C7E1F6;
+}
+
+
+button {
+  display: flex;
+  justify-content: center;
+  width: 290px;
+  height: 57px;
+  padding: 12px 24px 12px 24px;
+  background-color: #8B1313;
+  font-size: 24px;
+  font-weight: 400;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+button > img {
+  width: 32px;
+  height: 32px;
+  left: 9.33px;
+  border-radius: 2px;
+  color: #FFFFFF;
+}
+
+
+button:hover {
+  background-color: #b41313;
 }
 
 @media screen and (max-width: 1320px) {
@@ -80,10 +165,10 @@ h3 {
     top: 230px;
     left: 130px;
   }
-  .service_info .title{
+  .service_info .title {
     font-size: 38px;
-	  font-weight: 800;
-	  margin-bottom: 16px;
+    font-weight: 800;
+    margin-bottom: 16px;
   }
 }
 
@@ -100,7 +185,7 @@ h3 {
     font-size: 18px;
     margin-bottom: 16px;
   }
-  
+
   .main_button a {
     padding: 9px 18px;
     border-radius: 16px;
@@ -111,10 +196,10 @@ h3 {
   [nz-carousel-content] {
     height: 530px;
   }
-  ::ng-deep .slick-list{
+  ::ng-deep .slick-list {
     height: 530px !important;
   }
-  img{
+  img {
     height: 530px;
   }
   .service_info {
@@ -132,7 +217,7 @@ h3 {
     font-size: 16px;
     margin-bottom: 16px;
   }
-  
+
   .main_button a {
     padding: 9px 16px;
   }
@@ -142,10 +227,10 @@ h3 {
   [nz-carousel-content] {
     height: 450px;
   }
-  ::ng-deep .slick-list{
+  ::ng-deep .slick-list {
     height: 450px !important;
   }
-  img{
+  img {
     height: 450px;
   }
   .service_info {
@@ -163,7 +248,7 @@ h3 {
     font-size: 16px;
     margin-bottom: 16px;
   }
-  
+
   .main_button a {
     padding: 9px 16px;
   }
@@ -173,10 +258,10 @@ h3 {
   [nz-carousel-content] {
     height: 430px;
   }
-  ::ng-deep .slick-list{
+  ::ng-deep .slick-list {
     height: 430px !important;
   }
-  img{
+  img {
     height: 430px;
   }
   .service_info {
@@ -194,7 +279,7 @@ h3 {
     font-size: 16px;
     margin-bottom: 16px;
   }
-  
+
   .main_button a {
     padding: 8px 14px;
   }
@@ -204,10 +289,10 @@ h3 {
   [nz-carousel-content] {
     height: 420px;
   }
-  ::ng-deep .slick-list{
+  ::ng-deep .slick-list {
     height: 420px !important;
   }
-  img{
+  img {
     height: 420px;
   }
   .service_info {
@@ -225,7 +310,7 @@ h3 {
     font-size: 14px;
     margin-bottom: 12px;
   }
-  
+
   .main_button a {
     padding: 8px 12px;
   }
@@ -235,13 +320,13 @@ h3 {
   [nz-carousel-content] {
     height: 360px;
   }
-  ::ng-deep .slick-list{
+  ::ng-deep .slick-list {
     height: 360px !important;
   }
-  img{
+  img {
     height: 360px;
   }
-  ::ng-deep .slick-dots{
+  ::ng-deep .slick-dots {
     bottom: 5% !important;
     right: 24% !important;
   }
@@ -252,7 +337,7 @@ h3 {
     width: 340px;
     background: none;
     border: none;
-    box-shadow:none;
+    box-shadow: none;
   }
   .service_info .title {
     color: #FFF;
@@ -266,7 +351,7 @@ h3 {
     margin-bottom: 10px;
     color: #FFF;
   }
-  
+
   .main_button a {
     padding: 6px 11px;
   }
@@ -276,13 +361,13 @@ h3 {
   [nz-carousel-content] {
     height: 330px;
   }
-  ::ng-deep .slick-list{
+  ::ng-deep .slick-list {
     height: 330px !important;
   }
-  img{
+  img {
     height: 330px;
   }
-  ::ng-deep .slick-dots{
+  ::ng-deep .slick-dots {
     bottom: 0% !important;
     right: 21% !important;
   }
@@ -293,7 +378,7 @@ h3 {
     width: 320px;
     background: none;
     border: none;
-    box-shadow:none;
+    box-shadow: none;
   }
   .service_info .title {
     color: #FFF;
@@ -307,7 +392,7 @@ h3 {
     margin-bottom: 10px;
     color: #FFF;
   }
-  
+
   .main_button a {
     padding: 4px 11px;
   }
@@ -317,10 +402,10 @@ h3 {
   [nz-carousel-content] {
     height: 300px;
   }
-  ::ng-deep .slick-list{
+  ::ng-deep .slick-list {
     height: 300px !important;
   }
-  img{
+  img {
     height: 300px;
   }
   .service_info {
@@ -341,7 +426,7 @@ h3 {
     margin-bottom: 5px;
     color: #FFF;
   }
-  
+
   .main_button a {
     padding: 4px 11px;
   }
