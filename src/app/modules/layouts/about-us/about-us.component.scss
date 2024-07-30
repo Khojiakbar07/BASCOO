@@ -18,16 +18,31 @@
     background-repeat: repeat;
     z-index: -100;
   }
-
-.image {
-    position: relative;
-
-    img {
-        height: 560px;
-        width: 100%;
-        object-fit: cover;
-    }
-}
+  .text-content {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 145px;
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    margin-top: 80px;
+  }
+//   .text-content {
+//     // max-width: fit-content;
+//     display: flex;
+//     justify-content: flex-start;
+//     // margin-left: auto;
+//     // margin-right: auto;
+//     gap: 24px;
+//     h2 {
+//       display: flex;
+//       justify-content: flex-start;
+//       font-size: 72px;
+//       font-weight: 700;
+//       color: white;
+//       margin-top: 80px;
+//     }
+//   }
 
 .image-text {
     position: absolute;
