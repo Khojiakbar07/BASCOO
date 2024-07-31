@@ -18,16 +18,31 @@
     background-repeat: repeat;
     z-index: -100;
   }
-
-.image {
-    position: relative;
-
-    img {
-        height: 560px;
-        width: 100%;
-        object-fit: cover;
-    }
-}
+  .text-content {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 110px;
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    margin-top: 80px;
+  }
+//   .text-content {
+//     // max-width: fit-content;
+//     display: flex;
+//     justify-content: flex-start;
+//     // margin-left: auto;
+//     // margin-right: auto;
+//     gap: 24px;
+//     h2 {
+//       display: flex;
+//       justify-content: flex-start;
+//       font-size: 72px;
+//       font-weight: 700;
+//       color: white;
+//       margin-top: 80px;
+//     }
+//   }
 
 .image-text {
     position: absolute;
@@ -79,7 +94,7 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    gap: 237px;
+    gap: 300px;
     margin-top: 10px;
     
     .wel-img{
@@ -88,31 +103,7 @@
             height:400px;
             // z-index: -2;
         }
-        .rectangle{
-            border: none;
-            display: flex;
-            transform: translate(0%, -450%);
-            justify-content: center;
-        }
-        .autoplay{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            z-index: 3;
-            height: 55px;
-            width: 55px;
-            border-radius: 50%;
-            border: none;
-        }
-        .fa-play{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 25px;
-            height: 25px;
-        }
     }
-    
 }
 
 .wel-txt {
@@ -144,34 +135,12 @@
     justify-content: center;
     padding-top: 150px;
     padding-bottom: 100px;
-    .rectangle{
-        border: none;
-        display: flex;
-        transform: translate(500%, 45%);
-        justify-content: center;
-        z-index:3;
-    }
-    .autoplay{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 3;
-        height: 55px;
-        width: 55px;
-        border-radius: 50%;
-        border: none;
-    }
-    .fa-play{
-        width: 25px;
-        height: 25px;
-    }
-
 }
 
 .service-txt {
     display: flex;
     align-items: flex-start;
-    gap: 237px;
+    gap: 300px;
     position: relative;
 
     img {
