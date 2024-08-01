@@ -72,7 +72,7 @@ h3 {
   width: 65px;
   height: 65px;
   padding: 8px 8px 8px 0;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .review-avatar:hover {
@@ -123,9 +123,8 @@ li {
   font-weight: 400;
   font-family: Inter, serif;
   margin-bottom: 28px;
-  color: #C7E1F6;
+  color: #c7e1f6;
 }
-
 
 button {
   display: flex;
@@ -133,10 +132,10 @@ button {
   width: 290px;
   height: 57px;
   padding: 12px 24px 12px 24px;
-  background-color: #8B1313;
+  background-color: #8b1313;
   font-size: 24px;
   font-weight: 400;
-  color: #FFFFFF;
+  color: #ffffff;
   border: none;
   border-radius: 16px;
   cursor: pointer;
@@ -150,9 +149,8 @@ button > img {
   height: 32px;
   left: 9.33px;
   border-radius: 2px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-
 
 button:hover {
   background-color: #b41313;
@@ -172,23 +170,58 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
   .service_info {
-    padding: 30px 35px 35px 35px;
+    padding: 30px 30px 40px 40px;
+    width: 500px;
+    top: 230px;
+    left: 50px;
   }
   .service_info .title {
-    font-size: 35px;
+    font-size: 33px;
     font-weight: 800;
     margin-bottom: 15px;
   }
-  .service_info .desc {
-    font-size: 18px;
-    margin-bottom: 16px;
+  button {
+    width: 280px;
+    height: 40px;
+    padding: 0px 24px;
+    font-size: 23px;
+    font-weight: 400;
   }
 
-  .main_button a {
-    padding: 9px 18px;
-    border-radius: 16px;
+  button > img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    width: 32px;
+    height: 32px;
+  }
+  .subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .service_info {
+    padding: 30px;
+    width: 500px;
+    top: 230px;
+    left: 45px;
+  }
+  .service_info .title {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 15px;
+  }
+  .subtitle {
+    width: 450px;
+    height: 52px;
+    font-size: 19px;
+    font-family: Inter;
+    margin-bottom: 25px;
   }
 }
 
@@ -213,14 +246,6 @@ button:hover {
     font-weight: 800;
     margin-bottom: 15px;
   }
-  .service_info .desc {
-    font-size: 16px;
-    margin-bottom: 16px;
-  }
-
-  .main_button a {
-    padding: 9px 16px;
-  }
 }
 
 @media screen and (max-width: 920px) {
@@ -235,22 +260,22 @@ button:hover {
   }
   .service_info {
     padding: 28px;
-    width: 370px;
-    top: 190px;
-    left: 120px;
+    width: 470px;
+    top: 130px;
+    left: 40px;
+    height: 330px;
   }
   .service_info .title {
     font-size: 24px;
     font-weight: 800;
+    margin-bottom: 5px;
+  }
+  .subtitle {
+    width: 450px;
+    height: 52px;
+    font-size: 18px;
+    font-family: Inter;
     margin-bottom: 15px;
-  }
-  .service_info .desc {
-    font-size: 16px;
-    margin-bottom: 16px;
-  }
-
-  .main_button a {
-    padding: 9px 16px;
   }
 }
 
@@ -266,26 +291,14 @@ button:hover {
   }
   .service_info {
     padding: 22px;
-    width: 340px;
-    top: 180px;
-    left: 100px;
-  }
-  .service_info .title {
-    font-size: 24px;
-    font-weight: 800;
-    margin-bottom: 15px;
-  }
-  .service_info .desc {
-    font-size: 16px;
-    margin-bottom: 16px;
-  }
-
-  .main_button a {
-    padding: 8px 14px;
+    width: 460px;
+    top: 130px;
+    left: 40px;
+    height: 320px;
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 769px) {
   [nz-carousel-content] {
     height: 420px;
   }
@@ -296,23 +309,46 @@ button:hover {
     height: 420px;
   }
   .service_info {
-    padding: 20px;
-    width: 311px;
-    top: 240px;
-    left: 75px;
+    padding: 28px;
+    width: 470px;
+    top: 130px;
+    left: 40px;
+    height: 330px;
   }
   .service_info .title {
+    font-size: 22px;
+  }
+  .subtitle {
+    width: 450px;
+    height: 52px;
+    font-size: 18px;
+    font-family: Inter;
+    margin-bottom: 15px;
+  }
+  .review-avatar {
+    width: 60px;
+    height: 60px;
+    padding: 6px 6px 6px 0;
+    transition: 0.3s;
+  }
+  .review-owner {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  button {
+    width: 240px;
+    height: 35px;
+    padding: 2px 18px 2px 18px;
     font-size: 19px;
-    font-weight: 700;
-    margin-bottom: 12px;
+    font-weight: 400;
   }
-  .service_info .desc {
-    font-size: 14px;
-    margin-bottom: 12px;
-  }
-
-  .main_button a {
-    padding: 8px 12px;
+  button > img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 30px;
+    height: 30px;
   }
 }
 
@@ -331,29 +367,21 @@ button:hover {
     right: 24% !important;
   }
   .service_info {
-    padding: 18px;
-    top: -12px;
-    left: 20px;
-    width: 340px;
-    background: none;
-    border: none;
-    box-shadow: none;
+    padding: 20px;
+    width: 450px;
+    top: 87px;
+    left: 40px;
+    height: 300px;
   }
   .service_info .title {
-    color: #FFF;
-    font-size: 29px;
-    font-weight: 800;
-    margin-bottom: 10px;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
   }
-  .service_info .desc {
-    font-size: 16px;
-    font-weight: 500;
+  .subtitle {
+    width: 410px;
+    font-size: 18px;
     margin-bottom: 10px;
-    color: #FFF;
-  }
-
-  .main_button a {
-    padding: 6px 11px;
   }
 }
 
@@ -372,29 +400,7 @@ button:hover {
     right: 21% !important;
   }
   .service_info {
-    padding: 18px;
-    top: 0px;
-    left: 0px;
-    width: 320px;
-    background: none;
-    border: none;
-    box-shadow: none;
-  }
-  .service_info .title {
-    color: #FFF;
-    font-size: 24px;
-    font-weight: 800;
-    margin-bottom: 10px;
-  }
-  .service_info .desc {
-    font-size: 13px;
-    font-weight: 500;
-    margin-bottom: 10px;
-    color: #FFF;
-  }
-
-  .main_button a {
-    padding: 4px 11px;
+    display: none;
   }
 }
 
@@ -407,27 +413,5 @@ button:hover {
   }
   img {
     height: 300px;
-  }
-  .service_info {
-    padding: 13px 15px;
-    top: 0px;
-    left: 0px;
-    width: 270px;
-  }
-  .service_info .title {
-    color: #FFF;
-    font-size: 22px;
-    font-weight: 700;
-    margin-bottom: 5px;
-  }
-  .service_info .desc {
-    font-size: 12px;
-    font-weight: 500;
-    margin-bottom: 5px;
-    color: #FFF;
-  }
-
-  .main_button a {
-    padding: 4px 11px;
   }
 }
