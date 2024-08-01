@@ -102,6 +102,18 @@ ul > li > div > span {
     margin: 90px 0 90px 65px;
   }
 }
+@media screen and (max-width: 1280px) {
+  h1 {
+    font-size: 72px;
+    font-weight: 700;
+    color: white;
+    margin: 90px 0 90px 38px;
+  }
+  ul > li > div {
+    width: 370px;
+    height: 370px;
+  }
+}
 @media screen and (max-width: 1200px) {
   h1 {
     font-size: 72px;
@@ -114,7 +126,7 @@ ul > li > div > span {
     height: 360px;
   }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   h1 {
     font-size: 60px;
     font-weight: 600;
