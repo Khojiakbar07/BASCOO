@@ -19,7 +19,7 @@ img {
   width: 100%;
   object-fit: center;
   position: relative;
-  height: 650px;
+  height: 560px;
 }
 
 h3 {
@@ -158,11 +158,11 @@ button:hover {
 
 @media screen and (max-width: 1320px) {
   .service_info {
-    padding: 30px 30px 40px 40px;
-    width: 450px;
+    padding: 25px 30px 25px 40px;
+    width: 620px;
     top: 230px;
-    left: 130px;
-  }
+    left: 70px;
+}
   .service_info .title {
     font-size: 38px;
     font-weight: 800;

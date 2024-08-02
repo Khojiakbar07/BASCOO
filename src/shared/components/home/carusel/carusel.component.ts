@@ -11,9 +11,9 @@ export class CaruselComponent {
   array= [
     "../../../../assets/images/carusel/DSC.jpg",
     "../../../../assets/images/carusel/LSBB.jpg",
-    "../../../../assets/images/carusel/LED-Display.jpg",
-    "../../../../assets/images/carusel/LED-Display1.jpg",
+    "../../../../assets/images/carusel/Office.png",
     "../../../../assets/images/carusel/LED-Display2.webp",
-    "../../../../assets/images/carusel/banner1.jpg",
+    "../../../../assets/images/carusel/ITC.jpg",
+    "../../../../assets/images/carusel/ITC1.jpg",
   ]
 }

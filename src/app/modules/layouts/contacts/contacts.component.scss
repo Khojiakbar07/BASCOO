@@ -661,14 +661,52 @@
       margin-left: 25px;
     }
   }
+  @media (max-width: 396px) {
+    .services-content {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      max-width: 395px;
+      h1 {
+        font-size: 28px;
+        font-weight: 500;
+        margin: 0;
+      }
+      h2 {
+        margin-left: 25px;
+      }
+    }
+    .connect {
+      width: 370px;
+      margin: 80px 25px 40px 25px;
+      padding: 35px 30px;
+    }
+    .connect-send-button {
+      width: 310px;
+      height: 35px;
+    }
+  }
   .connect {
-    width: 370px;
-    margin: 80px 25px 40px 25px;
+    width: 360px;
+    margin: 80px 15px 40px 15px;
     padding: 35px 30px;
   }
   .connect-send-button {
-    width: 310px;
+    width: 300px;
     height: 35px;
+  }
+  .contacts-info {
+    max-width: 352px;
+    height: 420px;
+    font-size: 21px;
+    padding: 27px 27px;
+    margin-left: 22px;
+    margin-bottom: 30px;
+  }
+  .map-content {
+    width: 340px;
+    height: 380px;
+    margin: 30px 0 0 28px;
   }
 }
 @media (max-width: 391px) {
