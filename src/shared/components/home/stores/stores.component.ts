@@ -28,35 +28,35 @@ export class StoresComponent {
   cards = [
     {
       id: 1,
-      image: '../../../../assets/images/carausel-shops/icons8-amazon.svg'
+      image: '../../../../assets/images/carausel-shops/Google.png'
     },
     {
       id: 2,
-      image: '../../../../assets/images/carausel-shops/icons8-apple.svg'
+      image: '../../../../assets/images/carausel-shops/Atlassian.png'
     },
     {
       id: 3,
-      image: '../../../../assets/images/carausel-shops/icons8-ebay.svg'
+      image: '../../../../assets/images/carausel-shops/Dropbox.png'
     },
     {
       id: 4,
-      image: '../../../../assets/images/carausel-shops/icons8-iherb.svg'
+      image: '../../../../assets/images/carausel-shops/Amazon.png'
     },
     {
       id: 5,
-      image: '../../../../assets/images/carausel-shops/icons8-microsoft.svg'
+      image: '../../../../assets/images/carausel-shops/Hubspot.png'
     },
     {
       id: 6,
-      image: '../../../../assets/images/carausel-shops/icons8-uniqlo.svg'
+      image: '../../../../assets/images/carausel-shops/Atlassian.png'
     },
     {
       id: 7,
-      image: '../../../../assets/images/carausel-shops/icons8-nike.svg'
+      image: '../../../../assets/images/carausel-shops/Google.png'
     },
     {
       id: 8,
-      image: '../../../../assets/images/carausel-shops/icons8-walmart.svg'
+      image: '../../../../assets/images/carausel-shops/Dropbox.png'
     },
   ];
 }

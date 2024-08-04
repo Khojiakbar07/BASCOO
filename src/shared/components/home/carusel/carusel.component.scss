@@ -19,7 +19,7 @@ img {
   width: 100%;
   object-fit: center;
   position: relative;
-  height: 650px;
+  height: 560px;
 }
 
 h3 {
@@ -32,7 +32,7 @@ h3 {
 ::ng-deep .slick-dots {
   justify-content: end !important;
   position: absolute !important;
-  bottom: 20% !important;
+  bottom: 18% !important;
 }
 
 .service_info {
@@ -41,7 +41,7 @@ h3 {
   left: 110px;
   padding: 32px;
   z-index: 9999;
-  width: 700px;
+  width: 670px;
   height: 370px;
   border-radius: 8px;
   background: rgba(14, 28, 60, 0.7);
@@ -52,7 +52,7 @@ h3 {
   font-weight: 400;
   line-height: 42px;
   letter-spacing: 0.06em;
-  font-family: "Russo One", fantasy;
+  font-family: "Russo One";
   color: white;
   margin-bottom: 10px;
 }
@@ -158,11 +158,11 @@ button:hover {
 
 @media screen and (max-width: 1320px) {
   .service_info {
-    padding: 30px 30px 40px 40px;
-    width: 450px;
+    padding: 25px 30px 25px 40px;
+    width: 620px;
     top: 230px;
-    left: 130px;
-  }
+    left: 70px;
+}
   .service_info .title {
     font-size: 38px;
     font-weight: 800;

@@ -8,7 +8,7 @@ import { PriceComponent } from './modules/layouts/price/price.component';
 import { ContactsComponent } from './modules/layouts/contacts/contacts.component';
 import { ServicesComponent } from './modules/layouts/services/services.component';
 import { HelpsComponent } from './modules/layouts/helps/helps.component';
-import { RestrictionsComponent } from 'src/shared/components/restrictions/restrictions.component';
+
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -21,7 +21,7 @@ const routes: Routes = [
   { path: 'solutions', component: ServicesComponent },
   { path: 'login', component: LoginComponent },
   { path: 'register' , component:RegisterComponent },
-  { path: 'restrictions' , component: RestrictionsComponent }
+ 
 ];
 
 @NgModule({

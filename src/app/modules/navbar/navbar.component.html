@@ -2,7 +2,8 @@
   <div class="content">
 
     <div class="logo-details" routerLink="/">
-      <img src="../../../assets/images/logo.png" alt="">
+      <!-- <img src="../../../assets/images/logo.png" alt=""> -->
+       <h1 class="logo-text">Bascoo</h1>
     </div>
 
     <div class="nav-sty">
@@ -15,16 +16,16 @@
         <!-- <p routerLink="/helps" routerLinkActive="active-link">{{'doslogistic.web.navbar.help' | translate}}</p> -->
         <p routerLink="/solutions" routerLinkActive="active-link">Решения</p>
         <p routerLink="/projects" routerLinkActive="active-link">Проекты</p>
-        <p routerLink="/contacts" routerLinkActive="active-link">{{'doslogistic.web.navbar.contacts' | translate}}</p>
       </div>
-
+      <p class="contact" routerLink="/contacts" routerLinkActive="active-link">{{'doslogistic.web.navbar.contacts' | translate}}</p>
+      
       <div class="langu">
         <app-language></app-language>
       </div>
-
-      <div class="auth">
+      
+      <!-- <div class="auth">
         <button routerLink="/login" (click)="closeMenu()">{{'doslogistic.web.navbar.login' | translate}}</button>
-      </div>
+      </div> -->
 
     </div>
 
@@ -51,19 +52,20 @@
     <p routerLink="/" (click)="toggleSidebar()">Главная</p>
     <p routerLink="/solutions" routerLinkActive="active-link" (click)="toggleSidebar()">Решения</p>
     <p routerLink="/projects" routerLinkActive="active-link" (click)="toggleSidebar()">Проекты</p>
-    <p routerLink="/contacts" routerLinkActive="active-link" (click)="toggleSidebar()">
+    
+    <p class="contact" routerLink="/contacts" routerLinkActive="active-link" (click)="toggleSidebar()">
       {{'doslogistic.web.navbar.contacts'
       | translate}}</p>
-
-    <div class="langu">
-      <app-language></app-language>
+      
+      <div class="langu">
+        <app-language></app-language>
+      </div>
+      
+      <!-- <div class="auth2">
+        <button routerLink="/login" (click)="closeMenu()">{{'doslogistic.web.navbar.login' | translate}}</button>
+      </div> -->
     </div>
 
-    <div class="auth2">
-      <button routerLink="/register" (click)="closeMenu()">{{'doslogistic.web.navbar.register' | translate}}</button>
-    </div>
-
-  </div>
 </div>
 
 

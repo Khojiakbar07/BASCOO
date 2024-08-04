@@ -312,7 +312,7 @@
     width: 350px;
     height: 100%;
     margin: 0 0 16px 16px;
-}
+  }
 }
 @media screen and (max-width: 376px) {
   .welcome-content .wel-img img,
@@ -320,5 +320,20 @@
     width: 350px;
     height: 300px;
     margin-left: 10px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .welcome-content .wel-img img,
+  .service-txt .user-image {
+    width: 330px;
+    height: 290px;
+    margin-left: 10px;
+  }
+  .wel-txt p {
+    font-weight: 350;
+    font-size: 16px;
+    width: 325px;
+    height: 100%;
+    margin: 0 0 0 16px;
   }
 }

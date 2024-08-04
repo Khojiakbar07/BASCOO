@@ -19,7 +19,7 @@
 }
 
 .lang-text {
-  color: #fff;
+  color: #000;
   font-weight: 400;
   font-size: 16px;
   margin-bottom: 0;
@@ -30,8 +30,10 @@
 }
 
 button {
-  border: none;
-  padding: 0px !important;
+  border: 2px solid #fff;
+  background-color: #dfeefa;
+  border-radius: 16px;
+  padding: 6px 13px !important;
   display: flex;
   text-align: center;
   height: auto;
@@ -39,6 +41,11 @@ button {
   cursor: pointer;
   gap: 10px;
   align-items: center;
+}
+button:hover,button::before,
+button:hover::after, button::after,
+button:active , button:focus{
+  background-color: #dfeefa;
 }
 
 .modal {
@@ -65,7 +72,7 @@ button {
   .lang-text {
     font-size: 18px;
     padding-top: 5px;
-    color: #fff;
+    color: #000;
   }
 
   .lang {
@@ -75,6 +82,6 @@ button {
 }
 @media (max-width: 760px) {
   .lang-text {
-    color: #fff;
+    color: #000;
   }
 }
