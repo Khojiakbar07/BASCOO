@@ -24,7 +24,7 @@
   cursor: pointer;
 
   .logo-text {
-    font-size: 65px;
+    font-size: 50px;
     font-family: Impact;
     color: #fff;
     margin: 0 0 0 12px;
@@ -80,13 +80,23 @@
     }
   }
 }
-
-.calculator {
-  display: flex;
-  align-items: center;
-  gap: 10px;
+.contact{
+  border: 2px solid #8b1313;
+  background-color: #8b1313;
+  border-radius: 16px;
+  padding: 8px 10px;
+  margin-bottom: 0;
   cursor: pointer;
+  position: relative;
+  transition: color 0.3s ease;
+
+  &:hover , &::after ,
+  &:hover::after,&.active-link::after{
+    background-color: #b41313;
+    border:2px solid #b41313;
+  }
 }
+
 
 .langu {
   display: flex;
@@ -162,7 +172,7 @@
   justify-content: flex-end;
   align-items: center;
   display: flex;
-  padding: 20px;
+  padding: 20px 40px;
 
   img {
     width: 22px;
@@ -278,7 +288,7 @@
     height: 70px;
   }
   .logo-details .logo-text {
-    font-size: 62px;
+    font-size: 50px;
     margin: 0 0 0 12px;
   }
 }
@@ -288,7 +298,7 @@
     width:1240px;
   }
   .logo-details .logo-text {
-    font-size: 60px;
+    font-size: 48px;
     margin: 0 0 0 12px;
   }
 }
@@ -297,7 +307,7 @@
     width:1180px;
   }
   .logo-details .logo-text {
-    font-size: 60px;
+    font-size: 47px;
     margin: 0 0 0 12px;
   }
   .nav-sty {
@@ -323,7 +333,7 @@
     width:1000px;
   }
   .logo-details .logo-text {
-    font-size: 60px;
+    font-size: 46px;
     margin: 0 0 0 12px;
   }
   .nav-sty,
@@ -347,7 +357,7 @@
     width:900px;
   }
   .logo-details .logo-text {
-    font-size: 55px;
+    font-size: 46px;
     margin: 0 0 0 12px;
   }
 }
@@ -357,7 +367,7 @@
     width:780px;
   }
   .logo-details .logo-text {
-    font-size: 55px;
+    font-size: 44px;
     margin: 0 0 0 12px;
   }
 }
@@ -386,7 +396,7 @@
     width:520px;
   }
   .logo-details .logo-text {
-    font-size: 35px;
+    font-size: 30px;
     margin: 0 0 0 12px;
   }
   .modal-content {
@@ -399,7 +409,7 @@
     width:450px;
   }
   .logo-details .logo-text {
-    font-size: 35px;
+    font-size: 30px;
     margin: 0px;
   }
   .logo-details {
