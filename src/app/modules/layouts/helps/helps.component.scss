@@ -2,7 +2,53 @@
   --bg-color: #bff1c4;
   --main-color: #058c42;
 }
+//image
 
+.Image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.project-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.image-grid {
+  display: flex;
+  align-items: flex-start;
+}
+
+.image-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.image-column img,
+.main-image img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.image-column img {
+  width: 200px;
+  height: 150px; /* Adjust as needed */
+}
+
+.main-image {
+  margin-left: 20px;
+}
+
+.main-image img {
+  max-width: 790px;
+  height: 490px;
+  border-radius: 10px;
+}
+//image
 .main-container {
   display: flex;
   padding-top: 40px;
