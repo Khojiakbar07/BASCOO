@@ -93,6 +93,42 @@ ul > li > div > span {
   background-image: url('../../../../assets/images/services/gifs/studio.gif');
 }
 
+///button
+.service-cards > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  height: 54px;
+  width: 260px;
+  border-radius: 16px;
+  background-color: #8b1313;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  border: none;
+}
+
+.service-cards > button:hover {
+  background-color: #b41313;
+}
+
+.service-cards > button > img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+}
+.service-cards > button > h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+
+/// button
 
 @media screen and (max-width: 1320px) {
   h1 {
@@ -145,6 +181,9 @@ ul > li > div > span {
     font-weight: 700;
     color: white;
   }
+  .service-cards > button {
+    margin-left:20px;
+  }
 }
 @media screen and (max-width: 913px) {
   h1 {
@@ -185,6 +224,17 @@ ul > li > div > span {
     font-size: 18px;
     font-weight: 700;
     color: white;
+  }
+  .service-cards > button {
+    height: 50px;
+    width: 240px;
+  }
+  .service-cards > button > h3 {
+    font-size: 22px;
+  }
+  .service-cards > button > img {
+    width: 30px;
+    height: 30px;
   }
 }
 @media screen and (max-width: 821px) {
@@ -251,6 +301,17 @@ ul > li > div > span {
     font-weight: 700;
     color: white;
   }
+  .service-cards > button {
+    height: 46px;
+    width: 220px;
+  }
+  .service-cards > button > h3 {
+    font-size: 21px;
+  }
+  .service-cards > button > img {
+    width: 30px;
+    height: 30px;
+  }
 }
 @media screen and (max-width: 431px) {
   ul {
@@ -271,6 +332,10 @@ ul > li > div > span {
     font-size: 13px;
     font-weight: 700;
     color: white;
+  }
+  .service-cards > button {
+    height: 44px;
+    width: 210px;
   }
 }
 @media screen and (max-width: 415px) {
