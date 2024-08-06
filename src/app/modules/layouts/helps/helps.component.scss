@@ -1,14 +1,18 @@
-:root {
-  --bg-color: #bff1c4;
-  --main-color: #1a2c52;
-}
-//image
-
 .Image-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 20px;
+}
+.myVideo {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-repeat: repeat;
+  z-index: -100;
 }
 
 .project-title {
@@ -59,7 +63,8 @@
 }
 
 .dropdown-nav {
-  border: 1px solid #eaedf3;
+  border: 1.5px solid #dfeefa;
+  background-color: #dfeefa;
   width: 260px;
   height: 255px;
   margin-bottom: 30px;
@@ -74,13 +79,15 @@
   }
 
   p:hover {
-    color: #1a2c52;
-    background-color:#408bb1;
+    color: #fff;
+    background-color: #408bb1;
+    border-radius: 0.5rem;
   }
 }
 
 .question-box {
   border: 1px solid #1a2c52;
+  background-color: #fff;
   width: 260px;
   display: flex;
   flex-direction: column;
@@ -144,6 +151,7 @@
   h3 {
     font-weight: 550;
     font-size: 1.3rem;
+    color: #fff;
   }
 }
 
@@ -160,7 +168,7 @@
 }
 
 .content {
-  color: black;
+  color: #fff;
   border: 1px solid #eaedf3;
 }
 
@@ -175,7 +183,7 @@
 
   &.clicked {
     color: #1a2c52;
-    background-color: #408bb1;
+    background-color: #fff;
   }
 }
 
@@ -224,7 +232,7 @@
     width: 10px;
     height: 10px;
     margin-right: 8px;
-    color: black;
+    color: #fff;
   }
 
   h3 {
@@ -342,6 +350,14 @@
   .menu-item {
     font-size: 0.9rem;
   }
+  .main-image img {
+    display: none;
+  }
+  .image-column img {
+    margin-left: 20px;
+    width: 370px;
+    height: 280px;
+  }
 }
 
 @media screen and (max-width: 370px) {
@@ -355,5 +371,10 @@
   .menu-text,
   .menu-item {
     font-size: 0.8rem;
+  }
+  .image-column img {
+    margin-left: 20px;
+    width: 340px;
+    height: 260px;
   }
 }

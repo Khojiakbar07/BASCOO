@@ -1,4 +1,10 @@
 <div class="main-container">
+
+	  <!-- The video -->
+	  <video autoplay muted loop class="myVideo">
+		<source src="../../../../assets/videos/video-1.mp4" type="video/mp4" />
+	  </video>
+	
 	<div class="main-dropdown-nav">
 		<div class="dropdown-nav">
 			<p (click)="toggleDropdown(1)">{{ "doslogistic.web.help.login.login" | translate }}</p>
@@ -8,14 +14,14 @@
 			<p (click)="toggleDropdown(5)">{{ "doslogistic.web.help.services.services" | translate }}</p>
 		</div>
 		<div class="question-box">
-			<span class="thinking-emoji">🤔</span>
+			<span class="thinking-emoji">😊</span>
 			<h4>{{ "doslogistic.web.contacts.form.HaveAnyQuetions" | translate }}</h4>
 			<p>{{ "doslogistic.web.contacts.form.infoOne" | translate }}</p>
 			<button>{{ "doslogistic.web.contacts.contacts" | translate }}</button>
 		</div>
 	</div>
 	<div class="container">
-		<!-- <h2>{{ "doslogistic.web.help.frequentlyAskedQuestions" | translate }} ioioioio</h2> -->
+		<!-- <h2>{{ "doslogistic.web.help.frequentlyAskedQuestions" | translate }}</h2> -->
 
 		<div class="Image-container">
 			<!-- <h1 class="project-title">Название проекта</h1> -->
@@ -102,8 +108,7 @@
 								</div>
 							</div>
 						</div>
-						<iframe class="custom-iframe" src="https://www.youtube.com/embed/uhynik9xMdw" frameborder="0"
-							allowfullscreen></iframe>
+						
 					</div>
 				</div>
 			</div>
@@ -172,33 +177,6 @@
 				</div>
 			</div>
 		</div>
-		<!-- <div class="main-dropdown" id="dropdown6">
-			<h3>{{ "doslogistic.web.help.delivery.delivery" | translate }}</h3>
-			<div class="content">
-				<div class="menu-trigger" (click)="isOpen10 = !isOpen10" [ngClass]="{'clicked': isOpen10}">
-					<span class="menu-text">{{ "doslogistic.web.help.delivery.whatIsTheDeliveryTime" | translate
-						}}</span>
-					<i [ngClass]="isOpen10 ? 'gg-chevron-up' : 'gg-chevron-down'"></i>
-				</div>
-				<div class="menu" *ngIf="isOpen10" [@dropDownMenu]>
-					<div class="menu-item">
-						{{ "doslogistic.web.help.delivery.whatIsTheDeliveryTimeAnswer" | translate }}
-					</div>
-				</div>
-			</div>
-			<div class="content">
-				<div class="menu-trigger" (click)="isOpen11 = !isOpen11" [ngClass]="{'clicked': isOpen11}">
-					<span class="menu-text">{{ "doslogistic.web.help.delivery.whatAreTheShippingRates.shippingrates" | translate }}</span>
-					<i [ngClass]="isOpen11 ? 'gg-chevron-up' : 'gg-chevron-down'"></i>
-				</div>
-				<div class="menu" *ngIf="isOpen11" [@dropDownMenu]>
-					<div class="menu-item">
-						<p> {{ "doslogistic.web.help.delivery.whatAreTheShippingRates.answerOne" | translate }}</p>
-						<p>{{ "doslogistic.web.help.delivery.whatAreTheShippingRates.answerTwo" | translate }}</p>
-					</div>
-				</div>
-			</div> 
-		</div>-->
 		<div class="main-dropdown" id="dropdown5">
 			<h3>{{ "doslogistic.web.help.acceptance.acceptance" | translate }}</h3>
 			<div class="content">
@@ -210,32 +188,6 @@
 				<div class="menu" *ngIf="isOpen7" [@dropDownMenu]>
 					<div class="menu-item">
 						{{ "doslogistic.web.help.acceptance.orderDays.aswer" | translate }}
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="main-dropdown2" id="dropdown6">
-			<h3>{{ "doslogistic.web.help.services.services" | translate }}</h3>
-			<div class="content">
-				<div class="menu-trigger" (click)="isOpen8 = !isOpen8" [ngClass]="{'clicked': isOpen8}">
-					<span class="menu-text">{{ "doslogistic.web.help.services.questionOne" | translate }}</span>
-					<i [ngClass]="isOpen8 ? 'gg-chevron-up' : 'gg-chevron-down'"></i>
-				</div>
-				<div class="menu" *ngIf="isOpen8" [@dropDownMenu]>
-					<div class="menu-item">
-						{{ "doslogistic.web.help.services.asnwerOne" | translate }}
-					</div>
-				</div>
-			</div>
-			<div class="content">
-				<div class="menu-trigger" (click)="isOpen9 = !isOpen9" [ngClass]="{'clicked': isOpen9}">
-					<span class="menu-text">{{ "doslogistic.web.help.services.questionTwo" | translate }}</span>
-					<i [ngClass]="isOpen9 ? 'gg-chevron-up' : 'gg-chevron-down'"></i>
-				</div>
-				<div class="menu" *ngIf="isOpen9" [@dropDownMenu]>
-					<div class="menu-item">
-						<iframe class="custom-iframe" src="https://www.youtube.com/embed/uhynik9xMdw" frameborder="0"
-							allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>
