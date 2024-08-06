@@ -1,6 +1,6 @@
 :root {
   --bg-color: #bff1c4;
-  --main-color: #058c42;
+  --main-color: #1a2c52;
 }
 //image
 
@@ -74,20 +74,20 @@
   }
 
   p:hover {
-    color: #058c42;
-    background-color: #bff1c4;
+    color: #1a2c52;
+    background-color:#408bb1;
   }
 }
 
 .question-box {
-  border: 1px solid #058c42;
+  border: 1px solid #1a2c52;
   width: 260px;
   display: flex;
   flex-direction: column;
   padding: 18px;
   justify-content: center;
   align-items: center;
-  border: 1px solid #15b342;
+  border: 1px solid #244997;
   border-radius: 10px;
 
   h4 {
@@ -107,7 +107,7 @@
   button {
     border-radius: 0.25rem;
     color: white;
-    background-color: #058c42;
+    background-color: #1a2c52;
     border: none;
     outline: none;
     font-size: 1rem;
@@ -116,7 +116,7 @@
   }
 
   button:hover {
-    background-color: #15b342;
+    background-color: #244997;
   }
 
   .thinking-emoji {
@@ -174,8 +174,8 @@
   transition: box-shadow 0.3s ease-in-out;
 
   &.clicked {
-    color: #058c42;
-    background-color: #bff1c4;
+    color: #1a2c52;
+    background-color: #408bb1;
   }
 }
 
@@ -262,7 +262,7 @@
   transform: rotate(-45deg);
   left: 4px;
   bottom: 2px;
-  color: #058c42;
+  color: #1a2c52;
 }
 
 .gg-chevron-down {
