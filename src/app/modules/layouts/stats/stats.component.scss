@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  // justify-content: center;
+  //justify-content: center;
   align-items: center;
   width: 100%;
   height: 564px;
@@ -11,7 +11,7 @@
 .stats-content {
   display: flex;
   justify-content: space-between;
-  gap: 48px;
+  gap: 165px;
 }
 
 .stats-title {
@@ -112,12 +112,14 @@
   color: #3c3c43;
   user-select: none;
 }
+
 @media screen and (max-width: 1320px) {
   .container {
     height: 564px;
     padding: 90px 100px 90px 100px;
   }
 }
+
 @media screen and (max-width: 1226px) {
   .container {
     height: 559px;
@@ -134,6 +136,7 @@
     margin-bottom: 0;
   }
 }
+
 @media screen and (max-width: 1100px) {
   .container {
     height: 559px;
@@ -248,6 +251,7 @@
     margin-right: 100px;
   }
 }
+
 @media screen and (max-width: 821px) {
   .stats-numbers {
     display: flex;
@@ -282,6 +286,7 @@
     height: 30px;
   }
 }
+
 @media screen and (max-width: 769px) {
   .stats-content {
     display: flex;
@@ -317,6 +322,7 @@
     height: 30px;
   }
 }
+
 @media screen and (max-width: 540px) {
   .container {
     height: 700px;
@@ -362,6 +368,7 @@
     font-weight: 400;
   }
 }
+
 @media screen and (max-width: 500px) {
   .container {
     height: 700px;
@@ -404,6 +411,7 @@
     font-weight: 400;
   }
 }
+
 @media screen and (max-width: 415px) {
   .stats-title > h1 {
     font-size: 35px;
@@ -420,6 +428,7 @@
     margin: 0 0 22px 22px;
   }
 }
+
 @media screen and (max-width: 396px) {
   .container {
     height: 400px;
@@ -444,6 +453,7 @@
     margin: 0 0 21px 21px;
   }
 }
+
 @media screen and (max-width: 376px) {
   .container {
     height: 400px;
