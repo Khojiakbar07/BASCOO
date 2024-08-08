@@ -384,6 +384,15 @@ button:hover {
     margin-bottom: 10px;
   }
 }
+@media screen and (max-width: 480px) {
+  .service_info {
+      padding: 20px;
+      width: 450px;
+      top: 87px;
+      left: 16px;
+      height: 300px;
+  }
+}
 
 @media screen and (max-width: 425px) {
   [nz-carousel-content] {

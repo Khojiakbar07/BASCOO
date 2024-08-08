@@ -299,7 +299,7 @@
   }
   .logo-details .logo-text {
     font-size: 48px;
-    margin: 0 0 0 12px;
+    margin: 0 0 0 32px;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -308,7 +308,7 @@
   }
   .logo-details .logo-text {
     font-size: 47px;
-    margin: 0 0 0 12px;
+    margin: 0 0 0 35px;
   }
   .nav-sty {
     gap: 30px;
@@ -334,7 +334,7 @@
   }
   .logo-details .logo-text {
     font-size: 46px;
-    margin: 0 0 0 12px;
+    margin: 0 0 0 20px;
   }
   .nav-sty,
   .auth {
@@ -358,7 +358,7 @@
   }
   .logo-details .logo-text {
     font-size: 46px;
-    margin: 0 0 0 12px;
+    margin: 0 0 0 21px;
   }
 }
 
@@ -373,6 +373,10 @@
 }
 
 @media screen and (max-width: 700px) {
+  .logo-details .logo-text {
+    font-size: 40px;
+    margin: 0 0 0 21px;
+  }
   .content {
     width:680px;
   }
@@ -383,6 +387,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  .logo-details .logo-text {
+    font-size: 37px;
+    margin: 0 0 0 27px;
+}
   .content {
     width:580px;
   }
@@ -397,7 +405,7 @@
   }
   .logo-details .logo-text {
     font-size: 30px;
-    margin: 0 0 0 12px;
+    margin: 0 0 0 21px;
   }
   .modal-content {
     width: 450px !important;
@@ -406,7 +414,7 @@
 
 @media screen and (max-width: 480px) {
   .content {
-    width:450px;
+    width:465px;
   }
   .logo-details .logo-text {
     font-size: 30px;
