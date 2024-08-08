@@ -3,10 +3,12 @@
 * {
   font-family: Inter !important;
 }
+
 .container {
   display: flex;
   flex-direction: column;
 }
+
 .myVideo {
   object-fit: cover;
   width: 100vw;
@@ -17,6 +19,7 @@
   background-repeat: repeat;
   z-index: -100;
 }
+
 .text-content {
   display: flex;
   justify-content: flex-start;
@@ -38,13 +41,33 @@
   align-items: flex-start;
   gap: 300px;
   margin-top: 10px;
+}
 
-  .wel-img {
-    img {
-      width: 500px;
-      height: 400px;
-    }
-  }
+.wel-img {
+  position: relative;
+  float: left;
+  margin-top: -25px;
+  margin-right: 25px;
+  width: 500px;
+  height: 400px;
+}
+
+.play-icon {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.wel-background {
+  width: 475px;
+  height: 350px;
+  margin-left: 25px;
+  border-radius: 25px;
+  border: 1px solid rgba(223, 238, 250, 0.35);
+  background: rgba(34, 51, 85, 0.35);
 }
 
 .wel-txt {
@@ -87,6 +110,7 @@
   img {
     z-index: 2;
   }
+
   .user-image {
     width: 500px;
     height: 400px;
@@ -109,6 +133,7 @@
     gap: 205px;
   }
 }
+
 @media screen and (max-width: 1280px) {
   .text-content {
     margin-left: 38px;
@@ -120,6 +145,7 @@
     gap: 138px;
   }
 }
+
 @media screen and (max-width: 1024px) {
   .text-content {
     margin-left: 60px;
@@ -151,6 +177,7 @@
     height: 340px;
   }
 }
+
 @media screen and (max-width: 913px) {
   .text-content {
     margin-left: 40px;
@@ -182,6 +209,7 @@
     gap: 65px;
   }
 }
+
 @media (max-width: 821px) {
   .text-content {
     margin-left: 25px;
@@ -214,8 +242,10 @@
     gap: 20px;
   }
 }
+
 @media screen and (max-width: 768px) {
 }
+
 @media screen and (max-width: 540px) {
   .content {
     margin: 30px auto;
@@ -253,6 +283,7 @@
     height: 370px;
   }
 }
+
 @media screen and (max-width: 431px) {
   .welcome-content,
   .service-txt {
@@ -286,6 +317,7 @@
     height: 340px;
   }
 }
+
 @media screen and (max-width: 414px) {
   .welcome-content,
   .service-txt {
@@ -299,6 +331,7 @@
     margin-left: 10px;
   }
 }
+
 @media screen and (max-width: 391px) {
   .welcome-content .wel-img img,
   .service-txt .user-image {
@@ -314,6 +347,7 @@
     margin: 0 0 16px 16px;
   }
 }
+
 @media screen and (max-width: 376px) {
   .welcome-content .wel-img img,
   .service-txt .user-image {
@@ -322,6 +356,7 @@
     margin-left: 10px;
   }
 }
+
 @media screen and (max-width: 376px) {
   .welcome-content .wel-img img,
   .service-txt .user-image {
