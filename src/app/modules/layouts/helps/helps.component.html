@@ -36,7 +36,59 @@
         </div>
       </div>
     </div>
-
+    <div class="main-dropdown" id="dropdown1">
+			<h3>{{ "doslogistic.web.help.login.login" | translate }}</h3>
+			<div class="content">
+				<div class="menu-trigger" (click)="isOpen1 = !isOpen1" [ngClass]="{'clicked': isOpen1}">
+					<span class="menu-text">{{ "doslogistic.web.help.login.howToCreatePersonalCabinet" | translate
+						}}</span>
+					<i [ngClass]="isOpen1 ? 'gg-chevron-up' : 'gg-chevron-down'"></i>
+				</div>
+				<div class="menu" *ngIf="isOpen1" [@dropDownMenu]>
+          <div class="menu-item">
+            {{ "doslogistic.web.help.delivery.firststep.first" | translate }}
+            <br>
+            {{ "doslogistic.web.help.delivery.firststep.second" | translate }}
+            <br>
+            {{ "doslogistic.web.help.delivery.firststep.third" | translate }}
+            <br>
+            {{ "doslogistic.web.help.delivery.firststep.four" | translate }}
+            <br>
+            {{ "doslogistic.web.help.delivery.firststep.five" | translate }}
+            <br>
+            {{ "doslogistic.web.help.delivery.firststep.six" | translate }}
+            <br>
+            {{ "doslogistic.web.help.delivery.firststep.seven" | translate }}
+            <br>
+            {{ "doslogistic.web.help.delivery.firststep.eight" | translate }}
+            <br>
+            {{ "doslogistic.web.help.delivery.firststep.nine" | translate }}
+            <br>
+            {{ "doslogistic.web.help.delivery.firststep.ten" | translate }}
+            <br>
+            {{ "doslogistic.web.help.delivery.firststep.eleven" | translate }}
+            <br>
+            {{ "doslogistic.web.help.delivery.firststep.twelve" | translate }}
+            <br>
+            {{ "doslogistic.web.help.delivery.firststep.thirteen" | translate }}
+            <br>
+          </div>
+				</div>
+			</div>
+      <div class="content">
+        <div class="menu-trigger" (click)="isOpen6 = !isOpen6" [ngClass]="{'clicked': isOpen6}">
+          <span
+            class="menu-text">{{ "doslogistic.web.help.delivery.whatAreTheShippingRates.shippingrates" | translate }}</span>
+          <i [ngClass]="isOpen6 ? 'gg-chevron-up' : 'gg-chevron-down'"></i>
+        </div>
+        <div class="menu" *ngIf="isOpen6" [@dropDownMenu]>
+          <div class="menu-item">
+            <p> {{ "doslogistic.web.help.delivery.whatAreTheShippingRates.answerOne" | translate }}</p>
+            <p>{{ "doslogistic.web.help.delivery.whatAreTheShippingRates.answerTwo" | translate }}</p>
+          </div>
+        </div>
+      </div>
+		</div>
     <div class="main-dropdown" id="dropdown2">
       <h3>{{ "doslogistic.web.help.purchases.purchases" | translate }}</h3>
       <div class="content">
