@@ -4,6 +4,7 @@
   align-items: center;
   padding-bottom: 20px;
 }
+
 .myVideo {
   object-fit: cover;
   width: 100vw;
@@ -33,7 +34,9 @@
 
 .image-column img,
 .main-image img {
-  width: 100%;
+  width: 1200px;
+  height: 150px;
+  //width: 100%;
   border-radius: 10px;
   object-fit: cover;
 }
@@ -52,6 +55,7 @@
   height: 490px;
   border-radius: 10px;
 }
+
 //image
 .main-container {
   display: flex;
@@ -63,8 +67,6 @@
 }
 
 .dropdown-nav {
-  border: 1.5px solid #dfeefa;
-  background-color: #dfeefa;
   width: 260px;
   height: 255px;
   margin-bottom: 30px;
@@ -73,21 +75,30 @@
   p {
     cursor: pointer;
     font-size: 1rem;
+    color: #FFFFFF;
     line-height: 30px;
     transition: background-color 0.3s;
     padding: 4px 15px;
   }
 
-  p:hover {
-    color: #fff;
-    background-color: #408bb1;
-    border-radius: 0.5rem;
+  p:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0;
+    background: transparent;
+    transition: width 0.6s ease, background-color 0.6s ease;
+  }
+
+  p:hover:after {
+    width: 100%;
+    background: #DFEEFA;
   }
 }
 
 .question-box {
-  border: 1px solid #1a2c52;
-  background-color: #fff;
+  background-color: #DFEEFA;
   width: 260px;
   display: flex;
   flex-direction: column;
@@ -142,11 +153,15 @@
   }
 }
 
+#dropdown2 {
+  margin-top: 35px;
+}
+
 .main-dropdown {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 
   h3 {
     font-weight: 550;
@@ -169,7 +184,7 @@
 
 .content {
   color: #fff;
-  border: 1px solid #eaedf3;
+  border-bottom: 1px solid #eaedf3;
 }
 
 .menu-trigger {
