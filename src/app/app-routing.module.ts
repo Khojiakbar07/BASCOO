@@ -15,11 +15,11 @@ const routes: Routes = [
   { path: 'shops', loadChildren: () => import('./core/shops/shops.module').then(m => m.ShopsModule)},
   { path: 'cabinet', loadChildren: () => import('../shared/components/user-page/user.module').then(m => m.UserModule)},
   { path: 'projects', component: AboutUsComponent },
-  { path: 'tariffs', component: PriceComponent },
+  { path: 'solutions', component: ServicesComponent },
   { path: 'contacts', component: ContactsComponent },
   { path: 'helps', component: HelpsComponent },
-  { path: 'solutions', component: ServicesComponent },
   { path: 'login', component: LoginComponent },
+  { path: 'tariffs', component: PriceComponent },
   { path: 'register' , component:RegisterComponent },
  
 ];
