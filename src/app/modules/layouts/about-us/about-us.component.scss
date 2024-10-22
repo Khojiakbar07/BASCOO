@@ -121,14 +121,6 @@
   padding-top: 0px;
   padding-bottom: 0px;
 }
-@media screen and (max-width: 1880px) {
-  .text-content {
-    display:relative;
-    justify-content: flex-start;
-    margin: 0 auto;
-    font-size: 65px;
-  }
-}
 
 @media screen and (max-width: 1380px) {
   .text-content {
@@ -166,7 +158,7 @@
     justify-content: center;
     gap: 70px;
   }
-  .wel-background{
+  .wel-background {
     width: 470px;
     height: 340px;
     margin-left: 25px;
@@ -210,7 +202,7 @@
     width: 380px;
     height: 340px;
   }
-  .wel-background{
+  .wel-background {
     width: 420px;
     height: 300px;
     margin-left: 25px;
@@ -222,12 +214,12 @@
     width: 420px;
     height: 300px;
     .main-image {
-        width: 420px;
-        height: 300px;
+      width: 420px;
+      height: 300px;
     }
   }
 }
-@media screen and (max-width:1025px){
+@media screen and (max-width: 1025px) {
   .text-content {
     font-size: 55px;
     display: flex;
@@ -254,7 +246,7 @@
     width: 380px;
     height: 340px;
   }
-  .wel-background{
+  .wel-background {
     width: 420px;
     height: 300px;
     margin-left: 25px;
@@ -266,79 +258,207 @@
     width: 420px;
     height: 300px;
     .main-image {
-        width: 420px;
-        height: 300px;
+      width: 420px;
+      height: 300px;
     }
   }
 }
 
-// @media screen and (max-width: 913px) {
-//   .text-content {
-//     margin-left: 40px;
-//     font-size: 52px;
-//     font-weight: 600;
-//   }
-//   .welcome-content .wel-img img,
-//   .service-txt .user-image {
-//     width: 340px;
-//     height: 300px;
-//   }
-//   .wel-txt {
-//     margin-top: -3px;
-//   }
-//   .wel-txt h2 {
-//     font-weight: 600;
-//     font-size: 41px;
-//     width: 450px;
-//   }
-//   .wel-txt p {
-//     font-weight: 350;
-//     font-size: 16px;
-//     width: 420px;
-//     height: 180px;
-//   }
-//   .welcome-content,
-//   .service-txt {
-//     justify-content: center;
-//     gap: 65px;
-//   }
-// }
+@media screen and (max-width: 913px) {
+  .welcome-content,
+  .service-txt {
+    justify-content: center;
+    gap: 50px;
+  }
+  .text-content {
+    margin-left: 40px;
+    font-size: 52px;
+    font-weight: 600;
+  }
+  .wel-txt h2 {
+    font-weight: 600;
+    font-size: 41px;
+    width: 410px;
+    margin-left: 20px;
+  }
+  .wel-txt p {
+    font-weight: 350;
+    font-size: 15px;
+    width: 380px;
+    height: 180px;
+    margin: 0 20px;
+  }
+  .wel-img {
+    width: 360px;
+    height: 300px;
+  }
+  .wel-img .main-image {
+    width: 340px;
+    height: 300px;
+  }
+  .welcome-content .wel-img .main-image,
+  .service-txt .wel-img .main-imag {
+    width: 340px;
+    height: 300px;
+  }
+  .wel-background {
+    width: 340px;
+    height: 300px;
+  }
+  .wel-txt {
+    margin-top: -3px;
+  }
+  .play-icon {
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+  }
+}
+@media (max-width: 854px) {
+  .welcome-content,
+  .service-txt {
+    justify-content: center;
+    gap: 40px;
+  }
+  .text-content {
+    margin-left: 40px;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .wel-txt h2 {
+    font-weight: 600;
+    font-size: 40px;
+    width: 380px;
+    margin-left: 20px;
+  }
+  .wel-txt p {
+    font-weight: 350;
+    font-size: 14px;
+    width: 350px;
+    height: 180px;
+    margin: 0 20px;
+  }
+  .wel-img {
+    width: 320px;
+    height: 280px;
+  }
+  .wel-img .main-image {
+    width: 320px;
+    height: 280px;
+  }
+  .welcome-content .wel-img .main-image,
+  .service-txt .wel-img .main-imag {
+    width: 320px;
+    height: 280px;
+  }
+  .wel-background {
+    width: 320px;
+    height: 280px;
+  }
+}
 
-// @media (max-width: 821px) {
-//   .text-content {
-//     margin-left: 25px;
-//     font-size: 48px;
-//     font-weight: 500;
-//     margin-bottom: 3px;
-//   }
-//   .content {
-//     margin: 50px auto;
-//   }
-//   .welcome-content .wel-img img,
-//   .service-txt .user-image {
-//     width: 300px;
-//     height: 260px;
-//   }
-//   .wel-txt h2 {
-//     font-weight: 600;
-//     font-size: 38px;
-//     width: 450px;
-//   }
-//   .wel-txt p {
-//     font-weight: 350;
-//     font-size: 15px;
-//     width: 406px;
-//     height: 180px;
-//   }
-//   .welcome-content,
-//   .service-txt {
-//     justify-content: center;
-//     gap: 20px;
-//   }
-// }
+@media (max-width: 821px) {
+  .welcome-content,
+  .service-txt {
+    justify-content: center;
+    gap: 40px;
+  }
+  .text-content {
+    margin-left: 40px;
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .wel-txt h2 {
+    font-weight: 600;
+    font-size: 40px;
+    width: 380px;
+    margin-left: 20px;
+  }
+  .wel-txt p {
+    font-weight: 350;
+    font-size: 14px;
+    width: 350px;
+    height: 180px;
+    margin: 0 20px;
+  }
+  .wel-img {
+    width: 315px;
+    height: 285px;
+  }
+  .wel-img .main-image {
+    width: 310px;
+    height: 270px;
+  }
+  .welcome-content .wel-img .main-image,
+  .service-txt .wel-img .main-imag {
+    width: 310px;
+    height: 270px;
+  }
+  .wel-background {
+    width: 310px;
+    height: 270px;
+  }
+  .wel-txt {
+    margin-top: -3px;
+  }
+  .play-icon {
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+  }
+}
 
-// @media screen and (max-width: 768px) {
-// }
+@media screen and (max-width: 768px) {
+  .welcome-content,
+  .service-txt {
+    justify-content: center;
+    gap: 30px;
+  }
+  .text-content {
+    margin-left: 24px;
+    margin-top: 40px;
+    font-size: 48px;
+    font-weight: 600;
+  }
+  .wel-txt h2 {
+    font-weight: 600;
+    font-size: 38px;
+    width: 365px;
+    margin-left: 20px;
+  }
+  .wel-txt p {
+    font-weight: 350;
+    font-size: 14px;
+    width: 340px;
+    height: 180px;
+    margin: 0 20px;
+  }
+  .wel-img {
+    width: 315px;
+    height: 285px;
+  }
+  .wel-img .main-image {
+    width: 300px;
+    height: 265px;
+  }
+  .welcome-content .wel-img .main-image,
+  .service-txt .wel-img .main-imag {
+    width: 300px;
+    height: 265px;
+  }
+  .wel-background {
+    width: 300px;
+    height: 265px;
+  }
+  .play-icon {
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+  }
+}
 
 // @media screen and (max-width: 540px) {
 //   .content {
