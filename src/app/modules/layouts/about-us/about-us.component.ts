@@ -1,5 +1,5 @@
-import { Component } from '@angular/core';
-import { trigger, state, style, animate, transition } from '@angular/animations';
+import {Component} from '@angular/core';
+import {trigger, state, style, animate, transition} from '@angular/animations';
 
 @Component({
   selector: 'app-about-us',
@@ -7,8 +7,8 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
   styleUrls: ['./about-us.component.scss'],
   animations: [
     trigger('imageSlide', [
-      state('void', style({ transform: 'translateY(100%)' })),
-      state('*', style({ transform: 'translateY(0)' })),
+      state('void', style({transform: 'translateY(100%)'})),
+      state('*', style({transform: 'translateY(0)'})),
       transition('void <=> *', animate('0.3s ease-in-out')),
     ]),
   ],

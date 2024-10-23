@@ -305,6 +305,20 @@
         "logout":"Chiqish",
         "incoming":"Kiruvchi Posilkalar"
       }
+    },
+    "projects": {
+      "audioSystemsTitle": "Audio tizimlar",
+      "audioSystemsContent": "Yuqori sifatli audio tizimlarimiz yordamida mukammal ovoz manzarasini yarating. Biz kichik ofislardan tortib katta konferentsiya xonalarigacha bo'lgan turli joylar uchun audio dizayn, o'rnatish va sozlash xizmatlarining to'liq spektrini taklif etamiz. Bizning yechimlarimiz sizning ehtiyojlaringizga mos keladigan ovozning ravshanligi va kuchini ta'minlash uchun dinamiklar, kuchaytirgichlar, mikrofonlar va boshqa jihozlarni o'z ichiga oladi.",
+      "ledScreensTitle": "Led ekranlar",
+      "ledScreensContent": "Bizning LED ekranlarimiz yordamida yorqin va tiniq tasvirlar olamiga sho'ng'in. Biz har qanday miqyosda yuqori sifatli vizual tajriba yaratish uchun innovatsion yechimlarni taklif etamiz. Bizning LED ekranlarimiz (video devorlar) eng qiyin muhitlarda ham yuqori tasvir sifati va ishonchli ishlashni ta'minlaydi. Keling, loyihangiz uchun mukammal yechimni tanlashda yordam beramiz.",
+      "interactivePanelsTitle": "Interaktiv panellar",
+      "interactivePanelsContent": "\"BASCOO\" MChJ interaktiv panellari yuqori texnik parametrlarga, benuqson javob va sezgirlikka ega va keng ko'lamli funktsiyalarni qo'llab-quvvatlaydi.",
+      "videoProcessorsTitle": "Video protsessorlar",
+      "videoProcessorsContent": "Video protsessorlarimiz yordamida video kontentingizni qayta ishlash va boshqarishni optimallashtiring. Biz real vaqt rejimida yuqori sifatli video o'lchamini oshirish, birlashtirish va qayta ishlash imkonini beruvchi yechimlarni taqdim etamiz. Bizning video protsessorlarimiz multimedia taqdimotlarini yaratish, video devorlar va boshqa murakkab vizual tizimlarni boshqarish uchun ideal. Loyihalaringiz uchun aniq va sifatli videolar yaratishga ishoning.",
+      "vksSystemsTitle": "VKS tizimlari",
+      "vksSystemsContent": "Videokonferentsaloqa tizimlarimiz yordamida videokonferentsiyani sodda va samarali qiling. Biz kameralar, mikrofonlar, audio tizimlar va dasturiy ta'minotni o'z ichiga olgan videoaloqalarni tashkil qilish uchun keng qamrovli echimlarni taklif qilamiz. Bizning tizimlarimiz yuqori sifatli tasvir va ovozni ta'minlaydi, bu sizga biznes uchrashuvlari, treninglar va vebinarlarni maksimal qulaylik va ishonchlilik bilan o'tkazish imkonini beradi.",
+      "conferenceSystemsTitle": "Konferentsiya tizimlari",
+      "conferenceSystemsContent": "Bizning konferentsiya tizimlarimiz yordamida uchrashuv va konferentsiyalaringizni optimallashtiring. Tadbirlaringizni yanada samarali va tartibli qilish uchun ovoz berishni boshqarish, tarjima, audio va video yechimlarni taqdim etamiz. Bizning tizimlarimiz mavjud infratuzilma bilan osongina integratsiyalashadi va samarali hamkorlik va aloqani osonlashtiradigan foydalanuvchilarga qulay interfeysni ta'minlaydi."
     }
   }
 }
