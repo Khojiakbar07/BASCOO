@@ -461,6 +461,27 @@
     font-weight: 700;
   }
 }
+@media screen and (max-width: 431px) {
+  .content {
+    width:400px;
+  }
+  .logo-details .logo-text {
+    font-size: 30px;
+  }
+  .modal-content {
+    width: 450px !important;
+  }
+  .custom-sidebar{
+    width: 240px;
+  }
+  .sidenav-logo{
+    display: none;
+  }
+  .nav-pages2 {
+    padding: 20px;
+    padding-left: 65px;
+  }
+}
 @media screen and (max-width: 420px) {
   .content {
     width:400px;
