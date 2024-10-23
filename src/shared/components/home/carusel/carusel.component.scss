@@ -394,6 +394,24 @@ button:hover {
       height: 300px;
   }
 }
+@media screen and (max-width: 431px) {
+  [nz-carousel-content] {
+    height: 330px;
+  }
+  ::ng-deep .slick-list {
+    height: 330px !important;
+  }
+  img {
+    height: 330px;
+  }
+  ::ng-deep .slick-dots {
+    bottom: 0% !important;
+    right: 21% !important;
+  }
+  .service_info {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 425px) {
   [nz-carousel-content] {
