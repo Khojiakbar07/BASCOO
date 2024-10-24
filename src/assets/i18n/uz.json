@@ -1,7 +1,8 @@
 {
   "doslogistic.web": {
 		"base": {
-			"getMore": "Batafsil"
+			"getMore": "Batafsil",
+      "address": "Toshkent Shahar Baynalmilal ko'chasi 55"
 		},
 		"aboutUs": {
 			"aboutUs": "Biz haqimizda",
@@ -83,7 +84,8 @@
 			},
 			"copywriting": {
 				"copywriting": "DostLogistic kuryerlik xizmati.Barcha huquqlar himoyalangan.",
-				"termsOfUse": "Foydalanish qoidalari"
+				"termsOfUse": "Foydalanish qoidalari",
+				"subtitle": "KELAJAK TEXNOLOGIYALARINI BIRASHTIRISH"
 			}
 		},
 		"help": {

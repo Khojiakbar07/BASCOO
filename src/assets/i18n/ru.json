@@ -1,7 +1,8 @@
 {
   "doslogistic.web": {
     "base": {
-      "getMore": "Узнать больше"
+      "getMore": "Узнать больше",
+      "address": "г. Ташкент, ул. Байналминал 55"
     },
 		"aboutUs": {
 			"aboutUs": "о нас",
@@ -83,7 +84,8 @@
 			},
 			"copywriting": {
 				"copywriting": "Курьерская служба DostLogistic. Все права защищены.",
-				"termsOfUse": "Пользовательское соглашение"
+				"termsOfUse": "Пользовательское соглашение",
+				"subtitle": "CONNECTING TECHNOLOGIES OF THE FUTURE"
 			}
 		},
 		"help": {

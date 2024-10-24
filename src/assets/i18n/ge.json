@@ -1,7 +1,8 @@
 {
   "doslogistic.web": {
 		"base": {
-			"getMore": "Get more"
+			"getMore": "Get more",
+			"address": "55 Baynalmilal street, Tashkent city"
 		},
 		"aboutUs": {
 			"aboutUs": "About Us",
@@ -83,7 +84,8 @@
 			},
 			"copywriting": {
 				"copywriting": "Dost Logistic Courier Service. All rights reserved.",
-				"termsOfUse": "User Agreement"
+				"termsOfUse": "User Agreement",
+				"subtitle": "CONNECTING TECHNOLOGIES OF THE FUTURE"
 			}
 		},
 		"help": {
