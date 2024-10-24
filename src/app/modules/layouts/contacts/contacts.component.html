@@ -5,38 +5,44 @@
   </video>
 
   <div class="services-content">
-    <h2>Контакт</h2>
+    <h2>{{ "doslogistic.web.contacts.pageTitle" | translate }}</h2>
     <div class="connect">
-      <h1>Связаться с нами</h1>
+      <h1>{{ "doslogistic.web.contacts.form.title" | translate }}</h1>
       <span class="subtitle"
-      >Если у вас есть предложения или запросы, не стесняйтесь</span
+      >{{ "doslogistic.web.contacts.form.subTitle" | translate }}</span
       >
       <div class="connect-content">
         <div class="connect-name">
-          <span>Полное имя</span>
+          <span>{{ "doslogistic.web.contacts.form.fullName" | translate }}</span>
           <input
-            class="connect-name-input"
-            placeholder="Напишите свое полное имя"
+              class="connect-name-input"
+              [placeholder]="'doslogistic.web.contacts.form.fullNamePlaceHolder' | translate"
           />
         </div>
         <div class="connect-phone">
-          <span>Номер телефона</span>
-          <input class="connect-phone-input" placeholder="example@gmail.com"/>
+          <span>{{ "doslogistic.web.contacts.form.phoneNumber" | translate }}</span>
+          <input 
+            class="connect-phone-input" 
+            [placeholder]="'doslogistic.web.contacts.form.phoneNumberPlaceHolder' | translate"
+          />
         </div>
         <div class="connect-subject">
-          <span>Тема</span>
-          <input class="connect-subject-input" placeholder="Тема вашего сообщения."/>
+          <span>{{ "doslogistic.web.contacts.form.subject" | translate }}</span>
+          <input 
+            class="connect-subject-input" 
+            [placeholder]="'doslogistic.web.contacts.form.subjectPlaceHolder' | translate"
+          />
         </div>
         <div class="connect-text">
-          <span>Сообщение</span>
+          <span>{{ "doslogistic.web.contacts.form.message" | translate }}</span>
           <input
             class="connect-text-area"
-            placeholder="Вы можете написать любой запрос"
+            [placeholder]="'doslogistic.web.contacts.form.messagePlaceHolder' | translate"
           />
         </div>
       </div>
       <button class="connect-send-button">
-        Отправить
+        {{ "doslogistic.web.contacts.form.submit" | translate }}
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="21"
@@ -60,7 +66,7 @@
 
     <div class="contacts" *ngIf="selectedPage === 'uzbekistan'">
       <div class="contacts-info">
-        <p class="contacts-title">Информация</p>
+        <p class="contacts-title">{{ "doslogistic.web.contacts.data.title" | translate }}</p>
 
         <div class="cards">
           <div class="card-icon">
@@ -68,7 +74,7 @@
           </div>
 
           <div>
-            <span>Phone Number</span>
+            <span>{{ "doslogistic.web.contacts.data.phoneNumber" | translate }}</span>
             <p><a href="tel:+998993530035">+998 99 353 00 35</a></p>
           </div>
         </div>
@@ -79,7 +85,7 @@
           </div>
 
           <div>
-            <span>Phone Number</span>
+            <span>{{ "doslogistic.web.contacts.data.phoneNumber" | translate }}</span>
             <p><a href="tel:+998993530035">+998 99 353 00 35</a></p>
           </div>
         </div>
@@ -94,7 +100,7 @@
 
           </div>
           <div>
-            <span>Email Address</span>
+            <span>{{ "doslogistic.web.contacts.data.email" | translate }}</span>
             <p>
               <a href="mailto:murtazo.mb@gmail.com"
               >murtazo.mbgmail.com</a
@@ -107,7 +113,7 @@
             <img src="../../../../assets/images/contacts/location.png" alt=""/>
           </div>
           <div>
-            <span>Office Address</span>
+            <span>{{ "doslogistic.web.contacts.data.address" | translate }}</span>
             <p>Toshkent</p>
           </div>
         </div>
