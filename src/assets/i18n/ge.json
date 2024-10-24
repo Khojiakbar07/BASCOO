@@ -24,6 +24,15 @@
 			"Poland": "Poland",
 			"Germany": "Germany",
 			"form": {
+				"writeToUs": "Write to us",
+				"fillForm": "We will be happy to answer your questions, please fill out the form below.",
+				"name": "Name",
+				"phone": "Phone number",
+				"email": "Our email address",
+				"sendMessage": "Send message",
+				"infoOne": "Want a quick answer to your question? Visit the FAQ section on the website, where we have gathered answers to the most frequently asked questions.",
+				"infoTwo": "If your question is about when a received package will be registered in the system, please note that processing a shipment takes 1-2 business days, and in rare cases, a bit longer. If the package has not arrived for more than 3 days, we recommend writing about this issue.",
+				"HaveAnyQuetions": "Any questions left ?",
 				"title": "Contact Us",
 				"subTitle": "If you have any suggestions or inquiries, feel free to reach out",
 				"fullName": "Full Name",
@@ -91,6 +100,7 @@
 		"help": {
 			"frequentlyAskedQuestions": "Frequently Asked Questions",
 			"questionsAndAnswers": "Questions and Answers",
+			"sectionsTitle": "Our offers",
 			"login": {
 				"login": "Registration",
 				"kirish": "Login",

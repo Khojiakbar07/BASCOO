@@ -24,6 +24,15 @@
 			"Poland": "Polsha",
 			"Germany": "Germaniya",
 			"form": {
+				"writeToUs": "Bizga yozing",
+				"fillForm": "Savollaringizga javob berishdan mamnun bo'lamiz, iltimos, quyidagi shaklni to'ldiring.",
+				"name": "Ism",
+				"phone": "Telefon raqami",
+				"email": "Bizning elektron pochta manzilimiz",
+				"sendMessage": "Xabar yuborish",
+				"infoOne": "Savolingizga tezkor javob olishni xohlaysizmi? Veb-saytimizdagi tez-tez beriladigan savollar bo'limini tashrif buyuring, biz eng ko'p beriladigan savollarga javoblarni to'pladik.",
+				"infoTwo": "Agar savolingiz qabul qilingan paketning tizimga qachon kiritilishi haqida bo'lsa, iltimos, yukni qayta ishlash 1-2 ish kunini olishini, ba'zan esa biroz ko'proq vaqt olishini eslatib o'tamiz. Agar paket 3 kundan ortiq kelmasa, bu masala haqida yozishingizni tavsiya etamiz.",
+				"HaveAnyQuetions": "Hali ham savollaringiz bormi ?",
 				"title": "Biz bilan bog'lanish",
 				"subTitle": "Agar sizda biron bir taklif yoki sovol bo'lsa, bemalol murojaat qiling",
 				"fullName": "F.I.O",
@@ -91,6 +100,7 @@
 		"help": {
 			"frequentlyAskedQuestions": "Ko‘p so‘raladigan savollar",
 			"questionsAndAnswers": "Savolar va Javoblar",
+			"sectionsTitle": "Bizning takliflarimiz",
 			"login": {
 				"login": "Ro'yxatdan o'tish",
 				"kirish": "Kirish",
