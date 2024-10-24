@@ -6,7 +6,7 @@
 		},
 		"aboutUs": {
 			"aboutUs": "Biz haqimizda",
-			"info": "OOO 'BASCOO' — texnologiya integratsiyasi sohasida yetakchilardan biri bo'lib, audio, video va konferensiya tizimlari uchun zamonaviy yechimlar taqdim etadi. Biz talablaringizga mukammal mos keladigan kompleks yechimlar yaratishga ixtisoslashganmiz. Bizning professional jamoamiz texnologiya integratsiyasi sohasida ko'p yillik tajribaga va bilimlarga ega bo'lib, mijozlarimizga innovatsion va samarali yechimlar taklif etish imkonini beradi. Eng zamonaviy texnologiyalar bilan ishlashni maqtanchoqlik bilan ko'ramiz va mijozlarimizga eng yaxshi xizmat ko'rsatish va natijalar taqdim etish uchun usullarimizni doimiy ravishda takomillashtiramiz.",
+			"info": "MCHJ 'BASCOO' — texnologiya integratsiyasi sohasida yetakchilardan biri bo'lib, audio, video va konferensiya tizimlari uchun zamonaviy yechimlar taqdim etadi. Biz talablaringizga mukammal mos keladigan kompleks yechimlar yaratishga ixtisoslashganmiz. Bizning professional jamoamiz texnologiya integratsiyasi sohasida ko'p yillik tajribaga va bilimlarga ega bo'lib, mijozlarimizga innovatsion va samarali yechimlar taklif etish imkonini beradi. Eng zamonaviy texnologiyalar bilan ishlashni maqtanchoqlik bilan ko'ramiz va mijozlarimizga eng yaxshi xizmat ko'rsatish va natijalar taqdim etish uchun usullarimizni doimiy ravishda takomillashtiramiz.",
 			"team": "Jamoamiz eng yaxshilardan tashkil topgan, bu umumiy g'oyalar va istaklar bilan birlashgan odamlardir. Bizning ambitsiyalarimiz birgalikda o'sishimizga va rivojlanishimizga hamda yangi cho'qqilarni zabt etishimizga yordam beradi. Biz butun dunyodan mutaxassislarni to'pladik, jamoaning har bir a'zosini birday qadrlaymiz, ularga biz bilan birga o'sish va rivojlanish imkoniyatini taqdim etamiz.",
 			"team-header": "Bizning Jamoamiz",
 			"address": "Bizning manzillar",
@@ -189,6 +189,14 @@
 		},
 		"home": {
 			"language": "O`zbekcha",
+				"stats": {
+				"title": "Raqamlar",
+				"subTitle": "OOO 'BASCOO' kompaniyasi yaqinda audio va video texnologiyalari sohasidagi zamonaviy yechimlar tufayli mijozlar sonini sezilarli darajada oshirdi. Jamoaning ko'p yillik tajribasi va innovatsion yondashuvi bozorimizdagi muvaffaqiyatimizni ta'minlaydi.",
+				"square1": "Yechimlar",
+				"square2": "Mijozlar",
+				"square3": "Loyihalar",
+				"square4": "Tajriba"
+			},
 			"header-info-one": {
 				"header-info-one": "Germaniya tez va ishonchli yetkazib berish",
 				"info": "Germaniya posilkalar va onlayn xaridlarni atagi 10 dollardan 7-10 kun ichida O'zbekistonga yetkazib beramiz",

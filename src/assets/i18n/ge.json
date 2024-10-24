@@ -6,7 +6,7 @@
 		},
 		"aboutUs": {
 			"aboutUs": "About Us",
-			"info": "OOO 'BASCOO' is one of the leaders in technology integration, providing advanced solutions for audio, video, and conferencing systems. We specialize in creating comprehensive solutions that perfectly meet your requirements. Our team of professionals has many years of experience and knowledge in technology integration, allowing us to offer our clients innovative and effective solutions. We take pride in working with the most modern technologies and continually improving our methods to provide our clients with the best quality of service and results.",
+			"info": "LLC 'BASCOO' is one of the leaders in technology integration, providing advanced solutions for audio, video, and conferencing systems. We specialize in creating comprehensive solutions that perfectly meet your requirements. Our team of professionals has many years of experience and knowledge in technology integration, allowing us to offer our clients innovative and effective solutions. We take pride in working with the most modern technologies and continually improving our methods to provide our clients with the best quality of service and results.",
 			"info2": "Fast, Easy, Convenient, and most importantly, Reliable!",
 			"team": "Our team consists of the best of the best, united by common ideas and aspirations. Our ambitions help us grow and develop together, reaching new heights. We have gathered specialists from around the world and value each team member equally, providing opportunities for growth and development alongside us.",
 			"team-header": "Our Team",
@@ -191,6 +191,14 @@
 		},
 		"home": {
 			"language": "English",
+			"stats": {
+				"title": "Numbers in Action!",
+				"subTitle": "Company LLC 'BASCOO' has recently significantly increased its number of clients thanks to modern solutions in audio and video technology. The team's years of experience and innovative approach ensure our success in the market.",
+				"square1": "Solutions",
+				"square2": "Clients",
+				"square3": "Projects",
+				"square4": "Experience"
+			},
 			"header-info-one": {
 				"header-info-one": "Fast and reliable delivery from Germany",
 				"info": "We deliver parcels and online purchases from Germany to Uzbekistan in just 7-10 days starting from $10.",
