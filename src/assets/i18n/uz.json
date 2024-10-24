@@ -92,7 +92,7 @@
 				"hours": "09:00 dan 20:00 gacha"
 			},
 			"copywriting": {
-				"copywriting": "DostLogistic kuryerlik xizmati.Barcha huquqlar himoyalangan.",
+				"copywriting": "BASCOO media xizmati.Barcha huquqlar himoyalangan.",
 				"termsOfUse": "Foydalanish qoidalari",
 				"subtitle": "KELAJAK TEXNOLOGIYALARINI BIRASHTIRISH"
 			}
@@ -267,8 +267,8 @@
 		},
 		"navbar": {
 			"home": "Asosiy",
-			"solutions": "Yechim",
-			"projects": "Layiha",
+			"solutions": "Yechimlar",
+			"projects": "Loyihalar",
 			"price": "Narxlar",
 			"services": "Xizmatlar",
 			"Shops": "Do'konlar",
