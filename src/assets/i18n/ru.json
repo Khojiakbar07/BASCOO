@@ -60,7 +60,7 @@
 			"aboutCompony": {
 				"aboutCompony": "О компании",
 				"aboutUs": "О сервисе",
-				"price": "Тарифы и цены",
+				"help": "Помощь",
 				"news": "Новости",
 				"services": "Наши услуги",
 				"customers": "Отзывы клиентов",
@@ -74,7 +74,10 @@
 				"help": "Помощь",
 				"purchaseSupport": "Помощь в покупке",
 				"restrictionsAndProhibitions": "Ограничения и запреты",
-				"popularStores": "Популярные магазины"
+				"popularStores": "Популярные магазины",
+				"feedbacks": "Отзывы",
+				"ourSolutions": "Решения",
+				"ourProjects": "Продукты"
 			},
 			"useful": {
 				"useful": "Полезное",
@@ -94,7 +97,7 @@
 			"copywriting": {
 				"copywriting": "Медиа-сервис BASCOO.. Все права защищены.",
 				"termsOfUse": "Пользовательское соглашение",
-				"subtitle": "CONNECTING TECHNOLOGIES OF THE FUTURE"
+				"subtitle": "ОБЪЕДИНЯЯ ТЕХНОЛОГИИ БУДУЩЕГО"
 			}
 		},
 		"help": {

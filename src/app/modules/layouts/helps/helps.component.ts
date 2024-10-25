@@ -66,6 +66,9 @@ export class HelpsComponent {
 			const nextIndex = (currentIndex + 1) % this.images.length
 			this.selectedImage = this.images[nextIndex]
 		}, 3000)
+
+		// Smooth scroll to the top of the page
+		window.scrollTo({ top: 0, behavior: 'smooth' })
 	}
 
 	currentImageIndex = 0
