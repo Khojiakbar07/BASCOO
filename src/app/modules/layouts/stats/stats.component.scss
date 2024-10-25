@@ -5,7 +5,6 @@
   //width: 100%;
   height: 564px;
   //padding: 96px 110px 96px 110px;
-  font-family: Inter, serif;
 }
 
 .stats-content {
@@ -27,14 +26,14 @@
 }
 
 .stats-title > h1 {
-  font-size: 28px;
+  font-size: 33px;
   width: 620px;
   font-weight: 700;
   margin-bottom: 0;
 }
 
 .stats-title > span {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
   width: 620px;
 }
@@ -262,26 +261,32 @@
     padding: 50px 40px;
   }
   .stats-number-container {
-    width: 160px;
+    width: 145px;
     height: 120px;
     margin: 0 0 22px 22px;
   }
+  .stats-title {
+    width: 390px;
+    gap: 24px;
+  }
   .stats-title > h1 {
-    font-size: 37px;
-    font-weight: 500;
+    font-size: 22px;
+    width: 390px;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  .stats-title > span {
+    font-size: 13px;
+    font-weight: 400;
+    width: 390px;
   }
   .stats-number-num {
     font-size: 27px;
     font-weight: 600;
   }
-  .stats-title > span {
-    font-size: 14px;
-    font-weight: 400;
-    width: 350px;
-  }
   .stats-number-container > img {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
   }
   .stats-title > button {
     width: 220px;
@@ -310,31 +315,39 @@
   .stats-content {
     display: flex;
     justify-content: space-between;
-    gap: 2px;
+    gap: 20px;
   }
   .container {
     height: 500px;
     padding: 40px 30px;
   }
+  .stats-number-container {
+    width: 130px;
+    height: 105px;
+    margin: 0 0 22px 22px;
+  }
   .stats-title {
-    width: 310px;
+    width: 330px;
   }
   .stats-title > h1 {
-    font-size: 33px;
-    font-weight: 500;
+    font-size: 21px;
+    font-weight: 700;
   }
   .stats-number-num {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
   }
   .stats-title > span {
     font-size: 12px;
     font-weight: 400;
-    width: 300px;
+    width: 350px;
   }
-  .stats-number-container > img {
-    width: 30px;
-    height: 30px;
+  .stats-title > button {
+    width: 220px;
+    height: 42px;
+    padding: 7px 18px 10px 18px;
+    font-size: 20px;
+    font-weight: 400;
   }
 }
 
@@ -342,41 +355,49 @@
   .stats-content {
     display: flex;
     justify-content: space-between;
-    gap: 2px;
-  }
-  .stats-number-container {
-    width: 140px;
-    height: 110px;
-    margin: 0 0 20px 20px;
+    gap: 0px;
   }
   .container {
-    height: 490px;
-    padding: 40px 25px;
+    height: 400px;
+    padding: 40px 30px;
   }
+  .stats-number-container {
+    width: 125px;
+    height: 100px;
+    margin: 0 0 21px 21px;
+}
   .stats-title {
-    width: 310px;
+    width: 325px;
   }
   .stats-title > h1 {
-    font-size: 33px;
-    font-weight: 500;
+    font-size: 21px;
+    font-weight: 700;
   }
   .stats-number-num {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600;
   }
   .stats-title > span {
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 400;
+    width: 330px;
+  }
+  .stats-title > button {
+    width: 220px;
+    height: 42px;
+    padding: 7px 18px 10px 18px;
+    font-size: 20px;
     font-weight: 400;
   }
   .stats-number-container > img {
-    width: 30px;
-    height: 30px;
+    width: 26px;
+    height: 26px;
   }
 }
 
 @media screen and (max-width: 541px) {
   .container {
-    height: 500px;
+    height: 650px;
     padding: 40px 30px;
   }
   .stats-content {
@@ -384,6 +405,7 @@
     flex-direction: column;
     justify-content: center;
     width: 500px;
+    height: 700px;
     margin-left: 30px;
     gap: 40px;
   }
@@ -397,8 +419,9 @@
     margin: 0 0 25px 25px;
   }
   .stats-title > h1 {
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 24px;
+    font-weight: 600;
+    width: 450px;
   }
   .stats-number-num {
     font-size: 27px;
@@ -445,8 +468,9 @@
     margin: 0 0 22px 22px;
   }
   .stats-title > h1 {
-    font-size: 36px;
+    font-size: 25px;
     font-weight: 500;
+    width: 350px;
   }
   .stats-number-num {
     font-size: 27px;
@@ -472,8 +496,9 @@
 
 @media screen and (max-width: 415px) {
   .stats-title > h1 {
-    font-size: 34px;
+    font-size: 23px;
     font-weight: 500;
+    width: 320px;
   }
   .stats-title > span {
     font-size: 16px;
@@ -487,23 +512,24 @@
   }
 }
 
-@media screen and (max-width: 396px) {
+@media screen and (max-width: 393px) {
   .container {
-    height: 400px;
-    padding: 20px 15px;
+    height: 550px;
+    padding: 20px 21px 20px 10px;
   }
   .stats-content {
     gap: 40px;
     width: 360px;
   }
   .stats-title > h1 {
-    font-size: 32px;
+    font-size: 23px;
     font-weight: 500;
+    width: 320px;
   }
   .stats-title > span {
     font-size: 14px;
     font-weight: 400;
-    width: 375px;
+    width: 360px;
   }
   .stats-number-container {
     width: 170px;
@@ -530,13 +556,13 @@
     width: 310px;
   }
   .stats-title > h1 {
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 21px;
+    font-weight: 600;
   }
   .stats-title > span {
     font-size: 14px;
     font-weight: 400;
-    width: 355px;
+    width: 335px;
   }
   .stats-number-container {
     width: 158px;
@@ -545,7 +571,7 @@
   }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 360px) {
   .container {
     height: 400px;
     padding: 20px 15px;
@@ -555,13 +581,13 @@
     width: 350px;
   }
   .stats-title > h1 {
-    font-size: 30px;
+    font-size: 21px;
     font-weight: 500;
   }
   .stats-title > span {
     font-size: 12px;
     font-weight: 400;
-    width: 355px;
+    width: 330px;
   }
   .stats-number-container {
     width: 158px;
