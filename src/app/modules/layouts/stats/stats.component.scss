@@ -18,6 +18,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 640px;
   gap: 24px;
 }
 
@@ -26,15 +27,16 @@
 }
 
 .stats-title > h1 {
-  font-size: 56px;
-  font-weight: 600;
+  font-size: 28px;
+  width: 620px;
+  font-weight: 700;
   margin-bottom: 0;
 }
 
 .stats-title > span {
   font-size: 16px;
   font-weight: 400;
-  width: 700px;
+  width: 620px;
 }
 
 .stats-title > button {
@@ -114,6 +116,32 @@
   user-select: none;
 }
 
+@media screen and (max-width: 1281px) {
+  .stats-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+  }
+  .stats-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 590px;
+    gap: 24px;
+  }
+  .stats-title > h1 {
+    font-size: 28px;
+    width: 560px;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  .stats-title > span {
+    font-size: 16px;
+    font-weight: 400;
+    width: 580px;
+  }
+}
+
 @media screen and (max-width: 1226px) {
   .container {
     height: 559px;
@@ -124,10 +152,20 @@
     height: 165px;
     margin: 0 0 30px 30px;
   }
+  .stats-title {
+    width: 530px;
+    gap: 24px;
+  }
   .stats-title > h1 {
-    font-size: 53px;
-    font-weight: 600;
+    font-size: 28px;
+    width: 560px;
+    font-weight: 700;
     margin-bottom: 0;
+  }
+  .stats-title > span {
+    font-size: 16px;
+    font-weight: 400;
+    width: 580px;
   }
 }
 
@@ -141,10 +179,20 @@
     height: 140px;
     margin: 0 0 25px 25px;
   }
+  .stats-title {
+    width: 530px;
+    gap: 24px;
+  }
   .stats-title > h1 {
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 28px;
+    width: 560px;
+    font-weight: 700;
     margin-bottom: 0;
+  }
+  .stats-title > span {
+    font-size: 16px;
+    font-weight: 400;
+    width: 580px;
   }
   .stats-number-num {
     font-size: 27px;
@@ -164,25 +212,31 @@
   }
   .container {
     height: 520px;
-    padding: 55px 50px;
+    padding: 55px 40px;
   }
   .stats-number-container {
-    width: 180px;
-    height: 140px;
-    margin: 0 0 25px 25px;
-  }
-  .stats-title > h1 {
-    font-size: 45px;
-    font-weight: 500;
+    width: 155px;
+    height: 130px;
+    margin: 0 0 23px 23px;
   }
   .stats-number-num {
     font-size: 27px;
     font-weight: 600;
   }
+  .stats-title {
+    width: 450px;
+    gap: 24px;
+  }
+  .stats-title > h1 {
+    font-size: 26px;
+    width: 450px;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
   .stats-title > span {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    width: 350px;
+    width: 450px;
   }
   .stats-number-container > img {
     width: 32px;
