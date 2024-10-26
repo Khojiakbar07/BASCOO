@@ -33,15 +33,16 @@ export class ContactsComponent {
 
 
   ngOnInit() {
-    this.form = this.formBuilder.group(
-      {
-        email: ['', [Validators.required, Validators.email]],
-        name: ['', [Validators.required]],
-        subject: ['', Validators.required],
-        message: ['', [Validators.required]],
-      },
-    );
-  }
+		this.form = this.formBuilder.group({
+			email: ['', [Validators.required, Validators.email]],
+			name: ['', [Validators.required]],
+			subject: ['', Validators.required],
+			message: ['', [Validators.required]],
+		})
+
+		// Smooth scroll to the top of the page
+		window.scrollTo({ top: 0, behavior: 'smooth' })
+	}
 
   onSubmit(): void {
     this.submitted = true;

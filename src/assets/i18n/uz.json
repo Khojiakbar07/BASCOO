@@ -61,6 +61,7 @@
 				"aboutUs": "Biz haqimizda",
 				"price": "Tariflar va narxlar",
 				"news": "Yangiliklar",
+				"help": "Yordam",
 				"services": "Xizmatlarimiz",
 				"customers": "Mijozlarimiz",
 				"contacts": "Kontaktlar",
@@ -73,7 +74,10 @@
 				"help": "Yordam",
 				"purchaseSupport": "Xarid ko'magi",
 				"restrictionsAndProhibitions": "Cheklovlar va taqiqlar",
-				"popularStores": "Ommabop do'konlar"
+				"popularStores": "Ommabop do'konlar",
+				"feedbacks": "Fikr-mulohazalar",
+				"ourSolutions": "Yechimlar",
+				"ourProjects": "Loyihalar"
 			},
 			"useful": {
 				"useful": "Foydali",
