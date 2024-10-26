@@ -66,6 +66,12 @@
   justify-content: space-between;
 }
 
+.main-dropdown-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+}
+
 .dropdown-nav {
   width: 260px;
   height: 255px;
