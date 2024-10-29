@@ -506,7 +506,7 @@
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 541px) {
   .section-image {
     display: flex;
     flex-direction: column;
@@ -549,6 +549,7 @@
     }
   }
   .chooseus_item .desc {
+    color: #fff !important;
     font-size: 15px;
     font-weight: 500;
   }
