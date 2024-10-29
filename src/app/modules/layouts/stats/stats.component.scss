@@ -370,7 +370,7 @@
     width: 125px;
     height: 100px;
     margin: 0 0 21px 21px;
-}
+  }
   .stats-title {
     width: 325px;
   }
@@ -540,6 +540,39 @@
     width: 170px;
     height: 120px;
     margin: 0 0 21px 21px;
+  }
+}
+
+@media screen and (max-width: 381px) {
+  .stats-content {
+    width: 350px;
+    gap: 40px;
+  }
+  .container {
+    height: 520px;
+    padding: 20px 15px;
+  }
+  .stats-content {
+    gap: 40px;
+    width: 350px;
+  }
+  .stats-title {
+    margin: 0 10px;
+    width: 310px;
+  }
+  .stats-title > h1 {
+    font-size: 21px;
+    font-weight: 600;
+  }
+  .stats-title > span {
+    font-size: 14px;
+    font-weight: 400;
+    width: 335px;
+  }
+  .stats-number-container {
+    width: 158px;
+    height: 112px;
+    margin: 0 0 20px 20px;
   }
 }
 

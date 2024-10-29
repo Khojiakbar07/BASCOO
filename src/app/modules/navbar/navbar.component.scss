@@ -514,6 +514,13 @@
   }
 }
 
+//Samsung S24 +
+@media screen and (max-width: 381px) {
+  .content {
+    width: 375px;
+  }
+}
+
 @media screen and (max-width: 376px) {
   .content {
     width: 355px;
@@ -528,5 +535,10 @@
   .nav-pages2 {
     padding: 20px;
     padding-left: 65px;
+  }
+}
+@media screen and (max-width: 361px) {
+  .content {
+    width: 350px;
   }
 }
