@@ -102,9 +102,9 @@
           <div>
             <span>{{ "doslogistic.web.contacts.data.email" | translate }}</span>
             <p>
-              <a href="mailto:murtazo.mb@gmail.com"
-              >murtazo.mbgmail.com</a
-              >
+              <a href="mailto:murtazo.mb@gmail.com" target="_blank">
+                {{ "doslogistic.web.contacts.personalemail" | translate }}
+              </a>
             </p>
           </div>
         </div>
@@ -120,10 +120,10 @@
       </div>
 
       <div class="map-content" *ngIf="selectedPage === 'uzbekistan'">
-        <ya-map [center]="[41.189172, 69.208491]" [zoom]="12">
+        <ya-map [center]="[41.300469, 69.219028]" [zoom]="14">
           <ya-placemark
-            [geometry]="[41.189172, 69.208491]"
-            [properties]="{ balloonContent: 'Toshkent Shahar Baynalmilal ko\'chasi 55' }"
+            [geometry]="[41.300469, 69.219028]"
+            [properties]="{ balloonContent: 'Baynalmilal ko\'chasi 55' }"
             [options]="{ iconColor: '#041948' }"
           ></ya-placemark>
         </ya-map>
