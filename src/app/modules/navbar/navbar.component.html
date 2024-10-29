@@ -49,9 +49,9 @@
   </div>
 
   <div class="nav-pages2">
-    <p routerLink="/" (click)="toggleSidebar()">Главная</p>
-    <p routerLink="/solutions" routerLinkActive="active-link" (click)="toggleSidebar()">Решения</p>
-    <p routerLink="/projects" routerLinkActive="active-link" (click)="toggleSidebar()">Проекты</p>
+    <p routerLink="/" (click)="toggleSidebar()">{{ "doslogistic.web.navbar.home" | translate }}</p>
+    <p routerLink="/solutions" routerLinkActive="active-link" (click)="toggleSidebar()">{{ "doslogistic.web.navbar.solutions" | translate }}</p>
+    <p routerLink="/projects" routerLinkActive="active-link" (click)="toggleSidebar()">{{ "doslogistic.web.navbar.projects" | translate }}</p>
     
     <p class="contact" routerLink="/contacts" (click)="toggleSidebar()">
       {{'doslogistic.web.navbar.contacts'
