@@ -156,7 +156,7 @@ button:hover {
   background-color: #b41313;
 }
 
-@media screen and (max-width: 2100px) {
+@media (width: 2100px) and (min-width: 1400px) {
 	.service_info {
 		left: 210px;
 	}

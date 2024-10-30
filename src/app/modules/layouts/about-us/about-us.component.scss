@@ -122,7 +122,7 @@
   padding-bottom: 0px;
 }
 
-@media screen and (max-width: 2100px) {
+@media (width: 2100px) and (min-width: 1400px) {
   .text-content {
     display: flex;
     justify-content: flex-start;
