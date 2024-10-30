@@ -130,6 +130,15 @@ ul > li > div > span {
 
 /// button
 
+@media screen and (max-width: 2100px) {
+	h1 {
+		font-size: 72px;
+		font-weight: 700;
+		color: white;
+		margin: 100px 0 100px 210px;
+	}
+}
+
 @media screen and (max-width: 1320px) {
   h1 {
     font-size: 72px;
