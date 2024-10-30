@@ -215,7 +215,7 @@ button:hover {
   .service_info {
     padding: 30px;
     width: 500px;
-    top: 230px;
+    top: 150px;
     left: 45px;
   }
   .service_info .title {
@@ -379,6 +379,7 @@ button:hover {
     top: 87px;
     left: 40px;
     height: 300px;
+    z-index: 1;
   }
   .service_info .title {
     font-size: 28px;

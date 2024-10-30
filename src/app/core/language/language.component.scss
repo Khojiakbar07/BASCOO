@@ -67,6 +67,29 @@ button:active , button:focus{
   border: 1px solid #888;
   width: 80%;
 }
+@media (max-width: 1025px) {
+  // .ant-dropdown {
+  //   top: 11px;
+  //   right:400px;
+  //   width: 100%;
+  //   margin-top: 6px;
+  //   margin-bottom: 6px;
+  //   z-index: 10000;
+  // }
+  .ant-dropdown-menu{
+    right: 180px;
+    bottom: 90px;
+  }
+  .ant-dropdown::before{
+    z-index: 10000000;
+  }
+  .ant-dropdown::after{
+    z-index: 10000000;
+  }
+  .ant-dropdown-menu::after{
+    z-index: 100000000000000000;
+  }
+}
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   .lang-text {
