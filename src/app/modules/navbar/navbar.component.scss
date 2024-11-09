@@ -80,7 +80,7 @@
     }
   }
 }
-.contact{
+.contact {
   border: 2px solid #8b1313;
   background-color: #8b1313;
   border-radius: 16px;
@@ -90,13 +90,14 @@
   position: relative;
   transition: color 0.3s ease;
 
-  &:hover , &::after ,
-  &:hover::after,&.active-link::after{
+  &:hover,
+  &::after,
+  &:hover::after,
+  &.active-link::after {
     background-color: #b41313;
-    border:2px solid #b41313;
+    border: 2px solid #b41313;
   }
 }
-
 
 .langu {
   display: flex;
@@ -175,7 +176,7 @@
   padding: 20px 40px;
 
   img {
-    width: 22px;
+    width: 28px;
   }
 }
 
@@ -284,7 +285,7 @@
 }
 @media screen and (max-width: 1321px) {
   .content {
-    width:1270px;
+    width: 1270px;
     height: 70px;
   }
   .logo-details .logo-text {
@@ -295,7 +296,7 @@
 
 @media screen and (max-width: 1281px) {
   .content {
-    width:1240px;
+    width: 1240px;
   }
   .logo-details .logo-text {
     font-size: 48px;
@@ -304,7 +305,7 @@
 }
 @media screen and (max-width: 1200px) {
   .content {
-    width:1180px;
+    width: 1180px;
   }
   .logo-details .logo-text {
     font-size: 47px;
@@ -330,7 +331,7 @@
 
 @media screen and (max-width: 1024px) {
   .content {
-    width:1000px;
+    width: 1000px;
   }
   .logo-details .logo-text {
     font-size: 46px;
@@ -340,10 +341,24 @@
   .auth {
     display: none;
   }
+  .custom-sidebar {
+    width: 250px;
+  }
 
   .toggle-button,
   .custom-sidebar {
     display: block !important;
+  }
+  .close {
+    width: 100%;
+    height: 70px;
+    padding: 20px 48px;
+  }
+  .nav-pages2 {
+    padding: 20px;
+    padding-left: 50px;
+    gap: 24px;
+    font-size: 17px;
   }
 
   .content {
@@ -354,7 +369,7 @@
 }
 @media screen and (max-width: 924px) {
   .content {
-    width:900px;
+    width: 900px;
   }
   .logo-details .logo-text {
     font-size: 46px;
@@ -364,7 +379,7 @@
 
 @media screen and (max-width: 820px) {
   .content {
-    width:780px;
+    width: 756px;
   }
   .logo-details .logo-text {
     font-size: 44px;
@@ -378,7 +393,7 @@
     margin: 0 0 0 21px;
   }
   .content {
-    width:680px;
+    width: 680px;
   }
   .modal-content {
     width: 550px !important;
@@ -390,9 +405,9 @@
   .logo-details .logo-text {
     font-size: 37px;
     margin: 0 0 0 27px;
-}
+  }
   .content {
-    width:580px;
+    width: 580px;
   }
   .modal-content {
     width: 450px !important;
@@ -400,8 +415,18 @@
 }
 
 @media screen and (max-width: 540px) {
+  .custom-sidebar.open {
+    z-index: 100;
+    background: rgb(9, 36, 107);
+    background: linear-gradient(
+      0deg,
+      rgba(9, 36, 107, 1) 13%,
+      rgba(1, 23, 78, 1) 45%,
+      rgba(16, 47, 122, 1) 81%
+    );
+  }
   .content {
-    width:520px;
+    width: 520px;
   }
   .logo-details .logo-text {
     font-size: 30px;
@@ -410,11 +435,19 @@
   .modal-content {
     width: 450px !important;
   }
+  .custom-sidebar {
+    width: 230px;
+  }
+  .close {
+    width: 100%;
+    height: 70px;
+    padding: 20px 30px;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .content {
-    width:465px;
+    width: 465px;
   }
   .logo-details .logo-text {
     font-size: 30px;
@@ -463,7 +496,7 @@
 }
 @media screen and (max-width: 431px) {
   .content {
-    width:400px;
+    width: 400px;
   }
   .logo-details .logo-text {
     font-size: 30px;
@@ -471,20 +504,23 @@
   .modal-content {
     width: 450px !important;
   }
-  .custom-sidebar{
-    width: 240px;
-  }
-  .sidenav-logo{
+  .sidenav-logo {
     display: none;
+  }
+  .custom-sidebar {
+    width: 205px;
   }
   .nav-pages2 {
     padding: 20px;
-    padding-left: 65px;
+    padding-left: 45px;
+  }
+  .close {
+    padding: 20px 20px;
   }
 }
 @media screen and (max-width: 420px) {
   .content {
-    width:400px;
+    width: 400px;
   }
   .logo-details .logo-text {
     font-size: 30px;
@@ -492,32 +528,43 @@
   .modal-content {
     width: 450px !important;
   }
-  .custom-sidebar{
-    width: 240px;
-  }
-  .sidenav-logo{
+  // .custom-sidebar {
+  //   width: 240px;
+  // }
+  .sidenav-logo {
     display: none;
   }
-  .nav-pages2 {
-    padding: 20px;
-    padding-left: 65px;
+  // .nav-pages2 {
+  //   padding: 20px;
+  //   padding-left: 65px;
+  // }
+}
+
+//Samsung S24 +
+@media screen and (max-width: 381px) {
+  .content {
+    width: 375px;
   }
 }
 
 @media screen and (max-width: 376px) {
   .content {
-    width:355px;
+    width: 355px;
   }
   .logo-details .logo-text {
     font-size: 30px;
   }
-  .custom-sidebar{
-    width: 240px;
-  }
+  // .custom-sidebar {
+  //   width: 240px;
+  // }
 
-  .nav-pages2 {
-    padding: 20px;
-    padding-left: 65px;
+  // .nav-pages2 {
+  //   padding: 20px;
+  //   padding-left: 65px;
+  // }
+}
+@media screen and (max-width: 361px) {
+  .content {
+    width: 350px;
   }
 }
-

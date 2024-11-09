@@ -13,7 +13,6 @@ import { HelpsComponent } from './modules/layouts/helps/helps.component';
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'shops', loadChildren: () => import('./core/shops/shops.module').then(m => m.ShopsModule)},
-  { path: 'cabinet', loadChildren: () => import('../shared/components/user-page/user.module').then(m => m.UserModule)},
   { path: 'projects', component: AboutUsComponent },
   { path: 'tariffs', component: PriceComponent },
   { path: 'contacts', component: ContactsComponent },

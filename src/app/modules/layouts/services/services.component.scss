@@ -70,27 +70,27 @@ ul > li > div > span {
 }
 
 .item-1 {
-	background-image: url('../../../../assets/images/services/gifs/Led-display.gif');
+  background-image: url("../../../../assets/images/services/gifs/Led-display.gif");
 }
 
 .item-2 {
-	background-image: url('../../../../assets/images/services/gifs/Public.gif');
+  background-image: url("../../../../assets/images/services/gifs/Public.gif");
 }
 
 .item-3 {
-	background-image: url('../../../../assets/images/services/gifs/Events.gif');
+  background-image: url("../../../../assets/images/services/gifs/Events.gif");
 }
 
 .item-4 {
-	background-image: url('../../../../assets/images/services/gifs/Transpotation.gif');
+  background-image: url("../../../../assets/images/services/gifs/Transpotation.gif");
 }
 
 .item-5 {
-	background-image: url('../../../../assets/images/services/gifs/Conference.gif');
+  background-image: url("../../../../assets/images/services/gifs/Conference.gif");
 }
 
 .item-6 {
-	background-image: url('../../../../assets/images/services/gifs/studio.gif');
+  background-image: url("../../../../assets/images/services/gifs/studio.gif");
 }
 
 ///button
@@ -129,7 +129,8 @@ ul > li > div > span {
 }
 
 /// button
-@media screen and (max-width: 2100px) {
+
+@media (width: 2100px) and (min-width: 1400px) {
 	h1 {
 		font-size: 72px;
 		font-weight: 700;
@@ -137,6 +138,7 @@ ul > li > div > span {
 		margin: 100px 0 100px 210px;
 	}
 }
+
 @media screen and (max-width: 1320px) {
 	h1 {
 		font-size: 72px;
@@ -170,236 +172,250 @@ ul > li > div > span {
 	}
 }
 @media screen and (max-width: 1025px) {
-	h1 {
-		font-size: 60px;
-		font-weight: 600;
-		color: white;
-		margin: 80px 0 80px 40px;
-	}
-	ul > li > div {
-		width: 300px;
-		height: 300px;
-	}
-	ul {
-		padding-left: 20px;
-	}
-	ul > li > div > span {
-		font-size: 22.5px;
-		font-weight: 700;
-		color: white;
-	}
-	.service-cards > button {
-		margin-left: 20px;
-	}
+  h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
+    margin: 80px 0 80px 40px;
+  }
+  ul > li > div {
+    width: 300px;
+    height: 300px;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  ul > li > div > span {
+    font-size: 22.5px;
+    font-weight: 700;
+    color: white;
+  }
+  .service-cards > button {
+    margin-left: 20px;
+  }
 }
 @media screen and (max-width: 913px) {
-	h1 {
-		font-size: 55px;
-		font-weight: 600;
-		color: white;
-		margin: 75px 0 80px 40px;
-	}
-	ul > li > div {
-		width: 260px;
-		height: 260px;
-	}
-	ul {
-		padding-left: 20px;
-	}
-	ul > li > div > span {
-		font-size: 20px;
-		font-weight: 700;
-		color: white;
-	}
+  h1 {
+    font-size: 55px;
+    font-weight: 600;
+    color: white;
+    margin: 75px 0 80px 40px;
+  }
+  ul > li > div {
+    width: 260px;
+    height: 260px;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  ul > li > div > span {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+  }
 }
 
 @media screen and (max-width: 854px) {
-	h1 {
-		font-size: 55px;
-		font-weight: 600;
-		color: white;
-		margin: 75px 0 75px 25px;
-	}
-	ul > li > div {
-		width: 245px;
-		height: 245px;
-	}
-	ul {
-		padding-left: 20px;
-	}
-	ul > li > div > span {
-		font-size: 18px;
-		font-weight: 700;
-		color: white;
-	}
-	.service-cards > button {
-		height: 50px;
-		width: 240px;
-	}
-	.service-cards > button > h3 {
-		font-size: 22px;
-	}
-	.service-cards > button > img {
-		width: 30px;
-		height: 30px;
-	}
+  h1 {
+    font-size: 55px;
+    font-weight: 600;
+    color: white;
+    margin: 75px 0 75px 25px;
+  }
+  ul > li > div {
+    width: 245px;
+    height: 245px;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  ul > li > div > span {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+  }
+  .service-cards > button {
+    height: 50px;
+    width: 240px;
+  }
+  .service-cards > button > h3 {
+    font-size: 22px;
+  }
+  .service-cards > button > img {
+    width: 30px;
+    height: 30px;
+  }
 }
 @media screen and (max-width: 821px) {
-	h1 {
-		font-size: 45px;
-		font-weight: 600;
-		color: white;
-		margin: 75px 0 75px 25px;
-	}
-	ul > li > div {
-		width: 235px;
-		height: 235px;
-	}
-	ul {
-		padding-left: 20px;
-	}
-	ul > li > div > span {
-		font-size: 18px;
-		font-weight: 700;
-		color: white;
-	}
+  h1 {
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+    margin: 75px 0 75px 25px;
+  }
+  ul > li > div {
+    width: 235px;
+    height: 235px;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  ul > li > div > span {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+  }
 }
 
 @media screen and (max-width: 769px) {
-	h1 {
-		font-size: 40px;
-		font-weight: 600;
-		color: white;
-		margin: 70px 0 70px 27px;
-	}
-	ul > li > div {
-		width: 220px;
-		height: 220px;
-	}
-	ul {
-		padding-left: 20px;
-	}
-	ul > li > div > span {
-		font-size: 16px;
-		font-weight: 700;
-		color: white;
-	}
+  h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin: 70px 0 70px 27px;
+  }
+  ul > li > div {
+    width: 220px;
+    height: 220px;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  ul > li > div > span {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+  }
 }
 @media screen and (max-width: 541px) {
-	h1 {
-		font-size: 40px;
-		font-weight: 600;
-		color: white;
-		margin: 70px 0 70px 40px;
-	}
-	ul > li > div {
-		width: 140px;
-		height: 140px;
-	}
-	li {
-		margin: 0 22px 22px 0;
-		list-style-type: none;
-	}
-	ul {
-		padding-left: 20px;
-	}
-	ul > li > div > span {
-		font-size: 11px;
-		font-weight: 700;
-		color: white;
-	}
-	.service-cards > button {
-		height: 46px;
-		width: 220px;
-	}
-	.service-cards > button > h3 {
-		font-size: 21px;
-	}
-	.service-cards > button > img {
-		width: 30px;
-		height: 30px;
-	}
+  .myVideo {
+    display: none;
+  }
+  .container {
+    background: rgb(5, 24, 75);
+    background: radial-gradient(
+      circle,
+      rgba(5, 24, 75, 1) 29%,
+      rgba(25, 96, 152, 1) 53%,
+      rgba(1, 23, 78, 1) 79%
+    );
+    background-repeat: repeat;
+  }
+  h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin: 70px 0 70px 40px;
+  }
+  ul > li > div {
+    width: 140px;
+    height: 140px;
+  }
+  li {
+    margin: 0 22px 22px 0;
+    list-style-type: none;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  ul > li > div > span {
+    font-size: 11px;
+    font-weight: 700;
+    color: white;
+  }
+  .service-cards > button {
+    height: 46px;
+    width: 220px;
+  }
+  .service-cards > button > h3 {
+    font-size: 21px;
+  }
+  .service-cards > button > img {
+    width: 30px;
+    height: 30px;
+  }
 }
 @media screen and (max-width: 431px) {
-	ul {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-	}
-	h1 {
-		font-size: 40px;
-		font-weight: 600;
-		color: white;
-		margin: 60px 0 60px 30px;
-	}
-	ul > li > div {
-		width: 175px;
-		height: 175px;
-	}
-	ul > li > div > span {
-		font-size: 13px;
-		font-weight: 700;
-		color: white;
-	}
-	.service-cards > button {
-		height: 44px;
-		width: 210px;
-	}
+  ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin: 60px 0 60px 30px;
+  }
+  ul > li > div {
+    width: 175px;
+    height: 175px;
+  }
+  ul > li > div > span {
+    font-size: 13px;
+    font-weight: 700;
+    color: white;
+  }
+  .service-cards > button {
+    height: 44px;
+    width: 210px;
+  }
 }
 @media screen and (max-width: 415px) {
-	li {
-		margin: 0 20px 20px 0;
-		list-style-type: none;
-	}
-	ul {
-		padding-left: 18px;
-	}
-	ul > li > div {
-		width: 173px;
-		height: 173px;
-	}
+  li {
+    margin: 0 20px 20px 0;
+    list-style-type: none;
+  }
+  ul {
+    padding-left: 18px;
+  }
+  ul > li > div {
+    width: 173px;
+    height: 173px;
+  }
 }
 @media screen and (max-width: 391px) {
-	ul {
-		display: grid;
-		grid-template-columns: repeat(1, 1fr);
-	}
-	h1 {
-		font-size: 40px;
-		font-weight: 600;
-		color: white;
-		margin: 60px 0 60px 30px;
-	}
-	ul > li > div {
-		width: 325px;
-		height: 325px;
-	}
-	ul {
-		padding-left: 20px;
-	}
-	ul > li > div > span {
-		font-size: 22px;
-		font-weight: 700;
-		color: white;
-	}
+  ul {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin: 60px 0 60px 30px;
+  }
+  ul > li > div {
+    width: 325px;
+    height: 325px;
+  }
+  ul {
+    padding-left: 20px;
+  }
+  ul > li > div > span {
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+  }
 }
+
 @media screen and (max-width: 361px) {
-	h1 {
-		font-size: 40px;
-		font-weight: 600;
-		color: white;
-		margin: 60px 0 60px 24px;
-	}
+  h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin: 60px 0 60px 24px;
+  }
 }
 
 @media screen and (max-width: 345px) {
-	h1 {
-		font-size: 40px;
-		font-weight: 600;
-		color: white;
-		margin: 60px 0 60px 24px;
-	}
-	ul > li > div {
-		width: 310px;
-		height: 310px;
-	}
+  h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin: 60px 0 60px 24px;
+  }
+  ul > li > div {
+    width: 310px;
+    height: 310px;
+  }
 }

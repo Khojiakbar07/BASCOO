@@ -156,7 +156,7 @@ button:hover {
 	background-color: #b41313;
 }
 
-@media screen and (max-width: 2100px) {
+@media (width: 2100px) and (min-width: 1400px) {
 	.service_info {
 		left: 210px;
 	}
@@ -212,24 +212,24 @@ button:hover {
 	}
 }
 @media screen and (max-width: 1025px) {
-	.service_info {
-		padding: 30px;
-		width: 500px;
-		top: 230px;
-		left: 45px;
-	}
-	.service_info .title {
-		font-size: 32px;
-		font-weight: 800;
-		margin-bottom: 15px;
-	}
-	.subtitle {
-		width: 450px;
-		height: 52px;
-		font-size: 19px;
-		font-family: Inter;
-		margin-bottom: 25px;
-	}
+  .service_info {
+    padding: 30px;
+    width: 500px;
+    top: 150px;
+    left: 45px;
+  }
+  .service_info .title {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 15px;
+  }
+  .subtitle {
+    width: 450px;
+    height: 52px;
+    font-size: 19px;
+    font-family: Inter;
+    margin-bottom: 25px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -360,36 +360,37 @@ button:hover {
 }
 
 @media screen and (max-width: 540px) {
-	[nz-carousel-content] {
-		height: 360px;
-	}
-	::ng-deep .slick-list {
-		height: 360px !important;
-	}
-	img {
-		height: 360px;
-	}
-	::ng-deep .slick-dots {
-		bottom: 5% !important;
-		right: 24% !important;
-	}
-	.service_info {
-		padding: 20px;
-		width: 450px;
-		top: 87px;
-		left: 40px;
-		height: 300px;
-	}
-	.service_info .title {
-		font-size: 28px;
-		line-height: 40px;
-		letter-spacing: 0.05em;
-	}
-	.subtitle {
-		width: 410px;
-		font-size: 18px;
-		margin-bottom: 10px;
-	}
+  [nz-carousel-content] {
+    height: 360px;
+  }
+  ::ng-deep .slick-list {
+    height: 360px !important;
+  }
+  img {
+    height: 360px;
+  }
+  ::ng-deep .slick-dots {
+    bottom: 5% !important;
+    right: 24% !important;
+  }
+  .service_info {
+    padding: 20px;
+    width: 450px;
+    top: 87px;
+    left: 40px;
+    height: 300px;
+    z-index: 1;
+  }
+  .service_info .title {
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+  }
+  .subtitle {
+    width: 410px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
 }
 @media screen and (max-width: 480px) {
 	.service_info {

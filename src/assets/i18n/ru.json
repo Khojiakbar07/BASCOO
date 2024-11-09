@@ -23,7 +23,7 @@
 			"berlin": "Берлин",
 			"Poland": "Польша",
 			"Germany": "Германия",
-			"personalEmail": "murtazo.mbgmail.com",
+			"personalEmail": "murtazo.mb@gmail.com",
 			"form": {
 				"writeToUs": "Напишите нам",
 				"fillForm": "Мы будем рады ответить на ваши вопросы, пожалуйста, заполните форму ниже.",
@@ -61,7 +61,7 @@
 			"aboutCompony": {
 				"aboutCompony": "О компании",
 				"aboutUs": "О сервисе",
-				"price": "Тарифы и цены",
+				"help": "Помощь",
 				"news": "Новости",
 				"services": "Наши услуги",
 				"customers": "Отзывы клиентов",
@@ -75,7 +75,10 @@
 				"help": "Помощь",
 				"purchaseSupport": "Помощь в покупке",
 				"restrictionsAndProhibitions": "Ограничения и запреты",
-				"popularStores": "Популярные магазины"
+				"popularStores": "Популярные магазины",
+				"feedbacks": "Отзывы",
+				"ourSolutions": "Решения",
+				"ourProjects": "Продукты"
 			},
 			"useful": {
 				"useful": "Полезное",
@@ -93,9 +96,9 @@
 				"hours": "c 09:00 до 20:00"
 			},
 			"copywriting": {
-				"copywriting": "Курьерская служба DostLogistic. Все права защищены.",
+				"copywriting": "Медиа-сервис BASCOO.. Все права защищены.",
 				"termsOfUse": "Пользовательское соглашение",
-				"subtitle": "CONNECTING TECHNOLOGIES OF THE FUTURE"
+				"subtitle": "ОБЪЕДИНЯЯ ТЕХНОЛОГИИ БУДУЩЕГО"
 			}
 		},
 		"help": {
@@ -193,7 +196,7 @@
 		"home": {
 			"language": "Русский",
 				"stats": {
-				"title": "Цифры говорят!",
+				"title": "Расширение успеха с помощью передовых AV-технологий!",
 				"subTitle": "Компания ООО 'BASCOO' недавно значительно увеличила количество клиентов благодаря современным решениям в области аудио и видео технологий. Многолетний опыт команды и инновационный подход обеспечивают наш успех на рынке.",
 				"square1": "Решения",
 				"square2": "Клиенты",

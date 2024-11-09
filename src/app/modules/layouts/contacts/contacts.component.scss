@@ -526,6 +526,19 @@
 }
 
 @media (max-width: 540px) {
+  .myVideo {
+    display: none;
+  }
+  .container {
+    background: rgb(5, 24, 75);
+    background: radial-gradient(
+      circle,
+      rgba(5, 24, 75, 1) 29%,
+      rgba(25, 96, 152, 1) 53%,
+      rgba(1, 23, 78, 1) 79%
+    );
+    background-repeat: repeat;
+  }
   .services-content {
     max-width: 540px;
 

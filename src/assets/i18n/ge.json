@@ -23,6 +23,7 @@
 			"berlin": "Berlin",
 			"Poland": "Poland",
 			"Germany": "Germany",
+			"personalEmail": "murtazo.mb@gmail.com",
 			"form": {
 				"writeToUs": "Write to us",
 				"fillForm": "We will be happy to answer your questions, please fill out the form below.",
@@ -62,6 +63,7 @@
 				"aboutUs": "About the Service",
 				"price": "Rates and Prices",
 				"news": "News",
+				"help": "Help",
 				"services": "Our Services",
 				"customers": "Customer Reviews",
 				"contacts": "Contacts",
@@ -74,7 +76,10 @@
 				"help": "Help",
 				"purchaseSupport": "Purchase Assistance",
 				"restrictionsAndProhibitions": "Restrictions and Prohibitions",
-				"popularStores": "Popular Stores"
+				"popularStores": "Popular Stores",
+				"feedbacks": "Feedbacks",
+				"ourSolutions": "Solutions",
+				"ourProjects": "Products"
 			},
 			"useful": {
 				"useful": "Useful",
@@ -92,7 +97,7 @@
 				"hours": "from 09:00 to 20:00"
 			},
 			"copywriting": {
-				"copywriting": "Dost Logistic Courier Service. All rights reserved.",
+				"copywriting": "BASCOO Media Service. All rights reserved.",
 				"termsOfUse": "User Agreement",
 				"subtitle": "CONNECTING TECHNOLOGIES OF THE FUTURE"
 			}
@@ -192,7 +197,7 @@
 		"home": {
 			"language": "English",
 			"stats": {
-				"title": "Numbers in Action!",
+				"title": "Expanding Success with Cutting-Edge AV Technologies!",
 				"subTitle": "Company LLC 'BASCOO' has recently significantly increased its number of clients thanks to modern solutions in audio and video technology. The team's years of experience and innovative approach ensure our success in the market.",
 				"square1": "Solutions",
 				"square2": "Clients",

@@ -22,6 +22,7 @@
 			"berlin": "Berlin",
 			"Poland": "Polsha",
 			"Germany": "Germaniya",
+			"personalEmail": "murtazo.mb@gmail.com",
 			"form": {
 				"writeToUs": "Bizga yozing",
 				"fillForm": "Savollaringizga javob berishdan mamnun bo'lamiz, iltimos, quyidagi shaklni to'ldiring.",
@@ -61,6 +62,7 @@
 				"aboutUs": "Biz haqimizda",
 				"price": "Tariflar va narxlar",
 				"news": "Yangiliklar",
+				"help": "Yordam",
 				"services": "Xizmatlarimiz",
 				"customers": "Mijozlarimiz",
 				"contacts": "Kontaktlar",
@@ -73,7 +75,10 @@
 				"help": "Yordam",
 				"purchaseSupport": "Xarid ko'magi",
 				"restrictionsAndProhibitions": "Cheklovlar va taqiqlar",
-				"popularStores": "Ommabop do'konlar"
+				"popularStores": "Ommabop do'konlar",
+				"feedbacks": "Fikr-mulohazalar",
+				"ourSolutions": "Yechimlar",
+				"ourProjects": "Loyihalar"
 			},
 			"useful": {
 				"useful": "Foydali",
@@ -91,7 +96,7 @@
 				"hours": "09:00 dan 20:00 gacha"
 			},
 			"copywriting": {
-				"copywriting": "DostLogistic kuryerlik xizmati.Barcha huquqlar himoyalangan.",
+				"copywriting": "BASCOO media xizmati.Barcha huquqlar himoyalangan.",
 				"termsOfUse": "Foydalanish qoidalari",
 				"subtitle": "KELAJAK TEXNOLOGIYALARINI BIRASHTIRISH"
 			}
@@ -190,7 +195,7 @@
 		"home": {
 			"language": "O`zbekcha",
 				"stats": {
-				"title": "Raqamlar",
+				"title": "Zamonaviy AV texnologiyalari bilan muvaffaqiyatni kengaytiring!",
 				"subTitle": "OOO 'BASCOO' kompaniyasi yaqinda audio va video texnologiyalari sohasidagi zamonaviy yechimlar tufayli mijozlar sonini sezilarli darajada oshirdi. Jamoaning ko'p yillik tajribasi va innovatsion yondashuvi bozorimizdagi muvaffaqiyatimizni ta'minlaydi.",
 				"square1": "Yechimlar",
 				"square2": "Mijozlar",
@@ -274,8 +279,8 @@
 		},
 		"navbar": {
 			"home": "Asosiy",
-			"solutions": "Yechim",
-			"projects": "Layiha",
+			"solutions": "Yechimlar",
+			"projects": "Loyihalar",
 			"price": "Narxlar",
 			"services": "Xizmatlar",
 			"Shops": "Do'konlar",
