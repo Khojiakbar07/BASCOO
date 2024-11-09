@@ -7,17 +7,17 @@ import { Component, OnInit } from '@angular/core'
 })
 export class StatsComponent implements OnInit {
 	public statsNumbers = {
-		books: 0,
-		briefcases: 0,
-		teams: 0,
-		teachers: 0,
+		clients: 0,
+		solutions: 0,
+		projects: 0,
+		experience: 0,
 	}
 
 	private targetNumbers = {
-		books: 200,
-		briefcases: 200,
-		teams: 150,
-		teachers: 5,
+		clients: 100,
+		solutions: 200,
+		projects: 350,
+		experience: 11,
 	}
 
 	private duration = 2000 // duration for the counting animation
@@ -30,10 +30,10 @@ export class StatsComponent implements OnInit {
 	private startCounting(): void {
 		const totalIncrements = this.duration / this.intervalTime
 
-		const incrementBooks = this.targetNumbers.books / totalIncrements
-		const incrementBriefcases = this.targetNumbers.briefcases / totalIncrements
-		const incrementTeams = this.targetNumbers.teams / totalIncrements
-		const incrementTeachers = this.targetNumbers.teachers / totalIncrements
+		const incrementBooks = this.targetNumbers.clients / totalIncrements
+		const incrementBriefcases = this.targetNumbers.solutions / totalIncrements
+		const incrementTeams = this.targetNumbers.projects / totalIncrements
+		const incrementTeachers = this.targetNumbers.experience / totalIncrements
 
 		let currentBooks = 0
 		let currentBriefcases = 0
@@ -46,33 +46,33 @@ export class StatsComponent implements OnInit {
 			currentTeams += incrementTeams
 			currentTeachers += incrementTeachers
 
-			if (currentBooks >= this.targetNumbers.books) {
-				currentBooks = this.targetNumbers.books
+			if (currentBooks >= this.targetNumbers.clients) {
+				currentBooks = this.targetNumbers.clients
 			}
 
-			if (currentBriefcases >= this.targetNumbers.briefcases) {
-				currentBriefcases = this.targetNumbers.briefcases
+			if (currentBriefcases >= this.targetNumbers.solutions) {
+				currentBriefcases = this.targetNumbers.solutions
 			}
 
-			if (currentTeams >= this.targetNumbers.teams) {
-				currentTeams = this.targetNumbers.teams
+			if (currentTeams >= this.targetNumbers.projects) {
+				currentTeams = this.targetNumbers.projects
 			}
 
-			if (currentTeachers >= this.targetNumbers.teachers) {
-				currentTeachers = this.targetNumbers.teachers
+			if (currentTeachers >= this.targetNumbers.experience) {
+				currentTeachers = this.targetNumbers.experience
 			}
 
-			this.statsNumbers.books = Math.floor(currentBooks)
-			this.statsNumbers.briefcases = Math.floor(currentBriefcases)
-			this.statsNumbers.teams = Math.floor(currentTeams)
-			this.statsNumbers.teachers = Math.floor(currentTeachers)
+			this.statsNumbers.clients = Math.floor(currentBooks)
+			this.statsNumbers.solutions = Math.floor(currentBriefcases)
+			this.statsNumbers.projects = Math.floor(currentTeams)
+			this.statsNumbers.experience = Math.floor(currentTeachers)
 
 			// Clear the interval when all numbers reach their target
 			if (
-				currentBooks >= this.targetNumbers.books &&
-				currentBriefcases >= this.targetNumbers.briefcases &&
-				currentTeams >= this.targetNumbers.teams &&
-				currentTeachers >= this.targetNumbers.teachers
+				currentBooks >= this.targetNumbers.clients &&
+				currentBriefcases >= this.targetNumbers.solutions &&
+				currentTeams >= this.targetNumbers.projects &&
+				currentTeachers >= this.targetNumbers.experience
 			) {
 				clearInterval(timer)
 			}
