@@ -28,35 +28,35 @@ export class StoresComponent {
   cards = [
     {
       id: 1,
-      image: '../../../../assets/images/carausel-shops/Google.png'
+      image: '../../../../assets/images/carausel-shops/Mudofaa_vazirligi.png'
     },
     {
       id: 2,
-      image: '../../../../assets/images/carausel-shops/Atlassian.png'
+      image: '../../../../assets/images/carausel-shops/Ichki-ishlar.png'
     },
     {
       id: 3,
-      image: '../../../../assets/images/carausel-shops/Dropbox.png'
+      image: '../../../../assets/images/carausel-shops/milliy-gvardiya.png'
     },
     {
       id: 4,
-      image: '../../../../assets/images/carausel-shops/Amazon.png'
+      image: '../../../../assets/images/carausel-shops/Uztelecom.png'
     },
     {
       id: 5,
-      image: '../../../../assets/images/carausel-shops/Hubspot.png'
+      image: '../../../../assets/images/carausel-shops/TDIU.png'
     },
     {
       id: 6,
-      image: '../../../../assets/images/carausel-shops/Atlassian.png'
+      image: '../../../../assets/images/carausel-shops/USSO.png'
     },
     {
       id: 7,
-      image: '../../../../assets/images/carausel-shops/Google.png'
+      image: '../../../../assets/images/carausel-shops/kongress_ldg.webp'
     },
     {
       id: 8,
-      image: '../../../../assets/images/carausel-shops/Dropbox.png'
+      image: '../../../../assets/images/carausel-shops/LED-Design-Group.webp'
     },
   ];
 }
