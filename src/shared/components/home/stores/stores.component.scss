@@ -4,37 +4,32 @@
   margin-top: 50px;
 }
 
-// .title {
-//   color: #058c42;
-//   font-size: 48px;
-//   font-weight: 600;
-//   margin-bottom: 40px;
-//   text-align: center;
-// }
 
 .logos {
   padding: 40px 40px;
-  padding-left: 100px;
-  // border: 2px solid #ffffff;
+  //padding-left: 100px;
+  //border: 2px solid #ffffff;
   border-radius: 32px;
-  // backdrop-filter: blur(8px);
-  // -webkit-filter: blur(6px);
-  // background: #fff;
-  // z-index: 90;
+  //backdrop-filter: blur(4px);
+  //-webkit-filter: blur(3px);
+  // background: #ede1e1;
+  background: #364d79
+
 }
 
 .card-sty {
   display: flex;
   justify-content: center;
   align-items: center;
-  //background-color:#2b2b2c;
+  background-color:#2b2b2c;
+  //background-color:#b8dcf5;
   border-radius: 15px;
-  width: 150px;
+  width: 100%;
   z-index: 100;
 
   img {
     width: 150px;
-    height: 150px;
+    height: 135px;
     z-index: 100;
   }
 }

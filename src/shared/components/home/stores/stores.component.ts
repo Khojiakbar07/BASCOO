@@ -28,7 +28,7 @@ export class StoresComponent {
   cards = [
     {
       id: 1,
-      image: '../../../../assets/images/carausel-shops/Mudofaa_vazirligi.png'
+      image: '../../../../assets/images/carausel-shops/Mudofa_vazirligi1.png'
     },
     {
       id: 2,
@@ -48,15 +48,15 @@ export class StoresComponent {
     },
     {
       id: 6,
-      image: '../../../../assets/images/carausel-shops/USSO.png'
+      image: '../../../../assets/images/carausel-shops/USSO1.png'
     },
     {
       id: 7,
-      image: '../../../../assets/images/carausel-shops/kongress_ldg.webp'
+      image: '../../../../assets/images/carausel-shops/Kongress-Service.png'
     },
     {
       id: 8,
-      image: '../../../../assets/images/carausel-shops/LED-Design-Group.webp'
+      image: '../../../../assets/images/carausel-shops/LED-Design-Group.png'
     },
   ];
 }
