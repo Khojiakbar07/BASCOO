@@ -1,19 +1,36 @@
 .store {
   max-width: 1320px;
-  //margin: 10px auto 0;
-  margin: 50px auto 0;
+  margin: 0 auto;
+  margin-top: 50px;
 }
 
+
 .logos {
-  padding: 40px 25px 40px 20px;
-  // padding: 40px 40px 40px 100px;
-  border: none;
+  padding: 40px 40px;
+  //padding-left: 100px;
+  //border: 2px solid #ffffff;
+  border-radius: 32px;
+  //backdrop-filter: blur(4px);
+  //-webkit-filter: blur(3px);
+  // background: #ede1e1;
+  background: #364d79
+
 }
 
 .card-sty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#2b2b2c;
+  //background-color:#b8dcf5;
+  border-radius: 15px;
+  width: 100%;
+  z-index: 100;
+
   img {
-    width: 100px;
-    height: 32px;
+    width: 150px;
+    height: 135px;
+    z-index: 100;
   }
 }
 
@@ -35,30 +52,35 @@
     width: 950px;
     padding: 30px 35px;
   }
+
+  .title {
+    font-size: 44px;
+  }
 }
 
 @media (max-width: 980px) {
   .logos {
-    width: 900px;
+    width: 790px;
     padding: 25px 35px;
+  }
+
+  .title {
+    font-size: 36px;
   }
 
   .card-sty {
     img {
-      width: 86px;
-      height: 20px;
+      width: 60px;
+      height: 60px;
     }
   }
 }
 
+
 @media (max-width: 825px) {
   .logos {
-    width: 700px;
+    width: 650px;
     padding: 20px 35px;
-  }
-  .card-sty {
-    width: 160px;
-    height: 23px;
   }
 }
 
@@ -67,10 +89,14 @@
     width: 550px;
   }
 
+  .title {
+    font-size: 33px;
+  }
+
   .card-sty {
     img {
-      width: 80px;
-      height: 22px;
+      width: 50px;
+      height: 50px;
     }
   }
 }
@@ -79,31 +105,41 @@
   .logos {
     width: 470px;
   }
+
+  .title {
+    font-size: 30px;
+  }
 }
 
-@media (max-width: 540px) {
+@media (max-width: 510px) {
   .logos {
-    width: 410px;
-    padding: 40px 35px;
-    margin: 0 10px;
+    width: 400px;
   }
 }
 
 @media (max-width: 480px) {
+  .logos {
+    width: 100%;
+    background-color: #058c42;
+    border: none;
+    border-radius: initial;
+    box-shadow: none;
+    padding: 40px 35px;
+  }
+
+  .card-sty {
+    img {
+      width: 70px;
+      height: 70px;
+      border: 2px solid #ffff;
+      margin-left: 15px;
+      border-radius: 10px;
+      padding: 10px;
+    }
+  }
+
   .store {
     margin-top: 30px;
     margin-bottom: 30px;
-  }
-}
-@media screen and (max-width: 381px) {
-  .logos {
-    height: 190px;
-    width: 360px;
-  }
-}
-@media screen and (max-width: 361px) {
-  .logos {
-    height: 190px;
-    width: 350px;
   }
 }
