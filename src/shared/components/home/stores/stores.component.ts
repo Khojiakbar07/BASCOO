@@ -44,7 +44,7 @@ export class StoresComponent {
     },
     {
       id: 5,
-      image: '../../../../assets/images/carausel-shops/TDIU.png'
+      image: '../../../../assets/images/carausel-shops/TDIUU.png'
     },
     {
       id: 6,
