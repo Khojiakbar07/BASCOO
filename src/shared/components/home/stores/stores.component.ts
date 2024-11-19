@@ -56,7 +56,7 @@ export class StoresComponent {
     },
     {
       id: 8,
-      image: '../../../../assets/images/carausel-shops/LED-Design-Group.png'
+      image: '../../../../assets/images/carausel-shops/ldguz.png'
     },
   ];
 }

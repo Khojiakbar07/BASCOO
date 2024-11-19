@@ -50,7 +50,19 @@
 	margin-right: 25px;
 	width: 500px;
 	height: 400px;
+	.main-image {
+		width: 470px;
+		height: 340px;
+		border-radius: 30px;
+		transition: transform .1s;
+	}
+	.main-image:hover{
+		transform: scale(1.09);
+	}
+
 }
+
+
 
 .play-icon {
 	position: absolute;
