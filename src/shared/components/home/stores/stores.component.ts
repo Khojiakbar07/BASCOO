@@ -28,11 +28,11 @@ export class StoresComponent {
   cards = [
     {
       id: 1,
-      image: '../../../../assets/images/carausel-shops/Mudofa_vazirligi1.png'
+      image: '../../../../assets/images/carausel-shops/Ichki-ishlar.svg'
     },
     {
       id: 2,
-      image: '../../../../assets/images/carausel-shops/Ichki-ishlar.png'
+      image: '../../../../assets/images/carausel-shops/Mudofa_vazirligi.svg'
     },
     {
       id: 3,
