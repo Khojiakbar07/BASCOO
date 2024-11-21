@@ -12,8 +12,8 @@
   border-radius: 32px;
   //backdrop-filter: blur(2px);
   //-webkit-filter: blur(1px);
-  background: #fff;
-  //background: #364d79
+  //background: #4f4e4e;
+  background: #ffffff
 
 }
 
@@ -28,8 +28,8 @@
   z-index: 100;
 
   img {
-    width: 150px;
-    height: 135px;
+    width: 160px;
+    height: 160px;
   }
 }
 
@@ -132,5 +132,29 @@
 
   .store {
     margin: 40px 0 ;
+  }
+}
+@media (max-width: 391px) {
+  .logos {
+    width: 100%;
+    border: none;
+    border-radius: initial;
+    box-shadow: none;
+    padding: 20px 25px;
+  }
+
+  .card-sty {
+    img {
+      width: 70px;
+      height: 70px;
+      border: 2px solid #ffff;
+      margin-left: 15px;
+      border-radius: 10px;
+      padding: 10px;
+    }
+  }
+
+  .store {
+    margin:40px 0 80px  0 ;
   }
 }
