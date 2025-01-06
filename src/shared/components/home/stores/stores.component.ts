@@ -28,7 +28,7 @@ export class StoresComponent {
   cards = [
     {
       id: 1,
-      image: '../../../../assets/images/carausel-shops/Ichki-ishlar.svg'
+      image: '../../../../assets/images/carausel-shops/Uztelecom.png'
     },
     {
       id: 2,
@@ -36,11 +36,11 @@ export class StoresComponent {
     },
     {
       id: 3,
-      image: '../../../../assets/images/carausel-shops/milliy-gvardiya.png'
+      image: '../../../../assets/images/carausel-shops/ichki-ishlar3.png'
     },
     {
       id: 4,
-      image: '../../../../assets/images/carausel-shops/Uztelecom.png'
+      image: '../../../../assets/images/carausel-shops/milliy-gvardiya.png'
     },
     {
       id: 5,
