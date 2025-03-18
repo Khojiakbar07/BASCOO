@@ -195,8 +195,8 @@
 		"home": {
 			"language": "O`zbekcha",
 				"stats": {
-				"title": "Zamonaviy AV texnologiyalari bilan muvaffaqiyatni kengaytiring!",
-				"subTitle": "OOO 'BASCOO' kompaniyasi yaqinda audio va video texnologiyalari sohasidagi zamonaviy yechimlar tufayli mijozlar sonini sezilarli darajada oshirdi. Jamoaning ko'p yillik tajribasi va innovatsion yondashuvi bozorimizdagi muvaffaqiyatimizni ta'minlaydi.",
+				"title": "Zamonaviy AV texnologiyalari bilan biznesingizni yangi bosqichga olib chiqing!",
+				"subTitle": "OOO 'BASCOO' kompaniyasi innovatsion audio va video texnologiyalari orqali mijozlar sonini sezilarli darajada oshirdi. Ko‘p yillik tajribamiz va ilg‘or yondashuvimiz bozorning yetakchi yechimlarini taqdim etishimizga imkon beradi. Biz bilan hamkorlik qilib, sifat va samaradorlikni yangi darajaga ko‘taring!",
 				"square1": "Yechimlar",
 				"square2": "Mijozlar",
 				"square3": "Loyihalar",
@@ -268,11 +268,11 @@
 			"whyChooseUs": {
 				"whyChooseUs": "Nima uchun bizni tanlashingiz kerak ?",
 				"time": "Samaradorlik va tezlik",
-				"time-paragraph": "Biz echimlarni o'z vaqtida taqdim etamiz, sizning faoliyatingizni maksimal samaradorlik uchun optimallashtiramiz. Bizning soddalashtirilgan jarayonlarimiz sizga eng muhim narsalarga e'tibor qaratishga yordam beradi. Bizning tajribamiz bilan samaradorlikni oshirib, ish jarayonlaringizni soddalashtiramiz.",
-				"pricing": "Raqobatbardosh narxlash",
-				"pricing-paragraph": "Yuqori sifatli integratsiya sizga qimmatga tushmasligi kerak. Bizning raqobatbardosh narxlarimiz sifatni hech qanday murosasiz ta'minlaydi, zamonaviy texnologiyalarni hamma uchun mavjud qiladi. Biz har kimning yuqori sifatli echimlarga arzon narxda ega bo'lishi kerak deb hisoblaymiz.",
-				"Safety": "Xavfsizlik",
-				"Safety-paragraph": "Biz xavfsizlikni birinchi o'ringa qo'yamiz va xavfsiz o'rnatish uchun sanoat standartlariga amal qilamiz. Bizning xavfsizlikka bo'lgan sadoqatimiz mijozlarimiz va ularning loyihalari uchun tinchlikni ta'minlaydi. Qattiq trening va muntazam tekshiruvlar bizning jamoalarimizning bu standartlarga rioya qilishini ta'minlaydi.",
+				"time-paragraph": "Biz sizga eng samarali va tezkor yechimlarni taqdim etamiz, shunda faoliyatingiz maksimal darajada optimallashtirilgan bo‘ladi. Soddalashtirilgan jarayonlarimiz biznesingizning asosiy maqsadlariga e’tibor qaratish imkonini beradi. Bizning tajribamiz bilan siz ish jarayonlaringizni tezlashtirasiz va samaradorlikni yangi darajaga olib chiqasiz!",
+				"pricing": "Raqobatbardosh Narx Siyosati",
+				"pricing-paragraph": "Sifat – bu hashamat emas, balki standart bo‘lishi kerak! Bizning yechimlarimiz yuqori sifat va hamyonbop narx uyg‘unligini ta’minlaydi. Zamonaviy texnologiyalar har kimga qulay narxda taqdim etilishi kerak, va biz aynan shuni ta’minlaymiz! Hech qanday murosaga yo‘l qo‘ymaymiz – faqat sifatli integratsiya va eng yaxshi narxlar!",
+				"Safety": "Xavfsizlik – Bizning Ustuvorligimiz",
+				"Safety-paragraph": "Xavfsizlik – bu biz uchun shunchaki qoida emas, asosiy tamoyildir. Biz sanoat standartlariga qat’iy rioya qilamiz va mijozlarimizning tinchligini kafolatlaymiz. Bizning jamoamiz doimiy ravishda o‘qitilib, xavfsizlik bo‘yicha qat’iy tekshiruvlardan o‘tadi. Sizning loyihangiz ishonchli qo‘llarda ekanligiga shubha yo‘q!",
 				"Innovation": "Innovatsiya",
 				"Innovation-paragraph": "Innovatsiyaga e'tibor berish sizni oldinda ushlab turadi. Biz sizning tajribangizni yaxshilash va bozorga raqobatbardosh bo'lishingizni ta'minlash uchun eng yangi texnologiyalarni joriy etamiz. O'zgarishlarni qabul qilish orqali biz sizni o'sish va muvaffaqiyat uchun yangi imkoniyatlardan foydalanishga undaymiz."
 			}
@@ -363,9 +363,8 @@
 			"advertisingMonitorsTitle": "Reklama monitorlari"
 		},
 		"banner": {
-			"title1": "KELAJAK TEXNOLOGIYALARINI",
-			"title2": "BIZ BILAN BIRLASHTIRING",
-			"review": "Men ko'p yillardan buyon ushbu kompaniya bilan ishlayman. Mening eng yaxshi hamkorlarimdan!"
+			"title1": "KELAJAK TEXNOLOGIYALARI BU YERDA BOSHLANADI YANGI IMKONIYATLARGA BIZ BILAN YO‘L OCHINGINNOVATSIYA VA RIVOJLANISH – BIZNING MISSIYAMIZ",
+			"title2": "BIZ BILAN BIRLASHTIRING"
 		}
 	}
 }
