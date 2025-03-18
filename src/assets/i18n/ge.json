@@ -197,8 +197,8 @@
 		"home": {
 			"language": "English",
 			"stats": {
-				"title": "Expanding Success with Cutting-Edge AV Technologies!",
-				"subTitle": "Company LLC 'BASCOO' has recently significantly increased its number of clients thanks to modern solutions in audio and video technology. The team's years of experience and innovative approach ensure our success in the market.",
+				"title": "Take Your Business to the Next Level with Cutting-Edge AV Technologies!",
+				"subTitle": "At LLC 'BASCOO' , we have significantly expanded our client base through state-of-the-art audio and video technology solutions. Our extensive experience and forward-thinking approach allow us to deliver high-quality, market-leading innovations. Partner with us and unlock new possibilities in the AV industry!",
 				"square1": "Solutions",
 				"square2": "Clients",
 				"square3": "Projects",
@@ -269,12 +269,12 @@
 			},
 			"whyChooseUs": {
 				"whyChooseUs": "Why should you choose us?",
-				"time": "Efficiency",
-				"time-paragraph": "We deliver solutions on time, optimizing your operations for maximum performance. Our streamlined processes ensure that you can focus on what matters most. With our expertise, we identify and eliminate inefficiencies, boosting your productivity.",
-				"pricing": "Affordable Pricing",
-				"pricing-paragraph": "High-quality integration doesn’t have to break the bank. Our competitive pricing ensures value without compromise, making advanced technology accessible to all. We believe that everyone deserves access to top-tier solutions without overspending.",
-				"Safety": "Safety",
-				"Safety-paragraph": "We prioritize safety, adhering to industry standards for secure installations. Our commitment to safety means peace of mind for our clients and their projects. Rigorous training and regular audits ensure our teams uphold these standards consistently.",
+				"time": "Efficiency & Speed ",
+				"time-paragraph": "We deliver fast and efficient solutions that optimize your business operations to the highest level. Our streamlined processes help you focus on what truly matters. With our expertise, you can accelerate workflows and maximize efficiency!",
+				"pricing": "Competitive Pricing ",
+				"pricing-paragraph": "Quality should be a standard, not a luxury! Our solutions provide top-notch quality at affordable prices, making modern technologies accessible to everyone. We never compromise – only the best integration and the most competitive offers for our clients!",
+				"Safety": "Security – Our Top Priority",
+				"Safety-paragraph": "Security is not just a rule – it’s our core principle. We strictly adhere to industry standards, ensuring peace of mind and reliability for our clients. Our team undergoes rigorous training and regular inspections to maintain the highest level of security. Your project is in safe hands!",
 				"Innovation": "Innovation",
 				"Innovation-paragraph": "Our focus on innovation keeps you ahead. We implement the latest technologies to enhance your experience and ensure you stay competitive in the market. By embracing change, we empower you to leverage new opportunities for growth and success."
 			}
@@ -379,9 +379,8 @@
 			"advertisingMonitorsTitle": "Advertising Monitors"
 		},
 		"banner": {
-			"title1": "UNITING",
-			"title2": "THE TECHNOLOGIES OF THE FUTURE",
-			"review": "I have been working with this company for many years. From my best partners!"
+			"title1": "THE FUTURE OF TECHNOLOGY STARTS HERE UNLOCK NEW POSSIBILITIES WITH US INNOVATION & PROGRESS – OUR MISSION",
+			"title2": "THE TECHNOLOGIES OF THE FUTURE"
 		}
 	}
 }
